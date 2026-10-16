@@ -22,6 +22,17 @@ vowel length, metrical signs and text-critical signs with `⌥ Option`. It is bu
   (see [Microsoft Word](#microsoft-word))
 - Nothing runs in the background: no app, no input method, no admin rights
 
+## Quick examples
+
+Accents combine with letters in one or two strokes:
+
+<!-- BEGIN GENERATED EXAMPLES -->
+- Type ā́: `⌥E` → `⌥A`. You can keep holding Option and press E, then A.
+- Type ŕ̥: `⌥E` → `⌥Y`. You can keep holding Option and press E, then Y.
+- Type ó: `⌥E` → `o`. Press `⌥E`, release, then press `o`.
+- Type ô: `⌥6` → `o`. Press `⌥6`, release, then press `o`.
+<!-- END GENERATED EXAMPLES -->
+
 ## Preview
 
 | ⌥ Option | ⌥ Option + ⇧ Shift |
@@ -60,8 +71,14 @@ language tag. Then **log out and back in** (or restart).
 - **macOS 13 and later:** System Settings → Keyboard → Text Input → Input Sources **Edit…** → **+**
 - **macOS 12 and earlier:** System Preferences → Keyboard → Input Sources → **+**
 
-Choose **ABC Extended - IAST 2.3** under *English* or *Others*, then switch to it from the input menu
-in the menu bar.
+Choose **ABC Extended - IAST 2.3** under *English* or *Others*, or type **IAST** in the search field
+to find it, then switch to it from the input menu in the menu bar.
+
+> [!IMPORTANT]
+> **Log out and log back in after installing.** macOS only loads new keyboard layouts when you sign in.
+> Until you do, the layout may be missing from the list, or an older copy may keep running and keys
+> such as `⌥,` won't type what this guide says. Do the same after every update or removal.
+> If it still doesn't appear, restart your Mac.
 
 **Upgrading from an older version:** each version is a separate input source, so 2.3 can sit next to 2.1.
 Add 2.3, check that it works, then remove the old one. If you installed 2.2, remove it:

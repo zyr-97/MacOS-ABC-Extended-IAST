@@ -170,6 +170,8 @@ for _, _, prefix, append, alt, examples in MARKS:
         assert all(unicodedata.combining(c) for c in type_keys(key)), key
 # ⌥E then ⌥A: Option can stay held down through both keys.
 ACUTE_LONG = check([('ā́', '⌥E ⌥A')])
+# README quick examples: (output, keys, Option held through every key?)
+QUICK = check([('ā́', '⌥E ⌥A', True), ('ŕ̥', '⌥E ⌥Y', True), ('ó', '⌥E o', False), ('ô', '⌥6 o', False)])
 STACKED = check([('r̥̄́', '⌥Y ⌥4 ⌥⇧E'), ('ā́', '⌥E ⌥A'), ('Ā́', '⌥⇧A ⌥⇧E')])
 
 
@@ -349,9 +351,25 @@ def readme_block(zh):
     ])
 
 
-def fill(path, block):
+def quick_block(zh):
+    lines = []
+    for text, keys, held in QUICK:
+        tokens = keys.split()
+        letters = ('、' if zh else ', then ').join(t.lstrip('⌥⇧').upper() for t in tokens)
+        if held:
+            note = ('可以一直按住 Option，依次按 ' + letters + '，不必中途放開。') if zh else \
+                   ('You can keep holding Option and press ' + letters + '.')
+        else:
+            note = ('先按 ' + md_key(tokens[0]) + '，放開後再按 ' + md_key(tokens[1]) + '。') if zh else \
+                   ('Press ' + md_key(tokens[0]) + ', release, then press ' + md_key(tokens[1]) + '.')
+        lines.append(('- 快速打出 ' + text + '：' + md_keys(keys) + '。' + note) if zh else
+                     ('- Type ' + text + ': ' + md_keys(keys) + '. ' + note))
+    return '\n'.join(lines)
+
+
+def fill(path, block, name='KEYMAP'):
     text = path.read_text(encoding='utf-8')
-    begin, end = '<!-- BEGIN GENERATED KEYMAP -->', '<!-- END GENERATED KEYMAP -->'
+    begin, end = '<!-- BEGIN GENERATED %s -->' % name, '<!-- END GENERATED %s -->' % name
     head, rest = text.split(begin)
     _, tail = rest.split(end)
     path.write_text(head + begin + '\n' + block + '\n' + end + tail, encoding='utf-8')
@@ -422,4 +440,6 @@ DOCS.mkdir(exist_ok=True)
 (DOCS / '輸出對照.txt').write_text(full, encoding='utf-8')
 fill(ROOT / 'README.md', readme_block(zh=False))
 fill(ROOT / 'README.zh-Hant.md', readme_block(zh=True))
+fill(ROOT / 'README.md', quick_block(zh=False), 'EXAMPLES')
+fill(ROOT / 'README.zh-Hant.md', quick_block(zh=True), 'EXAMPLES')
 print('Generated docs/符號速查.txt, docs/輸出對照.txt and README keymaps from', OUTPUT.name)
