@@ -3,7 +3,7 @@
 **English** · [中文](README.zh-Hant.md)
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-![Version 2.3](https://img.shields.io/badge/version-2.3-cf9a4c)
+[![Release](https://img.shields.io/github/v/release/zyr-97/MacOS-ABC-Extended-IAST)](https://github.com/zyr-97/MacOS-ABC-Extended-IAST/releases/latest)
 ![macOS](https://img.shields.io/badge/platform-macOS-lightgrey)
 
 A macOS keyboard layout for typing **IAST** ([International Alphabet of Sanskrit
@@ -48,21 +48,22 @@ green keys type symbols. The two images are drawn from the layout file itself.
 
 ### 1. Download
 
-Click **Code → Download ZIP** on this page and unzip it, or use git:
+**[Download ABC-Extended-IAST.zip](https://github.com/zyr-97/MacOS-ABC-Extended-IAST/releases/latest/download/ABC-Extended-IAST.zip)** (latest release) and unzip it.
+You get an `ABC-Extended-IAST` folder with the layout bundle, the three Chinese guides and the license.
+Older versions and release notes are on the [Releases](https://github.com/zyr-97/MacOS-ABC-Extended-IAST/releases) page.
 
-```sh
-git clone https://github.com/zyr-97/MacOS-ABC-Extended-IAST.git
-```
+Only need the source? Use **Code → Download ZIP** or `git clone`.
 
 ### 2. Install
 
 Copy the whole **`ABC-Extended-IAST-2.3.bundle`** folder into `~/Library/Keyboard Layouts/`.
 In Finder press `⇧⌘G` and paste that path; create the `Keyboard Layouts` folder if it doesn't exist.
-From the terminal:
+Or download and install from the terminal:
 
 ```sh
+cd ~/Downloads && curl -LO https://github.com/zyr-97/MacOS-ABC-Extended-IAST/releases/latest/download/ABC-Extended-IAST.zip && unzip -o ABC-Extended-IAST.zip
 mkdir -p ~/Library/Keyboard\ Layouts
-cp -R ./MacOS-ABC-Extended-IAST/ABC-Extended-IAST-2.3.bundle ~/Library/Keyboard\ Layouts/
+cp -R ABC-Extended-IAST/ABC-Extended-IAST-2.3.bundle ~/Library/Keyboard\ Layouts/
 ```
 
 Copy the bundle, not just the `.keylayout` inside it: the bundle carries the English
@@ -271,12 +272,18 @@ combination and dead-key state against the original and against the previous rel
 about 400 test sequences. Every example in the docs and the tables above is typed through the layout
 before it is written. These checks run on the layout file; they don't replace testing on a Mac.
 
+**Publishing a new version:** set `VERSION` (and a new `LAYOUT_ID` and input source ID) in
+`tools/build_and_verify.py`, run both scripts, add a changelog line to both READMEs, commit, then push a
+tag such as `v2.4`. The [release workflow](.github/workflows/release.yml) rebuilds the layout, stops if
+it doesn't match the committed bundle, and publishes `ABC-Extended-IAST.zip` with the changelog as notes.
+
 | Path | Contents |
 |---|---|
 | `ABC-Extended-IAST-2.3.bundle/` | the layout to install |
 | `docs/` | Chinese guides: installation (`安裝說明`), full output table (`輸出對照`), cheat sheet (`符號速查`) |
 | `source/` | the base layout and the 2.1 release, used for the build and the delta check |
-| `tools/` | build, verification and documentation scripts |
+| `tools/` | build, verification, documentation and release scripts |
+| `.github/workflows/` | publishes a release when a version tag is pushed |
 | `verification.json` | the last build's check results |
 
 ## Changelog

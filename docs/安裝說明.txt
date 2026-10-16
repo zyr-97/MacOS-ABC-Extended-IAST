@@ -10,11 +10,13 @@ ABC Extended - IAST 2.3：安裝說明
 
 一、安裝
 
-1. 下載本倉庫（GitHub 頁面 Code → Download ZIP）並解壓縮。
+1. 下載最新版 ABC-Extended-IAST.zip 並解壓縮：
+   https://github.com/zyr-97/MacOS-ABC-Extended-IAST/releases/latest/download/ABC-Extended-IAST.zip
+   （也可在 GitHub 頁面的 Releases 下載。）
 2. 在 Finder 按 ⇧⌘G，輸入 ~/Library/Keyboard Layouts/ 後按 Return。
    若沒有此資料夾，在 ~/Library/ 內新建一個，名為 Keyboard Layouts。
 3. 把整個 ABC-Extended-IAST-2.3.bundle 複製進去。
-   不要只取出其中的 .keylayout；docs、source、tools 都不用複製。
+   不要只取出其中的 .keylayout；說明文件和 LICENSE 不用複製。
    不需要管理員權限、Python 或 Ukelele，也沒有常駐程式。
 4. 儲存工作，登出再登入（或重新開機）。
 5. 加入輸入方式：

@@ -3,7 +3,7 @@
 [English](README.md) · **中文**
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-![Version 2.3](https://img.shields.io/badge/version-2.3-cf9a4c)
+[![Release](https://img.shields.io/github/v/release/zyr-97/MacOS-ABC-Extended-IAST)](https://github.com/zyr-97/MacOS-ABC-Extended-IAST/releases/latest)
 ![macOS](https://img.shields.io/badge/platform-macOS-lightgrey)
 
 macOS 鍵盤布局，用 `⌥ Option` 組合鍵直接輸入 **IAST** 梵語轉寫
@@ -45,20 +45,21 @@ macOS 鍵盤布局，用 `⌥ Option` 組合鍵直接輸入 **IAST** 梵語轉�
 
 ### 1. 下載
 
-在本頁按 **Code → Download ZIP** 並解壓縮，或用 git：
+**[下載 ABC-Extended-IAST.zip](https://github.com/zyr-97/MacOS-ABC-Extended-IAST/releases/latest/download/ABC-Extended-IAST.zip)**（最新版）並解壓縮，
+會得到 `ABC-Extended-IAST` 資料夾，內含布局 bundle、三份中文說明和授權文件。
+舊版本與版本說明見 [Releases](https://github.com/zyr-97/MacOS-ABC-Extended-IAST/releases) 頁面。
 
-```sh
-git clone https://github.com/zyr-97/MacOS-ABC-Extended-IAST.git
-```
+只想取得原始碼？用 **Code → Download ZIP** 或 `git clone`。
 
 ### 2. 安裝
 
 把整個 **`ABC-Extended-IAST-2.3.bundle`** 資料夾複製到 `~/Library/Keyboard Layouts/`。
-在 Finder 按 `⇧⌘G` 貼上該路徑；若沒有 `Keyboard Layouts` 資料夾就新建一個。用終端機：
+在 Finder 按 `⇧⌘G` 貼上該路徑；若沒有 `Keyboard Layouts` 資料夾就新建一個。也可以用終端機下載並安裝：
 
 ```sh
+cd ~/Downloads && curl -LO https://github.com/zyr-97/MacOS-ABC-Extended-IAST/releases/latest/download/ABC-Extended-IAST.zip && unzip -o ABC-Extended-IAST.zip
 mkdir -p ~/Library/Keyboard\ Layouts
-cp -R ./MacOS-ABC-Extended-IAST/ABC-Extended-IAST-2.3.bundle ~/Library/Keyboard\ Layouts/
+cp -R ABC-Extended-IAST/ABC-Extended-IAST-2.3.bundle ~/Library/Keyboard\ Layouts/
 ```
 
 請複製整個 bundle，不要只取出裡面的 `.keylayout`：英語語言標記在 bundle 裡。
@@ -260,12 +261,18 @@ python3 tools/generate_reference.py   # 重新生成 docs/、assets/ 和 README 
 並模擬約 400 組按鍵序列。文件和上面表格裡的每個例子，寫入前都經布局模擬輸入驗證。
 這些檢查針對布局檔本身，不能代替在 Mac 上實際測試。
 
+**發佈新版本：** 在 `tools/build_and_verify.py` 修改 `VERSION`（以及新的 `LAYOUT_ID` 和輸入方式 ID），
+執行兩個腳本，在兩份 README 的版本變更加一行，提交後推送 `v2.4` 這樣的標籤。
+[發佈流程](.github/workflows/release.yml)會重建布局，與已提交的 bundle 不一致就停止，
+一致則發佈 `ABC-Extended-IAST.zip`，並以版本變更作為說明。
+
 | 路徑 | 內容 |
 |---|---|
 | `ABC-Extended-IAST-2.3.bundle/` | 要安裝的布局 |
 | `docs/` | 中文說明：安裝說明、輸出對照、符號速查 |
 | `source/` | 基礎布局及 2.1 版，供建置與差異比對 |
-| `tools/` | 建置、驗證及文件生成腳本 |
+| `tools/` | 建置、驗證、文件生成及發佈腳本 |
+| `.github/workflows/` | 推送版本標籤時自動發佈 Release |
 | `verification.json` | 上次建置的驗證結果 |
 
 ## 版本變更
