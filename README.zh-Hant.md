@@ -35,7 +35,7 @@ macOS 鍵盤布局，用 `⌥ Option` 組合鍵直接輸入 **IAST** 梵語轉�
 在本頁按 **Code → Download ZIP** 並解壓縮，或用 git：
 
 ```sh
-git clone https://github.com/zyr-97/-MacOS-ABC-IAST.git
+git clone https://github.com/zyr-97/MacOS-ABC-Extended-IAST.git
 ```
 
 ### 2. 安裝
@@ -45,7 +45,7 @@ git clone https://github.com/zyr-97/-MacOS-ABC-IAST.git
 
 ```sh
 mkdir -p ~/Library/Keyboard\ Layouts
-cp -R ./-MacOS-ABC-IAST/ABC-Extended-IAST-2.2.bundle ~/Library/Keyboard\ Layouts/
+cp -R ./MacOS-ABC-Extended-IAST/ABC-Extended-IAST-2.2.bundle ~/Library/Keyboard\ Layouts/
 ```
 
 請複製整個 bundle，不要只取出裡面的 `.keylayout`：英語語言標記在 bundle 裡。

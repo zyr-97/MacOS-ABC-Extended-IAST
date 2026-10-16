@@ -38,7 +38,7 @@ green keys type symbols. The two images are drawn from the layout file itself.
 Click **Code → Download ZIP** on this page and unzip it, or use git:
 
 ```sh
-git clone https://github.com/zyr-97/-MacOS-ABC-IAST.git
+git clone https://github.com/zyr-97/MacOS-ABC-Extended-IAST.git
 ```
 
 ### 2. Install
@@ -49,7 +49,7 @@ From the terminal:
 
 ```sh
 mkdir -p ~/Library/Keyboard\ Layouts
-cp -R ./-MacOS-ABC-IAST/ABC-Extended-IAST-2.2.bundle ~/Library/Keyboard\ Layouts/
+cp -R ./MacOS-ABC-Extended-IAST/ABC-Extended-IAST-2.2.bundle ~/Library/Keyboard\ Layouts/
 ```
 
 Copy the bundle, not just the `.keylayout` inside it: the bundle carries the English
