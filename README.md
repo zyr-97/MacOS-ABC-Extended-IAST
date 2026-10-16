@@ -20,6 +20,8 @@ vowel length, metrical signs and text-critical signs with `⌥ Option`. It is bu
 - Metrical signs ⏑ – ⏓ and text-critical signs ⟨ ⟩ ⟪ ⟫ ° § ◊ on their own keys
 - Packaged as a bundle tagged **English**, so Word treats what you type as English text
   (see [Microsoft Word](#microsoft-word))
+- macOS **press and hold** still works: hold a letter such as `a` or `e` and pick an accented form
+  from the popup, alongside the `⌥` chords. The popup's choices come from macOS's English set
 - Nothing runs in the background: no app, no input method, no admin rights
 
 ## Quick examples
