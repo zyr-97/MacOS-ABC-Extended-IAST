@@ -238,6 +238,12 @@ The tag is a hint, not a lock. It does not choose a font or change text you alre
 
 ## Good to know
 
+> [!IMPORTANT]
+> **Shortcut conflicts:** if pressing `⌥S` starts a screenshot, search or translation tool instead of
+> typing ṣ, another app (a dictionary, for example) has taken that global shortcut. Open that app's
+> settings, turn the shortcut off or assign it to different keys, then go back to Word or wherever you
+> were typing. Do the same for any other `⌥` chord that behaves this way.
+
 - With **Caps Lock on**, `⌥` + an IAST letter key falls back to ABC Extended (for example `⌥R` gives ®).
   Number keys, `Q` and all signs work either way.
 - `⇧,` `⇧.` type ⟨ ⟩; `⌥,` `⌥.` type `<` `>` (since 2.3).
@@ -245,7 +251,6 @@ The tag is a hint, not a lock. It does not choose a font or change text you alre
 - `⌥A` types a precomposed ā (U+0101), while `a` → `⌥4` types a + U+0304. Unicode treats them as
   equivalent, but some search tools don't. The layout doesn't normalize your document.
 - Don't press `⌥4` after ā: you would get a second macron.
-- If a `⌥` chord opens another app (screenshot or translation tools), change that app's global shortcut.
 
 ## Uninstall
 
