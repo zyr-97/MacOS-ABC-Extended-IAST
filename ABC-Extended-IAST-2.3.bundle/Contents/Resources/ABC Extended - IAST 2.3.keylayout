@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!-- IAST 2.2: Option+comma/period give < >; keeps 2.1 combining macron and diaeresis, h variants, IAST and symbols. Derived from the supplied ABC Extended - IAST layout. See README and tools/build_and_verify.py. -->
-<keyboard group="0" id="-28682" name="ABC Extended - IAST 2.2" maxout="8">
+<!-- IAST 2.3: Option+comma/period give < > (as numeric references; 2.2 used named entities and failed); keeps 2.1 combining macron and diaeresis, h variants, IAST and symbols. Derived from the supplied ABC Extended - IAST layout. See README and tools/build_and_verify.py. -->
+<keyboard group="0" id="-28683" name="ABC Extended - IAST 2.3" maxout="8">
   <layouts>
     <layout first="0" last="17" mapSet="maps0" modifiers="mods0"/>
     <layout first="18" last="18" mapSet="maps1" modifiers="mods1"/>

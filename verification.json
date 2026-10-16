@@ -2,7 +2,7 @@
   "status": "PASS",
   "transition_comparisons": 3342336,
   "intentional_changed_transitions": 39834,
-  "sequence_tests": 396,
+  "sequence_tests": 398,
   "hardware_map_sets": 2,
   "modifier_combinations_per_set": 256,
   "states": 51,
@@ -24,5 +24,5 @@
   "press_and_hold_runtime_test": "NOT PERFORMED: macOS user test required",
   "word_language_and_font_runtime_test": "NOT PERFORMED: metadata is a hint, not a Word formatting lock",
   "source_sha256": "ca8856ba62e8a075d9ebb4e5294123f5ae1230241552e3cb2b270a39697cece2",
-  "output_sha256": "c7bcdfa3a1b7716007cb407f7bca55598da33bfdc86cd25f98b43abfb84e5734"
+  "output_sha256": "b915d0f60768289b66c2a8875fa178b8fa6bf08161f9f261c98254686d92fb9c"
 }

@@ -3,7 +3,7 @@
 **English** · [中文](README.zh-Hant.md)
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-![Version 2.2](https://img.shields.io/badge/version-2.2-cf9a4c)
+![Version 2.3](https://img.shields.io/badge/version-2.3-cf9a4c)
 ![macOS](https://img.shields.io/badge/platform-macOS-lightgrey)
 
 A macOS keyboard layout for typing **IAST** ([International Alphabet of Sanskrit
@@ -43,13 +43,13 @@ git clone https://github.com/zyr-97/MacOS-ABC-Extended-IAST.git
 
 ### 2. Install
 
-Copy the whole **`ABC-Extended-IAST-2.2.bundle`** folder into `~/Library/Keyboard Layouts/`.
+Copy the whole **`ABC-Extended-IAST-2.3.bundle`** folder into `~/Library/Keyboard Layouts/`.
 In Finder press `⇧⌘G` and paste that path; create the `Keyboard Layouts` folder if it doesn't exist.
 From the terminal:
 
 ```sh
 mkdir -p ~/Library/Keyboard\ Layouts
-cp -R ./MacOS-ABC-Extended-IAST/ABC-Extended-IAST-2.2.bundle ~/Library/Keyboard\ Layouts/
+cp -R ./MacOS-ABC-Extended-IAST/ABC-Extended-IAST-2.3.bundle ~/Library/Keyboard\ Layouts/
 ```
 
 Copy the bundle, not just the `.keylayout` inside it: the bundle carries the English
@@ -60,11 +60,12 @@ language tag. Then **log out and back in** (or restart).
 - **macOS 13 and later:** System Settings → Keyboard → Text Input → Input Sources **Edit…** → **+**
 - **macOS 12 and earlier:** System Preferences → Keyboard → Input Sources → **+**
 
-Choose **ABC Extended - IAST 2.2** under *English* or *Others*, then switch to it from the input menu
+Choose **ABC Extended - IAST 2.3** under *English* or *Others*, then switch to it from the input menu
 in the menu bar.
 
-**Upgrading from an older version:** each version is a separate input source, so 2.2 can sit next to 2.1.
-Add 2.2, check that it works, then remove the old one.
+**Upgrading from an older version:** each version is a separate input source, so 2.3 can sit next to 2.1.
+Add 2.3, check that it works, then remove the old one. If you installed 2.2, remove it:
+its `⌥,` / `⌥.` don't type `<` / `>`.
 
 ## Key reference
 
@@ -193,6 +194,8 @@ Hold `⌥` for lowercase, `⌥ ⇧` for uppercase.
 | comma below | `⌥P` | `⌥⇧P` | `⌥P` → `s` = ș |
 
 Marks stack: `⌥Y` → `⌥4` → `⌥⇧E` = r̥̄́; `⌥E` → `⌥A` = ā́; `⌥⇧A` → `⌥⇧E` = Ā́
+
+**Typing ā́ quickly**: `⌥E` → `⌥A`. You can keep holding Option and press E, then A.
 <!-- END GENERATED KEYMAP -->
 
 Every key on the keyboard, in all four layers and with exact code points:
@@ -218,7 +221,7 @@ The tag is a hint, not a lock. It does not choose a font or change text you alre
 
 - With **Caps Lock on**, `⌥` + an IAST letter key falls back to ABC Extended (for example `⌥R` gives ®).
   Number keys, `Q` and all signs work either way.
-- `⇧,` `⇧.` type ⟨ ⟩; `⌥,` `⌥.` type `<` `>` (since 2.2).
+- `⇧,` `⇧.` type ⟨ ⟩; `⌥,` `⌥.` type `<` `>` (since 2.3).
 - `Command` and `Control` shortcuts are untouched.
 - `⌥A` types a precomposed ā (U+0101), while `a` → `⌥4` types a + U+0304. Unicode treats them as
   equivalent, but some search tools don't. The layout doesn't normalize your document.
@@ -227,8 +230,8 @@ The tag is a hint, not a lock. It does not choose a font or change text you alre
 
 ## Uninstall
 
-Switch to another input source, remove *ABC Extended - IAST 2.2* in keyboard settings, delete
-`~/Library/Keyboard Layouts/ABC-Extended-IAST-2.2.bundle`, then log out and back in.
+Switch to another input source, remove *ABC Extended - IAST 2.3* in keyboard settings, delete
+`~/Library/Keyboard Layouts/ABC-Extended-IAST-2.3.bundle`, then log out and back in.
 
 ## Building from source
 
@@ -246,7 +249,7 @@ before it is written. These checks run on the layout file; they don't replace te
 
 | Path | Contents |
 |---|---|
-| `ABC-Extended-IAST-2.2.bundle/` | the layout to install |
+| `ABC-Extended-IAST-2.3.bundle/` | the layout to install |
 | `docs/` | Chinese guides: installation (`安裝說明`), full output table (`輸出對照`), cheat sheet (`符號速查`) |
 | `source/` | the base layout and the 2.1 release, used for the build and the delta check |
 | `tools/` | build, verification and documentation scripts |
@@ -254,7 +257,8 @@ before it is written. These checks run on the layout file; they don't replace te
 
 ## Changelog
 
-- **2.2** — `⌥,` / `⌥.` type `<` / `>` (previously ≤ / ≥).
+- **2.3** — `⌥,` / `⌥.` type `<` / `>` (previously ≤ / ≥).
+- **2.2** — first attempt at `<` / `>`; they were written in a form macOS doesn't accept and didn't type. Use 2.3.
 - **2.1** — `⌥1` / `⌥2` give ḫ / ẖ; `⌥4` appends a macron, `⌥Q` a diaeresis; `⌥⇧Q` is a spacing ¨.
 - **2.0** — m̐, ḫ, metrical signs ⏑ ⏓, abbreviation sign °.
 - **1.4** — single and double angle brackets, lozenge, accented long vowels.

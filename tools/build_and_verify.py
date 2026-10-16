@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build and semantically verify the IAST 2.2 layout. Python 3.8+, stdlib only.
+"""Build and semantically verify the IAST 2.3 layout. Python 3.8+, stdlib only.
 
 Run from any directory: python3 tools/build_and_verify.py
 XML 1.1 control references are masked only in the in-memory inspection copy.
@@ -16,14 +16,14 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCE = ROOT / 'source' / 'ABC Extended - IAST.original.keylayout'
-VERSION = '2.2'
+VERSION = '2.3'
 LAYOUT_NAME = 'ABC Extended - IAST ' + VERSION
 BUNDLE = ROOT / ('ABC-Extended-IAST-%s.bundle' % VERSION)
 PREVIOUS = ROOT / 'source' / 'ABC Extended - IAST 2.1.keylayout'
 OUTPUT = BUNDLE / 'Contents' / 'Resources' / (LAYOUT_NAME + '.keylayout')
-BUNDLE_ID = 'local.iast.keyboardlayout.abcextended22'
-INPUT_ID = 'local.iast.keylayout.abcextended22'
-LAYOUT_ID = '-28682'  # Unique per version so releases can be installed side by side.
+BUNDLE_ID = 'local.iast.keyboardlayout.abcextended23'
+INPUT_ID = 'local.iast.keylayout.abcextended23'
+LAYOUT_ID = '-28683'  # Unique per version so releases can be installed side by side.
 
 # macOS physical key codes. Letters follow the original US/ABC QWERTY map.
 DIRECT = {4: 'ḥ', 46: 'ṃ', 13: 'ṁ', 17: 'ṭ', 16: 'r\u0325', 3: 'm\u0310'}
@@ -154,7 +154,7 @@ def build(original):
     result = result.replace('id="-28673" name="ABC Extended - IAST"',
                             'id="%s" name="%s"' % (LAYOUT_ID, LAYOUT_NAME), 1)
     result = re.sub(r'<!-- Derived from.*?-->',
-                    '<!-- IAST 2.2: Option+comma/period give < >; keeps 2.1 combining macron and diaeresis, h variants, IAST and symbols. '
+                    '<!-- IAST 2.3: Option+comma/period give < > (as numeric references; 2.2 used named entities and failed); keeps 2.1 combining macron and diaeresis, h variants, IAST and symbols. '
                     'Derived from the supplied ABC Extended - IAST layout. See README and tools/build_and_verify.py. -->',
                     result, count=1, flags=re.S)
     result = result.replace('  </actions>', '\n'.join(added) + '\n  </actions>', 1)
@@ -248,6 +248,7 @@ def verify(original, revised):
         ('am\u0310a', [('', 0), ('option', 3), ('', 0)]),
         ('a\u1e2bka', [('', 0), ('option', 18), ('', 40), ('', 0)]),
         ('\u00b0k\u1e63ai\u1e25', [('option', 26), ('', 40), ('option', 1), ('', 0), ('', 34), ('option', 4)]),
+        ('\u00b0rak\u1e63ita', [('option', 26), ('', 15), ('', 0), ('', 40), ('option', 1), ('', 34), ('', 17), ('', 0)]),
         ('sva\u00b0', [('', 1), ('', 9), ('', 0), ('option', 26)]),
         ('\u23d1 \u2013 \u23d3', [('option', 25), ('', 49), ('option', 27), ('', 49), ('option', 29)]),
         ('m\u0310\u0301', [('option', 3), ('shift option', 14)]),

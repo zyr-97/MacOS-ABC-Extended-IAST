@@ -168,6 +168,8 @@ for _, _, prefix, append, alt, examples in MARKS:
         assert press(*parse(prefix))[1] != 'none', prefix
     for key in filter(None, [append, alt]):
         assert all(unicodedata.combining(c) for c in type_keys(key)), key
+# ⌥E then ⌥A: Option can stay held down through both keys.
+ACUTE_LONG = check([('ā́', '⌥E ⌥A')])
 STACKED = check([('r̥̄́', '⌥Y ⌥4 ⌥⇧E'), ('ā́', '⌥E ⌥A'), ('Ā́', '⌥⇧A ⌥⇧E')])
 
 
@@ -274,13 +276,14 @@ H̱、m̐、M̐、r̥、R̥ 由「字母＋組合符號」兩個碼位組成，�
   {'、'.join(CAPS_CHANGED)}
 • 其餘鍵（包括 1、2、4、Q、所有格律與校勘符號）Caps Lock 開或關都一樣。
 • 含 Command 或 Control 的組合保持 ABC Extended 原樣，不影響系統快捷鍵。
-• ⇧逗號／⇧句號 輸出 ⟨ ⟩；需要 < > 時按 ⌥逗號／⌥句號（2.2 起，原來的 ≤ ≥ 已移除）。
+• ⇧逗號／⇧句號 輸出 ⟨ ⟩；需要 < > 時按 ⌥逗號／⌥句號（2.3 起，原來的 ≤ ≥ 已移除）。
 
 
 四、版本變更
 
-2.2 相對 2.1：
+2.3 相對 2.1：
 ⌥逗號／⌥句號：≤／≥ → < ／ >（Caps Lock 開啟時相同）
+（2.2 原本要做同一改動，但 < > 的寫法 macOS 不接受，打不出來；請改用 2.3。）
 
 2.1 相對 2.0：
 ⌥1／⌥⇧1：¡／⁄ → ḫ／Ḫ（ḫ 由 Q 移來）
@@ -340,7 +343,9 @@ def readme_block(zh):
         T('**前置**（死鍵）：先按組合鍵，再打字母。**追加**：先打字母，再按組合鍵，中間不按空格。',
           '**Dead key**: press it first, then the letter. **Append**: type the letter first, then the key, with no space in between.'), '',
         md_table(T(['附加符號', '前置', '追加', '例子'], ['Mark', 'Dead key', 'Append', 'Examples']), marks), '',
-        T('可以疊加：', 'Marks stack:') + ' ' + ('；' if zh else '; ').join(md_keys(k) + ' = ' + t for t, k in STACKED),
+        T('可以疊加：', 'Marks stack:') + ' ' + ('；' if zh else '; ').join(md_keys(k) + ' = ' + t for t, k in STACKED), '',
+        T('**快速打出 ā́**：' + md_keys(ACUTE_LONG[0][1]) + '。可以一直按住 Option，依次按 E、A，不必中途放開。',
+          '**Typing ā́ quickly**: ' + md_keys(ACUTE_LONG[0][1]) + '. You can keep holding Option and press E, then A.'),
     ])
 
 

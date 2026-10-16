@@ -3,7 +3,7 @@
 [English](README.md) · **中文**
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-![Version 2.2](https://img.shields.io/badge/version-2.2-cf9a4c)
+![Version 2.3](https://img.shields.io/badge/version-2.3-cf9a4c)
 ![macOS](https://img.shields.io/badge/platform-macOS-lightgrey)
 
 macOS 鍵盤布局，用 `⌥ Option` 組合鍵直接輸入 **IAST** 梵語轉寫
@@ -40,12 +40,12 @@ git clone https://github.com/zyr-97/MacOS-ABC-Extended-IAST.git
 
 ### 2. 安裝
 
-把整個 **`ABC-Extended-IAST-2.2.bundle`** 資料夾複製到 `~/Library/Keyboard Layouts/`。
+把整個 **`ABC-Extended-IAST-2.3.bundle`** 資料夾複製到 `~/Library/Keyboard Layouts/`。
 在 Finder 按 `⇧⌘G` 貼上該路徑；若沒有 `Keyboard Layouts` 資料夾就新建一個。用終端機：
 
 ```sh
 mkdir -p ~/Library/Keyboard\ Layouts
-cp -R ./MacOS-ABC-Extended-IAST/ABC-Extended-IAST-2.2.bundle ~/Library/Keyboard\ Layouts/
+cp -R ./MacOS-ABC-Extended-IAST/ABC-Extended-IAST-2.3.bundle ~/Library/Keyboard\ Layouts/
 ```
 
 請複製整個 bundle，不要只取出裡面的 `.keylayout`：英語語言標記在 bundle 裡。
@@ -56,9 +56,10 @@ cp -R ./MacOS-ABC-Extended-IAST/ABC-Extended-IAST-2.2.bundle ~/Library/Keyboard\
 - **macOS 13 及以後：** 系統設定 → 鍵盤 → 文字輸入 → 輸入方式「編輯…」→ **＋**
 - **macOS 12 及以前：** 系統偏好設定 → 鍵盤 → 輸入方式 → **＋**
 
-在「英文」或「其他」分類中選 **ABC Extended - IAST 2.2**，再從選單列的輸入法選單切換過去。
+在「英文」或「其他」分類中選 **ABC Extended - IAST 2.3**，再從選單列的輸入法選單切換過去。
 
-**從舊版更新：** 每個版本都是獨立的輸入方式，2.2 可與 2.1 並存。先加入 2.2，確認無誤後再移除舊版。
+**從舊版更新：** 每個版本都是獨立的輸入方式，2.3 可與 2.1 並存。先加入 2.3，確認無誤後再移除舊版。
+如果裝過 2.2，請移除：它的 `⌥,` / `⌥.` 打不出 `<` / `>`。
 
 ## 按鍵對照
 
@@ -187,6 +188,8 @@ cp -R ./MacOS-ABC-Extended-IAST/ABC-Extended-IAST-2.2.bundle ~/Library/Keyboard\
 | 下逗號（comma below） | `⌥P` | `⌥⇧P` | `⌥P` → `s` = ș |
 
 可以疊加： `⌥Y` → `⌥4` → `⌥⇧E` = r̥̄́；`⌥E` → `⌥A` = ā́；`⌥⇧A` → `⌥⇧E` = Ā́
+
+**快速打出 ā́**：`⌥E` → `⌥A`。可以一直按住 Option，依次按 E、A，不必中途放開。
 <!-- END GENERATED KEYMAP -->
 
 全部實體鍵的四層輸出及精確碼位見 [`docs/輸出對照.txt`](docs/輸出對照.txt)，
@@ -209,7 +212,7 @@ Word 為新輸入的文字標記語言時可以據此判斷，切換輸入方式
 
 - **Caps Lock 開啟**時，`⌥` + IAST 字母鍵會回到 ABC Extended 的原有輸出（例如 `⌥R` 變成 ®）。
   數字鍵、`Q` 和所有符號鍵不受影響。
-- `⇧,` `⇧.` 輸出 ⟨ ⟩；`⌥,` `⌥.` 輸出 `<` `>`（2.2 起）。
+- `⇧,` `⇧.` 輸出 ⟨ ⟩；`⌥,` `⌥.` 輸出 `<` `>`（2.3 起）。
 - `Command`、`Control` 快捷鍵保持不變。
 - `⌥A` 輸出預組字元 ā（U+0101），`a` → `⌥4` 輸出 a + U+0304。兩者在 Unicode 中等價，
   但部分搜尋工具會視為不同；布局不會替文件做正規化。
@@ -218,8 +221,8 @@ Word 為新輸入的文字標記語言時可以據此判斷，切換輸入方式
 
 ## 卸載
 
-先切換到其他輸入方式，在鍵盤設定中移除 *ABC Extended - IAST 2.2*，刪除
-`~/Library/Keyboard Layouts/ABC-Extended-IAST-2.2.bundle`，然後登出再登入。
+先切換到其他輸入方式，在鍵盤設定中移除 *ABC Extended - IAST 2.3*，刪除
+`~/Library/Keyboard Layouts/ABC-Extended-IAST-2.3.bundle`，然後登出再登入。
 
 ## 從原始檔重建
 
@@ -236,7 +239,7 @@ python3 tools/generate_reference.py   # 重新生成 docs/、assets/ 和 README 
 
 | 路徑 | 內容 |
 |---|---|
-| `ABC-Extended-IAST-2.2.bundle/` | 要安裝的布局 |
+| `ABC-Extended-IAST-2.3.bundle/` | 要安裝的布局 |
 | `docs/` | 中文說明：安裝說明、輸出對照、符號速查 |
 | `source/` | 基礎布局及 2.1 版，供建置與差異比對 |
 | `tools/` | 建置、驗證及文件生成腳本 |
@@ -244,7 +247,8 @@ python3 tools/generate_reference.py   # 重新生成 docs/、assets/ 和 README 
 
 ## 版本變更
 
-- **2.2** — `⌥,` / `⌥.` 輸出 `<` / `>`（原為 ≤ / ≥）。
+- **2.3** — `⌥,` / `⌥.` 輸出 `<` / `>`（原為 ≤ / ≥）。
+- **2.2** — 首次加入 `<` / `>`，但寫法 macOS 不接受，實際打不出來；請改用 2.3。
 - **2.1** — `⌥1` / `⌥2` 輸出 ḫ / ẖ；`⌥4` 追加長音符，`⌥Q` 追加兩點；`⌥⇧Q` 為獨立的 ¨。
 - **2.0** — m̐、ḫ、格律符號 ⏑ ⏓、省略符 °。
 - **1.4** — 單／雙角括號、菱形、長元音加重音。

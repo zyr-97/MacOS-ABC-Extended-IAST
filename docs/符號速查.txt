@@ -1,4 +1,4 @@
-ABC Extended - IAST 2.2：符號速查
+ABC Extended - IAST 2.3：符號速查
 本檔由 tools/generate_reference.py 從布局檔生成，所有例子都經模擬輸入驗證。
 
 ⌥ = Option，⇧ = Shift，均同時按住；左右兩側皆可。
