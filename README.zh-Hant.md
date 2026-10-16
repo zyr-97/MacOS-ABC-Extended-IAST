@@ -262,9 +262,9 @@ python3 tools/generate_reference.py   # 重新生成 docs/、assets/ 和 README 
 這些檢查針對布局檔本身，不能代替在 Mac 上實際測試。
 
 **發佈新版本：** 在 `tools/build_and_verify.py` 修改 `VERSION`（以及新的 `LAYOUT_ID` 和輸入方式 ID），
-執行兩個腳本，在兩份 README 的版本變更加一行，提交後推送 `v2.4` 這樣的標籤。
-[發佈流程](.github/workflows/release.yml)會重建布局，與已提交的 bundle 不一致就停止，
-一致則發佈 `ABC-Extended-IAST.zip`，並以版本變更作為說明。
+執行兩個腳本，在兩份 README 的版本變更加一行，提交並推送到 `main`。
+[發佈流程](.github/workflows/release.yml)發現 `v2.4` 還沒有 Release，就會重建布局，與已提交的 bundle
+不一致則停止，一致則發佈 `ABC-Extended-IAST.zip`，並以版本變更作為說明。版本號沒變的推送不會發佈任何東西。
 
 | 路徑 | 內容 |
 |---|---|
@@ -272,7 +272,7 @@ python3 tools/generate_reference.py   # 重新生成 docs/、assets/ 和 README 
 | `docs/` | 中文說明：安裝說明、輸出對照、符號速查 |
 | `source/` | 基礎布局及 2.1 版，供建置與差異比對 |
 | `tools/` | 建置、驗證、文件生成及發佈腳本 |
-| `.github/workflows/` | 推送版本標籤時自動發佈 Release |
+| `.github/workflows/` | 新版本推送到 `main` 時自動發佈 Release |
 | `verification.json` | 上次建置的驗證結果 |
 
 ## 版本變更

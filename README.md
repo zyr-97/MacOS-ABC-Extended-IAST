@@ -273,9 +273,10 @@ about 400 test sequences. Every example in the docs and the tables above is type
 before it is written. These checks run on the layout file; they don't replace testing on a Mac.
 
 **Publishing a new version:** set `VERSION` (and a new `LAYOUT_ID` and input source ID) in
-`tools/build_and_verify.py`, run both scripts, add a changelog line to both READMEs, commit, then push a
-tag such as `v2.4`. The [release workflow](.github/workflows/release.yml) rebuilds the layout, stops if
-it doesn't match the committed bundle, and publishes `ABC-Extended-IAST.zip` with the changelog as notes.
+`tools/build_and_verify.py`, run both scripts, add a changelog line to both READMEs, commit and push to
+`main`. The [release workflow](.github/workflows/release.yml) sees that release `v2.4` doesn't exist yet,
+rebuilds the layout, stops if it doesn't match the committed bundle, and publishes
+`ABC-Extended-IAST.zip` with the changelog as notes. Pushes that don't change the version publish nothing.
 
 | Path | Contents |
 |---|---|
@@ -283,7 +284,7 @@ it doesn't match the committed bundle, and publishes `ABC-Extended-IAST.zip` wit
 | `docs/` | Chinese guides: installation (`安裝說明`), full output table (`輸出對照`), cheat sheet (`符號速查`) |
 | `source/` | the base layout and the 2.1 release, used for the build and the delta check |
 | `tools/` | build, verification, documentation and release scripts |
-| `.github/workflows/` | publishes a release when a version tag is pushed |
+| `.github/workflows/` | publishes a release when a new version reaches `main` |
 | `verification.json` | the last build's check results |
 
 ## Changelog

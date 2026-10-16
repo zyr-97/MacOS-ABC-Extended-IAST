@@ -1,17 +1,28 @@
-# Publish a GitHub Release when a version tag (v2.3, v2.4, ...) is pushed.
-# The tag must match VERSION in tools/build_and_verify.py.
+# Publish a GitHub Release for the version in tools/build_and_verify.py (VERSION).
+#
+# Runs on every push to main: if release v<VERSION> doesn't exist yet, it is built
+# and published, and GitHub creates the tag. If it exists, nothing happens.
+# Pushing a tag v<VERSION> by hand, or "Run workflow" in the Actions tab, also works.
 name: Release
 
 on:
   push:
+    branches: [main]
     tags: ['v*']
+  workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: release
+  cancel-in-progress: false
+
 jobs:
   release:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
     steps:
       - uses: actions/checkout@v4
 
@@ -19,19 +30,31 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Read version and check for an existing release
+        id: version
+        run: |
+          tag="v$(cd tools && python3 -c 'from build_and_verify import VERSION; print(VERSION)')"
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          if gh release view "$tag" > /dev/null 2>&1; then
+            echo "Release $tag already exists; nothing to do."
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Rebuild the layout and check it matches the committed bundle
+        if: steps.version.outputs.exists != 'true'
         run: |
           python3 tools/build_and_verify.py > /dev/null
           git diff --exit-code -- 'ABC-Extended-IAST-*.bundle' verification.json
 
       - name: Package
-        run: python3 tools/make_release.py "$GITHUB_REF_NAME"
+        if: steps.version.outputs.exists != 'true'
+        run: python3 tools/make_release.py "${{ steps.version.outputs.tag }}"
 
       - name: Publish release
-        env:
-          GH_TOKEN: ${{ github.token }}
+        if: steps.version.outputs.exists != 'true'
         run: |
-          gh release create "$GITHUB_REF_NAME" dist/ABC-Extended-IAST.zip \
-            --title "ABC Extended - IAST ${GITHUB_REF_NAME#v}" \
-            --notes-file dist/release-notes.md \
-            --verify-tag
+          tag="${{ steps.version.outputs.tag }}"
+          gh release create "$tag" dist/ABC-Extended-IAST.zip \
+            --target "$GITHUB_SHA" \
+            --title "ABC Extended - IAST ${tag#v}" \
+            --notes-file dist/release-notes.md
