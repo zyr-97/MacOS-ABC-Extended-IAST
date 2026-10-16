@@ -18227,57 +18227,57 @@
       <when state="s1638400" output="ḷ"/>
     </action>
     <action id="iast21_3_43">
-      <when state="none" output="&lt;"/>
-      <when state="s1" output="`&lt;"/>
-      <when state="s2" output="ˇ&lt;"/>
-      <when state="s3" output="¯&lt;"/>
-      <when state="s4" output="¸&lt;"/>
-      <when state="s5" output="ʼ&lt;"/>
-      <when state="s6" output="˜&lt;"/>
-      <when state="s7" output="ˀ&lt;"/>
-      <when state="s8" output=" ̏&lt;"/>
-      <when state="s9" output="˝&lt;"/>
-      <when state="s10" output="´&lt;"/>
-      <when state="s11" output="-&lt;"/>
-      <when state="s12" output="˙&lt;"/>
-      <when state="s13" output="¨&lt;"/>
-      <when state="s14" output="˘&lt;"/>
-      <when state="s15" output="ʔ&lt;"/>
-      <when state="s16" output="№&lt;"/>
-      <when state="s17" output=",&lt;"/>
-      <when state="s18" output=".&lt;"/>
-      <when state="s19" output="˛&lt;"/>
-      <when state="s20" output="ˍ&lt;"/>
-      <when state="s21" output=" ̰&lt;"/>
-      <when state="s22" output="˚&lt;"/>
-      <when state="s23" output="ˆ&lt;"/>
-      <when state="s24" output="‸&lt;"/>
-      <when state="s25" output=" ̑&lt;"/>
-      <when state="s65536" output="&lt;"/>
-      <when state="s131072" output="&lt;"/>
-      <when state="s196608" output="&lt;"/>
-      <when state="s262144" output="&lt;"/>
-      <when state="s327680" output="&lt;"/>
-      <when state="s393216" output="&lt;"/>
-      <when state="s458752" output="&lt;"/>
-      <when state="s524288" output="&lt;"/>
-      <when state="s589824" output="&lt;"/>
-      <when state="s655360" output="&lt;"/>
-      <when state="s720896" output="&lt;"/>
-      <when state="s786432" output="&lt;"/>
-      <when state="s851968" output="&lt;"/>
-      <when state="s917504" output="&lt;"/>
-      <when state="s983040" output="&lt;"/>
-      <when state="s1048576" output="&lt;"/>
-      <when state="s1114112" output="&lt;"/>
-      <when state="s1179648" output="&lt;"/>
-      <when state="s1245184" output="&lt;"/>
-      <when state="s1310720" output="&lt;"/>
-      <when state="s1376256" output="&lt;"/>
-      <when state="s1441792" output="&lt;"/>
-      <when state="s1507328" output="&lt;"/>
-      <when state="s1572864" output="&lt;"/>
-      <when state="s1638400" output="&lt;"/>
+      <when state="none" output="&#x003C;"/>
+      <when state="s1" output="`&#x003C;"/>
+      <when state="s2" output="ˇ&#x003C;"/>
+      <when state="s3" output="¯&#x003C;"/>
+      <when state="s4" output="¸&#x003C;"/>
+      <when state="s5" output="ʼ&#x003C;"/>
+      <when state="s6" output="˜&#x003C;"/>
+      <when state="s7" output="ˀ&#x003C;"/>
+      <when state="s8" output=" ̏&#x003C;"/>
+      <when state="s9" output="˝&#x003C;"/>
+      <when state="s10" output="´&#x003C;"/>
+      <when state="s11" output="-&#x003C;"/>
+      <when state="s12" output="˙&#x003C;"/>
+      <when state="s13" output="¨&#x003C;"/>
+      <when state="s14" output="˘&#x003C;"/>
+      <when state="s15" output="ʔ&#x003C;"/>
+      <when state="s16" output="№&#x003C;"/>
+      <when state="s17" output=",&#x003C;"/>
+      <when state="s18" output=".&#x003C;"/>
+      <when state="s19" output="˛&#x003C;"/>
+      <when state="s20" output="ˍ&#x003C;"/>
+      <when state="s21" output=" ̰&#x003C;"/>
+      <when state="s22" output="˚&#x003C;"/>
+      <when state="s23" output="ˆ&#x003C;"/>
+      <when state="s24" output="‸&#x003C;"/>
+      <when state="s25" output=" ̑&#x003C;"/>
+      <when state="s65536" output="&#x003C;"/>
+      <when state="s131072" output="&#x003C;"/>
+      <when state="s196608" output="&#x003C;"/>
+      <when state="s262144" output="&#x003C;"/>
+      <when state="s327680" output="&#x003C;"/>
+      <when state="s393216" output="&#x003C;"/>
+      <when state="s458752" output="&#x003C;"/>
+      <when state="s524288" output="&#x003C;"/>
+      <when state="s589824" output="&#x003C;"/>
+      <when state="s655360" output="&#x003C;"/>
+      <when state="s720896" output="&#x003C;"/>
+      <when state="s786432" output="&#x003C;"/>
+      <when state="s851968" output="&#x003C;"/>
+      <when state="s917504" output="&#x003C;"/>
+      <when state="s983040" output="&#x003C;"/>
+      <when state="s1048576" output="&#x003C;"/>
+      <when state="s1114112" output="&#x003C;"/>
+      <when state="s1179648" output="&#x003C;"/>
+      <when state="s1245184" output="&#x003C;"/>
+      <when state="s1310720" output="&#x003C;"/>
+      <when state="s1376256" output="&#x003C;"/>
+      <when state="s1441792" output="&#x003C;"/>
+      <when state="s1507328" output="&#x003C;"/>
+      <when state="s1572864" output="&#x003C;"/>
+      <when state="s1638400" output="&#x003C;"/>
     </action>
     <action id="iast21_3_46">
       <when state="none" output="ṃ"/>
@@ -18333,57 +18333,57 @@
       <when state="s1638400" output="ṃ"/>
     </action>
     <action id="iast21_3_47">
-      <when state="none" output="&gt;"/>
-      <when state="s1" output="`&gt;"/>
-      <when state="s2" output="ˇ&gt;"/>
-      <when state="s3" output="¯&gt;"/>
-      <when state="s4" output="¸&gt;"/>
-      <when state="s5" output="ʼ&gt;"/>
-      <when state="s6" output="˜&gt;"/>
-      <when state="s7" output="ˀ&gt;"/>
-      <when state="s8" output=" ̏&gt;"/>
-      <when state="s9" output="˝&gt;"/>
-      <when state="s10" output="´&gt;"/>
-      <when state="s11" output="-&gt;"/>
-      <when state="s12" output="˙&gt;"/>
-      <when state="s13" output="¨&gt;"/>
-      <when state="s14" output="˘&gt;"/>
-      <when state="s15" output="ʔ&gt;"/>
-      <when state="s16" output="№&gt;"/>
-      <when state="s17" output=",&gt;"/>
-      <when state="s18" output=".&gt;"/>
-      <when state="s19" output="˛&gt;"/>
-      <when state="s20" output="ˍ&gt;"/>
-      <when state="s21" output=" ̰&gt;"/>
-      <when state="s22" output="˚&gt;"/>
-      <when state="s23" output="ˆ&gt;"/>
-      <when state="s24" output="‸&gt;"/>
-      <when state="s25" output=" ̑&gt;"/>
-      <when state="s65536" output="&gt;"/>
-      <when state="s131072" output="&gt;"/>
-      <when state="s196608" output="&gt;"/>
-      <when state="s262144" output="&gt;"/>
-      <when state="s327680" output="&gt;"/>
-      <when state="s393216" output="&gt;"/>
-      <when state="s458752" output="&gt;"/>
-      <when state="s524288" output="&gt;"/>
-      <when state="s589824" output="&gt;"/>
-      <when state="s655360" output="&gt;"/>
-      <when state="s720896" output="&gt;"/>
-      <when state="s786432" output="&gt;"/>
-      <when state="s851968" output="&gt;"/>
-      <when state="s917504" output="&gt;"/>
-      <when state="s983040" output="&gt;"/>
-      <when state="s1048576" output="&gt;"/>
-      <when state="s1114112" output="&gt;"/>
-      <when state="s1179648" output="&gt;"/>
-      <when state="s1245184" output="&gt;"/>
-      <when state="s1310720" output="&gt;"/>
-      <when state="s1376256" output="&gt;"/>
-      <when state="s1441792" output="&gt;"/>
-      <when state="s1507328" output="&gt;"/>
-      <when state="s1572864" output="&gt;"/>
-      <when state="s1638400" output="&gt;"/>
+      <when state="none" output="&#x003E;"/>
+      <when state="s1" output="`&#x003E;"/>
+      <when state="s2" output="ˇ&#x003E;"/>
+      <when state="s3" output="¯&#x003E;"/>
+      <when state="s4" output="¸&#x003E;"/>
+      <when state="s5" output="ʼ&#x003E;"/>
+      <when state="s6" output="˜&#x003E;"/>
+      <when state="s7" output="ˀ&#x003E;"/>
+      <when state="s8" output=" ̏&#x003E;"/>
+      <when state="s9" output="˝&#x003E;"/>
+      <when state="s10" output="´&#x003E;"/>
+      <when state="s11" output="-&#x003E;"/>
+      <when state="s12" output="˙&#x003E;"/>
+      <when state="s13" output="¨&#x003E;"/>
+      <when state="s14" output="˘&#x003E;"/>
+      <when state="s15" output="ʔ&#x003E;"/>
+      <when state="s16" output="№&#x003E;"/>
+      <when state="s17" output=",&#x003E;"/>
+      <when state="s18" output=".&#x003E;"/>
+      <when state="s19" output="˛&#x003E;"/>
+      <when state="s20" output="ˍ&#x003E;"/>
+      <when state="s21" output=" ̰&#x003E;"/>
+      <when state="s22" output="˚&#x003E;"/>
+      <when state="s23" output="ˆ&#x003E;"/>
+      <when state="s24" output="‸&#x003E;"/>
+      <when state="s25" output=" ̑&#x003E;"/>
+      <when state="s65536" output="&#x003E;"/>
+      <when state="s131072" output="&#x003E;"/>
+      <when state="s196608" output="&#x003E;"/>
+      <when state="s262144" output="&#x003E;"/>
+      <when state="s327680" output="&#x003E;"/>
+      <when state="s393216" output="&#x003E;"/>
+      <when state="s458752" output="&#x003E;"/>
+      <when state="s524288" output="&#x003E;"/>
+      <when state="s589824" output="&#x003E;"/>
+      <when state="s655360" output="&#x003E;"/>
+      <when state="s720896" output="&#x003E;"/>
+      <when state="s786432" output="&#x003E;"/>
+      <when state="s851968" output="&#x003E;"/>
+      <when state="s917504" output="&#x003E;"/>
+      <when state="s983040" output="&#x003E;"/>
+      <when state="s1048576" output="&#x003E;"/>
+      <when state="s1114112" output="&#x003E;"/>
+      <when state="s1179648" output="&#x003E;"/>
+      <when state="s1245184" output="&#x003E;"/>
+      <when state="s1310720" output="&#x003E;"/>
+      <when state="s1376256" output="&#x003E;"/>
+      <when state="s1441792" output="&#x003E;"/>
+      <when state="s1507328" output="&#x003E;"/>
+      <when state="s1572864" output="&#x003E;"/>
+      <when state="s1638400" output="&#x003E;"/>
     </action>
     <action id="iast21_5_0">
       <when state="none" output="Ā"/>
@@ -20135,110 +20135,110 @@
       <when state="s1638400" output="⏓"/>
     </action>
     <action id="iast21_7_43">
-      <when state="none" output="&lt;"/>
-      <when state="s1" output="`&lt;"/>
-      <when state="s2" output="ˇ&lt;"/>
-      <when state="s3" output="¯&lt;"/>
-      <when state="s4" output="¸&lt;"/>
-      <when state="s5" output="ʼ&lt;"/>
-      <when state="s6" output="˜&lt;"/>
-      <when state="s7" output="ˀ&lt;"/>
-      <when state="s8" output=" ̏&lt;"/>
-      <when state="s9" output="˝&lt;"/>
-      <when state="s10" output="´&lt;"/>
-      <when state="s11" output="-&lt;"/>
-      <when state="s12" output="˙&lt;"/>
-      <when state="s13" output="¨&lt;"/>
-      <when state="s14" output="˘&lt;"/>
-      <when state="s15" output="ʔ&lt;"/>
-      <when state="s16" output="№&lt;"/>
-      <when state="s17" output=",&lt;"/>
-      <when state="s18" output=".&lt;"/>
-      <when state="s19" output="˛&lt;"/>
-      <when state="s20" output="ˍ&lt;"/>
-      <when state="s21" output=" ̰&lt;"/>
-      <when state="s22" output="˚&lt;"/>
-      <when state="s23" output="ˆ&lt;"/>
-      <when state="s24" output="‸&lt;"/>
-      <when state="s25" output=" ̑&lt;"/>
-      <when state="s65536" output="&lt;"/>
-      <when state="s131072" output="&lt;"/>
-      <when state="s196608" output="&lt;"/>
-      <when state="s262144" output="&lt;"/>
-      <when state="s327680" output="&lt;"/>
-      <when state="s393216" output="&lt;"/>
-      <when state="s458752" output="&lt;"/>
-      <when state="s524288" output="&lt;"/>
-      <when state="s589824" output="&lt;"/>
-      <when state="s655360" output="&lt;"/>
-      <when state="s720896" output="&lt;"/>
-      <when state="s786432" output="&lt;"/>
-      <when state="s851968" output="&lt;"/>
-      <when state="s917504" output="&lt;"/>
-      <when state="s983040" output="&lt;"/>
-      <when state="s1048576" output="&lt;"/>
-      <when state="s1114112" output="&lt;"/>
-      <when state="s1179648" output="&lt;"/>
-      <when state="s1245184" output="&lt;"/>
-      <when state="s1310720" output="&lt;"/>
-      <when state="s1376256" output="&lt;"/>
-      <when state="s1441792" output="&lt;"/>
-      <when state="s1507328" output="&lt;"/>
-      <when state="s1572864" output="&lt;"/>
-      <when state="s1638400" output="&lt;"/>
+      <when state="none" output="&#x003C;"/>
+      <when state="s1" output="`&#x003C;"/>
+      <when state="s2" output="ˇ&#x003C;"/>
+      <when state="s3" output="¯&#x003C;"/>
+      <when state="s4" output="¸&#x003C;"/>
+      <when state="s5" output="ʼ&#x003C;"/>
+      <when state="s6" output="˜&#x003C;"/>
+      <when state="s7" output="ˀ&#x003C;"/>
+      <when state="s8" output=" ̏&#x003C;"/>
+      <when state="s9" output="˝&#x003C;"/>
+      <when state="s10" output="´&#x003C;"/>
+      <when state="s11" output="-&#x003C;"/>
+      <when state="s12" output="˙&#x003C;"/>
+      <when state="s13" output="¨&#x003C;"/>
+      <when state="s14" output="˘&#x003C;"/>
+      <when state="s15" output="ʔ&#x003C;"/>
+      <when state="s16" output="№&#x003C;"/>
+      <when state="s17" output=",&#x003C;"/>
+      <when state="s18" output=".&#x003C;"/>
+      <when state="s19" output="˛&#x003C;"/>
+      <when state="s20" output="ˍ&#x003C;"/>
+      <when state="s21" output=" ̰&#x003C;"/>
+      <when state="s22" output="˚&#x003C;"/>
+      <when state="s23" output="ˆ&#x003C;"/>
+      <when state="s24" output="‸&#x003C;"/>
+      <when state="s25" output=" ̑&#x003C;"/>
+      <when state="s65536" output="&#x003C;"/>
+      <when state="s131072" output="&#x003C;"/>
+      <when state="s196608" output="&#x003C;"/>
+      <when state="s262144" output="&#x003C;"/>
+      <when state="s327680" output="&#x003C;"/>
+      <when state="s393216" output="&#x003C;"/>
+      <when state="s458752" output="&#x003C;"/>
+      <when state="s524288" output="&#x003C;"/>
+      <when state="s589824" output="&#x003C;"/>
+      <when state="s655360" output="&#x003C;"/>
+      <when state="s720896" output="&#x003C;"/>
+      <when state="s786432" output="&#x003C;"/>
+      <when state="s851968" output="&#x003C;"/>
+      <when state="s917504" output="&#x003C;"/>
+      <when state="s983040" output="&#x003C;"/>
+      <when state="s1048576" output="&#x003C;"/>
+      <when state="s1114112" output="&#x003C;"/>
+      <when state="s1179648" output="&#x003C;"/>
+      <when state="s1245184" output="&#x003C;"/>
+      <when state="s1310720" output="&#x003C;"/>
+      <when state="s1376256" output="&#x003C;"/>
+      <when state="s1441792" output="&#x003C;"/>
+      <when state="s1507328" output="&#x003C;"/>
+      <when state="s1572864" output="&#x003C;"/>
+      <when state="s1638400" output="&#x003C;"/>
     </action>
     <action id="iast21_7_47">
-      <when state="none" output="&gt;"/>
-      <when state="s1" output="`&gt;"/>
-      <when state="s2" output="ˇ&gt;"/>
-      <when state="s3" output="¯&gt;"/>
-      <when state="s4" output="¸&gt;"/>
-      <when state="s5" output="ʼ&gt;"/>
-      <when state="s6" output="˜&gt;"/>
-      <when state="s7" output="ˀ&gt;"/>
-      <when state="s8" output=" ̏&gt;"/>
-      <when state="s9" output="˝&gt;"/>
-      <when state="s10" output="´&gt;"/>
-      <when state="s11" output="-&gt;"/>
-      <when state="s12" output="˙&gt;"/>
-      <when state="s13" output="¨&gt;"/>
-      <when state="s14" output="˘&gt;"/>
-      <when state="s15" output="ʔ&gt;"/>
-      <when state="s16" output="№&gt;"/>
-      <when state="s17" output=",&gt;"/>
-      <when state="s18" output=".&gt;"/>
-      <when state="s19" output="˛&gt;"/>
-      <when state="s20" output="ˍ&gt;"/>
-      <when state="s21" output=" ̰&gt;"/>
-      <when state="s22" output="˚&gt;"/>
-      <when state="s23" output="ˆ&gt;"/>
-      <when state="s24" output="‸&gt;"/>
-      <when state="s25" output=" ̑&gt;"/>
-      <when state="s65536" output="&gt;"/>
-      <when state="s131072" output="&gt;"/>
-      <when state="s196608" output="&gt;"/>
-      <when state="s262144" output="&gt;"/>
-      <when state="s327680" output="&gt;"/>
-      <when state="s393216" output="&gt;"/>
-      <when state="s458752" output="&gt;"/>
-      <when state="s524288" output="&gt;"/>
-      <when state="s589824" output="&gt;"/>
-      <when state="s655360" output="&gt;"/>
-      <when state="s720896" output="&gt;"/>
-      <when state="s786432" output="&gt;"/>
-      <when state="s851968" output="&gt;"/>
-      <when state="s917504" output="&gt;"/>
-      <when state="s983040" output="&gt;"/>
-      <when state="s1048576" output="&gt;"/>
-      <when state="s1114112" output="&gt;"/>
-      <when state="s1179648" output="&gt;"/>
-      <when state="s1245184" output="&gt;"/>
-      <when state="s1310720" output="&gt;"/>
-      <when state="s1376256" output="&gt;"/>
-      <when state="s1441792" output="&gt;"/>
-      <when state="s1507328" output="&gt;"/>
-      <when state="s1572864" output="&gt;"/>
-      <when state="s1638400" output="&gt;"/>
+      <when state="none" output="&#x003E;"/>
+      <when state="s1" output="`&#x003E;"/>
+      <when state="s2" output="ˇ&#x003E;"/>
+      <when state="s3" output="¯&#x003E;"/>
+      <when state="s4" output="¸&#x003E;"/>
+      <when state="s5" output="ʼ&#x003E;"/>
+      <when state="s6" output="˜&#x003E;"/>
+      <when state="s7" output="ˀ&#x003E;"/>
+      <when state="s8" output=" ̏&#x003E;"/>
+      <when state="s9" output="˝&#x003E;"/>
+      <when state="s10" output="´&#x003E;"/>
+      <when state="s11" output="-&#x003E;"/>
+      <when state="s12" output="˙&#x003E;"/>
+      <when state="s13" output="¨&#x003E;"/>
+      <when state="s14" output="˘&#x003E;"/>
+      <when state="s15" output="ʔ&#x003E;"/>
+      <when state="s16" output="№&#x003E;"/>
+      <when state="s17" output=",&#x003E;"/>
+      <when state="s18" output=".&#x003E;"/>
+      <when state="s19" output="˛&#x003E;"/>
+      <when state="s20" output="ˍ&#x003E;"/>
+      <when state="s21" output=" ̰&#x003E;"/>
+      <when state="s22" output="˚&#x003E;"/>
+      <when state="s23" output="ˆ&#x003E;"/>
+      <when state="s24" output="‸&#x003E;"/>
+      <when state="s25" output=" ̑&#x003E;"/>
+      <when state="s65536" output="&#x003E;"/>
+      <when state="s131072" output="&#x003E;"/>
+      <when state="s196608" output="&#x003E;"/>
+      <when state="s262144" output="&#x003E;"/>
+      <when state="s327680" output="&#x003E;"/>
+      <when state="s393216" output="&#x003E;"/>
+      <when state="s458752" output="&#x003E;"/>
+      <when state="s524288" output="&#x003E;"/>
+      <when state="s589824" output="&#x003E;"/>
+      <when state="s655360" output="&#x003E;"/>
+      <when state="s720896" output="&#x003E;"/>
+      <when state="s786432" output="&#x003E;"/>
+      <when state="s851968" output="&#x003E;"/>
+      <when state="s917504" output="&#x003E;"/>
+      <when state="s983040" output="&#x003E;"/>
+      <when state="s1048576" output="&#x003E;"/>
+      <when state="s1114112" output="&#x003E;"/>
+      <when state="s1179648" output="&#x003E;"/>
+      <when state="s1245184" output="&#x003E;"/>
+      <when state="s1310720" output="&#x003E;"/>
+      <when state="s1376256" output="&#x003E;"/>
+      <when state="s1441792" output="&#x003E;"/>
+      <when state="s1507328" output="&#x003E;"/>
+      <when state="s1572864" output="&#x003E;"/>
+      <when state="s1638400" output="&#x003E;"/>
     </action>
   </actions>
   <terminators>

@@ -24,5 +24,5 @@
   "press_and_hold_runtime_test": "NOT PERFORMED: macOS user test required",
   "word_language_and_font_runtime_test": "NOT PERFORMED: metadata is a hint, not a Word formatting lock",
   "source_sha256": "ca8856ba62e8a075d9ebb4e5294123f5ae1230241552e3cb2b270a39697cece2",
-  "output_sha256": "d58f81440c6322af5e9174257da353bdff43a7c906f496b45f837e69f18ff4af"
+  "output_sha256": "c7bcdfa3a1b7716007cb407f7bca55598da33bfdc86cd25f98b43abfb84e5734"
 }

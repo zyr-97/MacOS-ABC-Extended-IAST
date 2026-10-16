@@ -13,7 +13,6 @@ import re
 import unicodedata
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from xml.sax.saxutils import quoteattr
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCE = ROOT / 'source' / 'ABC Extended - IAST.original.keylayout'
@@ -36,6 +35,20 @@ OPTION_SYMBOLS = {25: '\u23d1', 29: '\u23d3', 26: '\u00b0', 43: '<', 47: '>'}
 # Option and Caps Lock+Option: comma/period give < > (Shift+comma/period stay ⟨ ⟩).
 DELTA = {3: {43: '<', 47: '>'}, 7: {43: '<', 47: '>'}}
 EXTRA_SYMBOLS = {43: '\u27ea', 47: '\u27eb', 28: '\u25ca', 23: '\u00b0'}
+
+
+def attr(value):
+    """Quote an attribute the way Apple's and Ukelele's layouts do: markup characters
+    and control characters as numeric references (&#x003C;), never &lt; or &gt;.
+    macOS failed to output < and > written as named entities (reported in 2.2)."""
+    return '"%s"' % ''.join('&#x%04X;' % ord(c) if c in '"&<>' or ord(c) < 32 else c
+                            for c in value)
+
+
+def check_apple_syntax(text):
+    """The layout may only use the reference style found in Apple's own files."""
+    assert not re.search(r'&(?!#x[0-9A-F]{4};)', text), 'non-Apple entity in layout'
+    assert not re.search(r"=\s*'", text), 'single-quoted attribute in layout'
 
 
 def parse_layout(text):
@@ -121,7 +134,7 @@ def build(original):
             for state in states:
                 out, nxt = custom_transition(index, code, state, terminators)
                 assert nxt == 'none'
-                lines.append('      <when state=%s output=%s/>' % (quoteattr(state), quoteattr(out)))
+                lines.append('      <when state=%s output=%s/>' % (attr(state), attr(out)))
             lines.append('    </action>')
             added.append('\n'.join(lines))
 
@@ -150,6 +163,8 @@ def build(original):
 
 
 def verify(original, revised):
+    check_apple_syntax(original)
+    check_apple_syntax(revised)
     old, new = parse_layout(original), parse_layout(revised)
     oa, ot, om, ok = tables(old)
     na, nt, nm, nk = tables(new)
