@@ -138,6 +138,8 @@ CRITICAL = check([('⟨', '⇧,', '單角括號（左）', 'angle bracket, left'
                   ('⟩', '⇧.', '單角括號（右）', 'angle bracket, right'),
                   ('⟪', '⌥⇧,', '雙角括號（左）', 'double angle bracket, left'),
                   ('⟫', '⌥⇧.', '雙角括號（右）', 'double angle bracket, right'),
+                  ('{', '⇧[', '花括號（左）', 'curly bracket, left'),
+                  ('}', '⇧]', '花括號（右）', 'curly bracket, right'),
                   ('°', '⌥7', '省略符，如 °kṣaiḥ、sva°（亦可 ⌥⇧5）', 'abbreviation sign, e.g. °kṣaiḥ, sva° (also ⌥⇧5)'),
                   ('§', '⌥5', '節號', 'section sign'), ('•', '⌥8', '圓點', 'bullet'),
                   ('◊', '⌥⇧8', '菱形', 'lozenge'), ('·', '⌥⇧9', '中點', 'middle dot'),

@@ -142,6 +142,8 @@ Hold `⌥` for lowercase, `⌥ ⇧` for uppercase.
 | ⟩ | `⇧.` | angle bracket, right | U+27E9 |
 | ⟪ | `⌥⇧,` | double angle bracket, left | U+27EA |
 | ⟫ | `⌥⇧.` | double angle bracket, right | U+27EB |
+| { | `⇧[` | curly bracket, left | U+007B |
+| } | `⇧]` | curly bracket, right | U+007D |
 | ° | `⌥7` | abbreviation sign, e.g. °kṣaiḥ, sva° (also ⌥⇧5) | U+00B0 |
 | § | `⌥5` | section sign | U+00A7 |
 | • | `⌥8` | bullet | U+2022 |
