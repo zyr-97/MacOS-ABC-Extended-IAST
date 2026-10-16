@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!-- IAST 2.0: direct candrabindu m, jihvamuliya h, metrical symbols, omission circle, and preserved IAST accents. Derived from the supplied ABC Extended - IAST layout. See README and tools/build_and_verify.py. -->
-<keyboard group="0" id="-28680" name="ABC Extended - IAST 2.0" maxout="8">
+<!-- IAST 2.2: Option+comma/period give < >; keeps 2.1 combining macron and diaeresis, h variants, IAST and symbols. Derived from the supplied ABC Extended - IAST layout. See README and tools/build_and_verify.py. -->
+<keyboard group="0" id="-28682" name="ABC Extended - IAST 2.2" maxout="8">
   <layouts>
     <layout first="0" last="17" mapSet="maps0" modifiers="mods0"/>
     <layout first="18" last="18" mapSet="maps1" modifiers="mods1"/>
@@ -739,11 +739,11 @@
       <key code="40" action="a111"/>
       <key code="41" action="a112"/>
       <key code="42" action="a113"/>
-      <key code="43" action="iast20_1_43"/>
+      <key code="43" action="iast21_1_43"/>
       <key code="44" action="a115"/>
       <key code="45" action="a116"/>
       <key code="46" action="a117"/>
-      <key code="47" action="iast20_1_47"/>
+      <key code="47" action="iast21_1_47"/>
       <key code="48" action="a48"/>
       <key code="49" action="a49"/>
       <key code="50" action="a119"/>
@@ -956,11 +956,11 @@
       <key code="127" action="a54"/>
     </keyMap>
     <keyMap index="3">
-      <key code="0" action="iast20_3_0"/>
+      <key code="0" action="iast21_3_0"/>
       <key code="1" action="a122"/>
       <key code="2" action="a123"/>
-      <key code="3" action="iast20_3_3"/>
-      <key code="4" action="iast20_3_4"/>
+      <key code="3" action="iast21_3_3"/>
+      <key code="4" action="iast21_3_4"/>
       <key code="5" action="a126"/>
       <key code="6" action="a127"/>
       <key code="7" action="a128"/>
@@ -968,42 +968,42 @@
       <key code="9" action="a130"/>
       <key code="10" action="a10"/>
       <key code="11" action="a131"/>
-      <key code="12" action="iast20_3_12"/>
-      <key code="13" action="iast20_3_13"/>
+      <key code="12" action="iast21_3_12"/>
+      <key code="13" action="iast21_3_13"/>
       <key code="14" action="a134"/>
-      <key code="15" action="iast20_3_15"/>
-      <key code="16" action="iast20_3_16"/>
-      <key code="17" action="iast20_3_17"/>
-      <key code="18" action="a138"/>
-      <key code="19" action="a139"/>
+      <key code="15" action="iast21_3_15"/>
+      <key code="16" action="iast21_3_16"/>
+      <key code="17" action="iast21_3_17"/>
+      <key code="18" action="iast21_3_18"/>
+      <key code="19" action="iast21_3_19"/>
       <key code="20" action="a140"/>
-      <key code="21" action="a141"/>
+      <key code="21" action="iast21_3_21"/>
       <key code="22" action="a142"/>
       <key code="23" action="a10"/>
       <key code="24" action="a143"/>
-      <key code="25" action="iast20_3_25"/>
-      <key code="26" action="iast20_3_26"/>
+      <key code="25" action="iast21_3_25"/>
+      <key code="26" action="iast21_3_26"/>
       <key code="27" action="a146"/>
       <key code="28" action="a147"/>
-      <key code="29" action="iast20_3_29"/>
+      <key code="29" action="iast21_3_29"/>
       <key code="30" action="a149"/>
       <key code="31" action="a150"/>
-      <key code="32" action="iast20_3_32"/>
+      <key code="32" action="iast21_3_32"/>
       <key code="33" action="a152"/>
-      <key code="34" action="iast20_3_34"/>
+      <key code="34" action="iast21_3_34"/>
       <key code="35" action="a154"/>
       <key code="36" action="a36"/>
-      <key code="37" action="iast20_3_37"/>
+      <key code="37" action="iast21_3_37"/>
       <key code="38" action="a156"/>
       <key code="39" action="a157"/>
       <key code="40" action="a158"/>
       <key code="41" action="a159"/>
       <key code="42" action="a160"/>
-      <key code="43" action="a161"/>
+      <key code="43" action="iast21_3_43"/>
       <key code="44" action="a162"/>
       <key code="45" action="a163"/>
-      <key code="46" action="iast20_3_46"/>
-      <key code="47" action="a165"/>
+      <key code="46" action="iast21_3_46"/>
+      <key code="47" action="iast21_3_47"/>
       <key code="48" action="a48"/>
       <key code="49" action="a166"/>
       <key code="50" action="a167"/>
@@ -1216,11 +1216,11 @@
       <key code="127" action="a54"/>
     </keyMap>
     <keyMap index="5">
-      <key code="0" action="iast20_5_0"/>
+      <key code="0" action="iast21_5_0"/>
       <key code="1" action="a188"/>
       <key code="2" action="a189"/>
-      <key code="3" action="iast20_5_3"/>
-      <key code="4" action="iast20_5_4"/>
+      <key code="3" action="iast21_5_3"/>
+      <key code="4" action="iast21_5_4"/>
       <key code="5" action="a192"/>
       <key code="6" action="a193"/>
       <key code="7" action="a194"/>
@@ -1228,42 +1228,42 @@
       <key code="9" action="a196"/>
       <key code="10" action="a84"/>
       <key code="11" action="a197"/>
-      <key code="12" action="iast20_5_12"/>
-      <key code="13" action="iast20_5_13"/>
+      <key code="12" action="iast21_5_12"/>
+      <key code="13" action="iast21_5_13"/>
       <key code="14" action="a200"/>
-      <key code="15" action="iast20_5_15"/>
-      <key code="16" action="iast20_5_16"/>
-      <key code="17" action="iast20_5_17"/>
-      <key code="18" action="a204"/>
-      <key code="19" action="a205"/>
+      <key code="15" action="iast21_5_15"/>
+      <key code="16" action="iast21_5_16"/>
+      <key code="17" action="iast21_5_17"/>
+      <key code="18" action="iast21_5_18"/>
+      <key code="19" action="iast21_5_19"/>
       <key code="20" action="a206"/>
       <key code="21" action="a207"/>
       <key code="22" action="a208"/>
-      <key code="23" action="iast20_5_23"/>
-      <key code="24" action="iast20_5_24"/>
+      <key code="23" action="iast21_5_23"/>
+      <key code="24" action="iast21_5_24"/>
       <key code="25" action="a210"/>
       <key code="26" action="a211"/>
       <key code="27" action="a212"/>
-      <key code="28" action="iast20_5_28"/>
+      <key code="28" action="iast21_5_28"/>
       <key code="29" action="a214"/>
       <key code="30" action="a173"/>
       <key code="31" action="a215"/>
-      <key code="32" action="iast20_5_32"/>
+      <key code="32" action="iast21_5_32"/>
       <key code="33" action="a217"/>
-      <key code="34" action="iast20_5_34"/>
+      <key code="34" action="iast21_5_34"/>
       <key code="35" action="a219"/>
       <key code="36" action="a36"/>
-      <key code="37" action="iast20_5_37"/>
+      <key code="37" action="iast21_5_37"/>
       <key code="38" action="a221"/>
       <key code="39" action="a222"/>
       <key code="40" action="a223"/>
       <key code="41" action="a224"/>
       <key code="42" action="a225"/>
-      <key code="43" action="iast20_5_43"/>
+      <key code="43" action="iast21_5_43"/>
       <key code="44" action="a227"/>
       <key code="45" action="a228"/>
-      <key code="46" action="iast20_5_46"/>
-      <key code="47" action="iast20_5_47"/>
+      <key code="46" action="iast21_5_46"/>
+      <key code="47" action="iast21_5_47"/>
       <key code="48" action="a48"/>
       <key code="49" action="a166"/>
       <key code="50" action="a231"/>
@@ -1358,23 +1358,23 @@
       <key code="9" action="a196"/>
       <key code="10" action="a84"/>
       <key code="11" action="a197"/>
-      <key code="12" action="a198"/>
+      <key code="12" action="iast21_6_12"/>
       <key code="13" action="a199"/>
       <key code="14" action="a200"/>
       <key code="15" action="a237"/>
       <key code="16" action="a202"/>
       <key code="17" action="a238"/>
-      <key code="18" action="a204"/>
-      <key code="19" action="a205"/>
+      <key code="18" action="iast21_6_18"/>
+      <key code="19" action="iast21_6_19"/>
       <key code="20" action="a206"/>
       <key code="21" action="a207"/>
       <key code="22" action="a208"/>
-      <key code="23" action="iast20_6_23"/>
+      <key code="23" action="iast21_6_23"/>
       <key code="24" action="a84"/>
       <key code="25" action="a210"/>
       <key code="26" action="a211"/>
       <key code="27" action="a212"/>
-      <key code="28" action="iast20_6_28"/>
+      <key code="28" action="iast21_6_28"/>
       <key code="29" action="a214"/>
       <key code="30" action="a173"/>
       <key code="31" action="a215"/>
@@ -1389,11 +1389,11 @@
       <key code="40" action="a223"/>
       <key code="41" action="a224"/>
       <key code="42" action="a225"/>
-      <key code="43" action="iast20_6_43"/>
+      <key code="43" action="iast21_6_43"/>
       <key code="44" action="a227"/>
       <key code="45" action="a243"/>
       <key code="46" action="a229"/>
-      <key code="47" action="iast20_6_47"/>
+      <key code="47" action="iast21_6_47"/>
       <key code="48" action="a48"/>
       <key code="49" action="a166"/>
       <key code="50" action="a231"/>
@@ -1488,24 +1488,24 @@
       <key code="9" action="a130"/>
       <key code="10" action="a10"/>
       <key code="11" action="a131"/>
-      <key code="12" action="a198"/>
+      <key code="12" action="iast21_7_12"/>
       <key code="13" action="a133"/>
       <key code="14" action="a134"/>
       <key code="15" action="a179"/>
       <key code="16" action="a136"/>
       <key code="17" action="a238"/>
-      <key code="18" action="a138"/>
-      <key code="19" action="a139"/>
+      <key code="18" action="iast21_7_18"/>
+      <key code="19" action="iast21_7_19"/>
       <key code="20" action="a140"/>
-      <key code="21" action="a141"/>
+      <key code="21" action="iast21_7_21"/>
       <key code="22" action="a142"/>
       <key code="23" action="a10"/>
       <key code="24" action="a143"/>
-      <key code="25" action="iast20_7_25"/>
-      <key code="26" action="iast20_7_26"/>
+      <key code="25" action="iast21_7_25"/>
+      <key code="26" action="iast21_7_26"/>
       <key code="27" action="a146"/>
       <key code="28" action="a147"/>
-      <key code="29" action="iast20_7_29"/>
+      <key code="29" action="iast21_7_29"/>
       <key code="30" action="a149"/>
       <key code="31" action="a215"/>
       <key code="32" action="a247"/>
@@ -1519,11 +1519,11 @@
       <key code="40" action="a158"/>
       <key code="41" action="a159"/>
       <key code="42" action="a160"/>
-      <key code="43" action="a161"/>
+      <key code="43" action="iast21_7_43"/>
       <key code="44" action="a162"/>
       <key code="45" action="a251"/>
       <key code="46" action="a252"/>
-      <key code="47" action="a165"/>
+      <key code="47" action="iast21_7_47"/>
       <key code="48" action="a48"/>
       <key code="49" action="a166"/>
       <key code="50" action="a167"/>
@@ -1911,11 +1911,11 @@
       <key code="40" action="a111"/>
       <key code="41" action="a57"/>
       <key code="42" action="a102"/>
-      <key code="43" action="iast20_1_43"/>
+      <key code="43" action="iast21_1_43"/>
       <key code="44" action="a115"/>
       <key code="45" action="a116"/>
       <key code="46" action="a117"/>
-      <key code="47" action="iast20_1_47"/>
+      <key code="47" action="iast21_1_47"/>
       <key code="48" action="a48"/>
       <key code="49" action="a49"/>
       <key code="50" action="a119"/>
@@ -2128,11 +2128,11 @@
       <key code="127" action="a54"/>
     </keyMap>
     <keyMap index="3">
-      <key code="0" action="iast20_3_0"/>
+      <key code="0" action="iast21_3_0"/>
       <key code="1" action="a122"/>
       <key code="2" action="a123"/>
-      <key code="3" action="iast20_3_3"/>
-      <key code="4" action="iast20_3_4"/>
+      <key code="3" action="iast21_3_3"/>
+      <key code="4" action="iast21_3_4"/>
       <key code="5" action="a126"/>
       <key code="6" action="a127"/>
       <key code="7" action="a128"/>
@@ -2140,42 +2140,42 @@
       <key code="9" action="a130"/>
       <key code="10" action="a10"/>
       <key code="11" action="a131"/>
-      <key code="12" action="iast20_3_12"/>
-      <key code="13" action="iast20_3_13"/>
+      <key code="12" action="iast21_3_12"/>
+      <key code="13" action="iast21_3_13"/>
       <key code="14" action="a134"/>
-      <key code="15" action="iast20_3_15"/>
-      <key code="16" action="iast20_3_16"/>
-      <key code="17" action="iast20_3_17"/>
-      <key code="18" action="a138"/>
-      <key code="19" action="a139"/>
+      <key code="15" action="iast21_3_15"/>
+      <key code="16" action="iast21_3_16"/>
+      <key code="17" action="iast21_3_17"/>
+      <key code="18" action="iast21_3_18"/>
+      <key code="19" action="iast21_3_19"/>
       <key code="20" action="a140"/>
-      <key code="21" action="a141"/>
+      <key code="21" action="iast21_3_21"/>
       <key code="22" action="a142"/>
       <key code="23" action="a10"/>
       <key code="24" action="a143"/>
-      <key code="25" action="iast20_3_25"/>
-      <key code="26" action="iast20_3_26"/>
+      <key code="25" action="iast21_3_25"/>
+      <key code="26" action="iast21_3_26"/>
       <key code="27" action="a146"/>
       <key code="28" action="a147"/>
-      <key code="29" action="iast20_3_29"/>
+      <key code="29" action="iast21_3_29"/>
       <key code="30" action="a149"/>
       <key code="31" action="a150"/>
-      <key code="32" action="iast20_3_32"/>
+      <key code="32" action="iast21_3_32"/>
       <key code="33" action="a152"/>
-      <key code="34" action="iast20_3_34"/>
+      <key code="34" action="iast21_3_34"/>
       <key code="35" action="a154"/>
       <key code="36" action="a36"/>
-      <key code="37" action="iast20_3_37"/>
+      <key code="37" action="iast21_3_37"/>
       <key code="38" action="a156"/>
       <key code="39" action="a157"/>
       <key code="40" action="a158"/>
       <key code="41" action="a159"/>
       <key code="42" action="a160"/>
-      <key code="43" action="a161"/>
+      <key code="43" action="iast21_3_43"/>
       <key code="44" action="a162"/>
       <key code="45" action="a163"/>
-      <key code="46" action="iast20_3_46"/>
-      <key code="47" action="a165"/>
+      <key code="46" action="iast21_3_46"/>
+      <key code="47" action="iast21_3_47"/>
       <key code="48" action="a48"/>
       <key code="49" action="a166"/>
       <key code="50" action="a167"/>
@@ -2388,11 +2388,11 @@
       <key code="127" action="a54"/>
     </keyMap>
     <keyMap index="5">
-      <key code="0" action="iast20_5_0"/>
+      <key code="0" action="iast21_5_0"/>
       <key code="1" action="a188"/>
       <key code="2" action="a189"/>
-      <key code="3" action="iast20_5_3"/>
-      <key code="4" action="iast20_5_4"/>
+      <key code="3" action="iast21_5_3"/>
+      <key code="4" action="iast21_5_4"/>
       <key code="5" action="a192"/>
       <key code="6" action="a193"/>
       <key code="7" action="a194"/>
@@ -2400,42 +2400,42 @@
       <key code="9" action="a196"/>
       <key code="10" action="a84"/>
       <key code="11" action="a197"/>
-      <key code="12" action="iast20_5_12"/>
-      <key code="13" action="iast20_5_13"/>
+      <key code="12" action="iast21_5_12"/>
+      <key code="13" action="iast21_5_13"/>
       <key code="14" action="a200"/>
-      <key code="15" action="iast20_5_15"/>
-      <key code="16" action="iast20_5_16"/>
-      <key code="17" action="iast20_5_17"/>
-      <key code="18" action="a204"/>
-      <key code="19" action="a205"/>
+      <key code="15" action="iast21_5_15"/>
+      <key code="16" action="iast21_5_16"/>
+      <key code="17" action="iast21_5_17"/>
+      <key code="18" action="iast21_5_18"/>
+      <key code="19" action="iast21_5_19"/>
       <key code="20" action="a206"/>
       <key code="21" action="a207"/>
       <key code="22" action="a208"/>
-      <key code="23" action="iast20_5_23"/>
-      <key code="24" action="iast20_5_24"/>
+      <key code="23" action="iast21_5_23"/>
+      <key code="24" action="iast21_5_24"/>
       <key code="25" action="a210"/>
       <key code="26" action="a211"/>
       <key code="27" action="a212"/>
-      <key code="28" action="iast20_5_28"/>
+      <key code="28" action="iast21_5_28"/>
       <key code="29" action="a214"/>
       <key code="30" action="a173"/>
       <key code="31" action="a215"/>
-      <key code="32" action="iast20_5_32"/>
+      <key code="32" action="iast21_5_32"/>
       <key code="33" action="a217"/>
-      <key code="34" action="iast20_5_34"/>
+      <key code="34" action="iast21_5_34"/>
       <key code="35" action="a219"/>
       <key code="36" action="a36"/>
-      <key code="37" action="iast20_5_37"/>
+      <key code="37" action="iast21_5_37"/>
       <key code="38" action="a221"/>
       <key code="39" action="a222"/>
       <key code="40" action="a223"/>
       <key code="41" action="a224"/>
       <key code="42" action="a225"/>
-      <key code="43" action="iast20_5_43"/>
+      <key code="43" action="iast21_5_43"/>
       <key code="44" action="a227"/>
       <key code="45" action="a228"/>
-      <key code="46" action="iast20_5_46"/>
-      <key code="47" action="iast20_5_47"/>
+      <key code="46" action="iast21_5_46"/>
+      <key code="47" action="iast21_5_47"/>
       <key code="48" action="a48"/>
       <key code="49" action="a166"/>
       <key code="50" action="a231"/>
@@ -2530,23 +2530,23 @@
       <key code="9" action="a196"/>
       <key code="10" action="a84"/>
       <key code="11" action="a197"/>
-      <key code="12" action="a198"/>
+      <key code="12" action="iast21_6_12"/>
       <key code="13" action="a199"/>
       <key code="14" action="a200"/>
       <key code="15" action="a237"/>
       <key code="16" action="a202"/>
       <key code="17" action="a238"/>
-      <key code="18" action="a204"/>
-      <key code="19" action="a205"/>
+      <key code="18" action="iast21_6_18"/>
+      <key code="19" action="iast21_6_19"/>
       <key code="20" action="a206"/>
       <key code="21" action="a207"/>
       <key code="22" action="a208"/>
-      <key code="23" action="iast20_6_23"/>
+      <key code="23" action="iast21_6_23"/>
       <key code="24" action="a84"/>
       <key code="25" action="a210"/>
       <key code="26" action="a211"/>
       <key code="27" action="a212"/>
-      <key code="28" action="iast20_6_28"/>
+      <key code="28" action="iast21_6_28"/>
       <key code="29" action="a214"/>
       <key code="30" action="a173"/>
       <key code="31" action="a215"/>
@@ -2561,11 +2561,11 @@
       <key code="40" action="a223"/>
       <key code="41" action="a224"/>
       <key code="42" action="a225"/>
-      <key code="43" action="iast20_6_43"/>
+      <key code="43" action="iast21_6_43"/>
       <key code="44" action="a227"/>
       <key code="45" action="a243"/>
       <key code="46" action="a229"/>
-      <key code="47" action="iast20_6_47"/>
+      <key code="47" action="iast21_6_47"/>
       <key code="48" action="a48"/>
       <key code="49" action="a166"/>
       <key code="50" action="a231"/>
@@ -2660,24 +2660,24 @@
       <key code="9" action="a130"/>
       <key code="10" action="a10"/>
       <key code="11" action="a131"/>
-      <key code="12" action="a198"/>
+      <key code="12" action="iast21_7_12"/>
       <key code="13" action="a133"/>
       <key code="14" action="a134"/>
       <key code="15" action="a179"/>
       <key code="16" action="a136"/>
       <key code="17" action="a238"/>
-      <key code="18" action="a138"/>
-      <key code="19" action="a139"/>
+      <key code="18" action="iast21_7_18"/>
+      <key code="19" action="iast21_7_19"/>
       <key code="20" action="a140"/>
-      <key code="21" action="a141"/>
+      <key code="21" action="iast21_7_21"/>
       <key code="22" action="a142"/>
       <key code="23" action="a10"/>
       <key code="24" action="a143"/>
-      <key code="25" action="iast20_7_25"/>
-      <key code="26" action="iast20_7_26"/>
+      <key code="25" action="iast21_7_25"/>
+      <key code="26" action="iast21_7_26"/>
       <key code="27" action="a146"/>
       <key code="28" action="a147"/>
-      <key code="29" action="iast20_7_29"/>
+      <key code="29" action="iast21_7_29"/>
       <key code="30" action="a149"/>
       <key code="31" action="a215"/>
       <key code="32" action="a247"/>
@@ -2691,11 +2691,11 @@
       <key code="40" action="a158"/>
       <key code="41" action="a159"/>
       <key code="42" action="a160"/>
-      <key code="43" action="a161"/>
+      <key code="43" action="iast21_7_43"/>
       <key code="44" action="a162"/>
       <key code="45" action="a251"/>
       <key code="46" action="a252"/>
-      <key code="47" action="a165"/>
+      <key code="47" action="iast21_7_47"/>
       <key code="48" action="a48"/>
       <key code="49" action="a166"/>
       <key code="50" action="a167"/>
@@ -17219,7 +17219,7 @@
       <when state="s1572864" output="&#x000E;"/>
       <when state="s1638400" output="&#x000E;"/>
     </action>
-    <action id="iast20_1_43">
+    <action id="iast21_1_43">
       <when state="none" output="⟨"/>
       <when state="s1" output="`⟨"/>
       <when state="s2" output="ˇ⟨"/>
@@ -17272,7 +17272,7 @@
       <when state="s1572864" output="⟨"/>
       <when state="s1638400" output="⟨"/>
     </action>
-    <action id="iast20_1_47">
+    <action id="iast21_1_47">
       <when state="none" output="⟩"/>
       <when state="s1" output="`⟩"/>
       <when state="s2" output="ˇ⟩"/>
@@ -17325,7 +17325,7 @@
       <when state="s1572864" output="⟩"/>
       <when state="s1638400" output="⟩"/>
     </action>
-    <action id="iast20_3_0">
+    <action id="iast21_3_0">
       <when state="none" output="ā"/>
       <when state="s1" output="ā̀"/>
       <when state="s2" output="ˇā"/>
@@ -17378,7 +17378,7 @@
       <when state="s1572864" output="ā"/>
       <when state="s1638400" output="ā"/>
     </action>
-    <action id="iast20_3_3">
+    <action id="iast21_3_3">
       <when state="none" output="m̐"/>
       <when state="s1" output="`m̐"/>
       <when state="s2" output="ˇm̐"/>
@@ -17431,7 +17431,7 @@
       <when state="s1572864" output="m̐"/>
       <when state="s1638400" output="m̐"/>
     </action>
-    <action id="iast20_3_4">
+    <action id="iast21_3_4">
       <when state="none" output="ḥ"/>
       <when state="s1" output="`ḥ"/>
       <when state="s2" output="ˇḥ"/>
@@ -17484,60 +17484,60 @@
       <when state="s1572864" output="ḥ"/>
       <when state="s1638400" output="ḥ"/>
     </action>
-    <action id="iast20_3_12">
-      <when state="none" output="ḫ"/>
-      <when state="s1" output="`ḫ"/>
-      <when state="s2" output="ˇḫ"/>
-      <when state="s3" output="¯ḫ"/>
-      <when state="s4" output="¸ḫ"/>
-      <when state="s5" output="ʼḫ"/>
-      <when state="s6" output="˜ḫ"/>
-      <when state="s7" output="ˀḫ"/>
-      <when state="s8" output=" ̏ḫ"/>
-      <when state="s9" output="˝ḫ"/>
-      <when state="s10" output="´ḫ"/>
-      <when state="s11" output="-ḫ"/>
-      <when state="s12" output="˙ḫ"/>
-      <when state="s13" output="¨ḫ"/>
-      <when state="s14" output="˘ḫ"/>
-      <when state="s15" output="ʔḫ"/>
-      <when state="s16" output="№ḫ"/>
-      <when state="s17" output=",ḫ"/>
-      <when state="s18" output=".ḫ"/>
-      <when state="s19" output="˛ḫ"/>
-      <when state="s20" output="ˍḫ"/>
-      <when state="s21" output=" ̰ḫ"/>
-      <when state="s22" output="˚ḫ"/>
-      <when state="s23" output="ˆḫ"/>
-      <when state="s24" output="‸ḫ"/>
-      <when state="s25" output=" ̑ḫ"/>
-      <when state="s65536" output="ḫ"/>
-      <when state="s131072" output="ḫ"/>
-      <when state="s196608" output="ḫ"/>
-      <when state="s262144" output="ḫ"/>
-      <when state="s327680" output="ḫ"/>
-      <when state="s393216" output="ḫ"/>
-      <when state="s458752" output="ḫ"/>
-      <when state="s524288" output="ḫ"/>
-      <when state="s589824" output="ḫ"/>
-      <when state="s655360" output="ḫ"/>
-      <when state="s720896" output="ḫ"/>
-      <when state="s786432" output="ḫ"/>
-      <when state="s851968" output="ḫ"/>
-      <when state="s917504" output="ḫ"/>
-      <when state="s983040" output="ḫ"/>
-      <when state="s1048576" output="ḫ"/>
-      <when state="s1114112" output="ḫ"/>
-      <when state="s1179648" output="ḫ"/>
-      <when state="s1245184" output="ḫ"/>
-      <when state="s1310720" output="ḫ"/>
-      <when state="s1376256" output="ḫ"/>
-      <when state="s1441792" output="ḫ"/>
-      <when state="s1507328" output="ḫ"/>
-      <when state="s1572864" output="ḫ"/>
-      <when state="s1638400" output="ḫ"/>
+    <action id="iast21_3_12">
+      <when state="none" output="̈"/>
+      <when state="s1" output="`̈"/>
+      <when state="s2" output="ˇ̈"/>
+      <when state="s3" output="¯̈"/>
+      <when state="s4" output="¸̈"/>
+      <when state="s5" output="ʼ̈"/>
+      <when state="s6" output="˜̈"/>
+      <when state="s7" output="ˀ̈"/>
+      <when state="s8" output=" ̏̈"/>
+      <when state="s9" output="˝̈"/>
+      <when state="s10" output="´̈"/>
+      <when state="s11" output="-̈"/>
+      <when state="s12" output="˙̈"/>
+      <when state="s13" output="¨̈"/>
+      <when state="s14" output="˘̈"/>
+      <when state="s15" output="ʔ̈"/>
+      <when state="s16" output="№̈"/>
+      <when state="s17" output=",̈"/>
+      <when state="s18" output=".̈"/>
+      <when state="s19" output="˛̈"/>
+      <when state="s20" output="ˍ̈"/>
+      <when state="s21" output=" ̰̈"/>
+      <when state="s22" output="˚̈"/>
+      <when state="s23" output="ˆ̈"/>
+      <when state="s24" output="‸̈"/>
+      <when state="s25" output=" ̑̈"/>
+      <when state="s65536" output="̈"/>
+      <when state="s131072" output="̈"/>
+      <when state="s196608" output="̈"/>
+      <when state="s262144" output="̈"/>
+      <when state="s327680" output="̈"/>
+      <when state="s393216" output="̈"/>
+      <when state="s458752" output="̈"/>
+      <when state="s524288" output="̈"/>
+      <when state="s589824" output="̈"/>
+      <when state="s655360" output="̈"/>
+      <when state="s720896" output="̈"/>
+      <when state="s786432" output="̈"/>
+      <when state="s851968" output="̈"/>
+      <when state="s917504" output="̈"/>
+      <when state="s983040" output="̈"/>
+      <when state="s1048576" output="̈"/>
+      <when state="s1114112" output="̈"/>
+      <when state="s1179648" output="̈"/>
+      <when state="s1245184" output="̈"/>
+      <when state="s1310720" output="̈"/>
+      <when state="s1376256" output="̈"/>
+      <when state="s1441792" output="̈"/>
+      <when state="s1507328" output="̈"/>
+      <when state="s1572864" output="̈"/>
+      <when state="s1638400" output="̈"/>
     </action>
-    <action id="iast20_3_13">
+    <action id="iast21_3_13">
       <when state="none" output="ṁ"/>
       <when state="s1" output="`ṁ"/>
       <when state="s2" output="ˇṁ"/>
@@ -17590,7 +17590,7 @@
       <when state="s1572864" output="ṁ"/>
       <when state="s1638400" output="ṁ"/>
     </action>
-    <action id="iast20_3_15">
+    <action id="iast21_3_15">
       <when state="none" output="ṛ"/>
       <when state="s1" output="ṛ̀"/>
       <when state="s2" output="ˇṛ"/>
@@ -17643,7 +17643,7 @@
       <when state="s1572864" output="ṛ"/>
       <when state="s1638400" output="ṛ"/>
     </action>
-    <action id="iast20_3_16">
+    <action id="iast21_3_16">
       <when state="none" output="r̥"/>
       <when state="s1" output="r̥̀"/>
       <when state="s2" output="ˇr̥"/>
@@ -17696,7 +17696,7 @@
       <when state="s1572864" output="r̥"/>
       <when state="s1638400" output="r̥"/>
     </action>
-    <action id="iast20_3_17">
+    <action id="iast21_3_17">
       <when state="none" output="ṭ"/>
       <when state="s1" output="`ṭ"/>
       <when state="s2" output="ˇṭ"/>
@@ -17749,855 +17749,113 @@
       <when state="s1572864" output="ṭ"/>
       <when state="s1638400" output="ṭ"/>
     </action>
-    <action id="iast20_3_25">
-      <when state="none" output="⏑"/>
-      <when state="s1" output="`⏑"/>
-      <when state="s2" output="ˇ⏑"/>
-      <when state="s3" output="¯⏑"/>
-      <when state="s4" output="¸⏑"/>
-      <when state="s5" output="ʼ⏑"/>
-      <when state="s6" output="˜⏑"/>
-      <when state="s7" output="ˀ⏑"/>
-      <when state="s8" output=" ̏⏑"/>
-      <when state="s9" output="˝⏑"/>
-      <when state="s10" output="´⏑"/>
-      <when state="s11" output="-⏑"/>
-      <when state="s12" output="˙⏑"/>
-      <when state="s13" output="¨⏑"/>
-      <when state="s14" output="˘⏑"/>
-      <when state="s15" output="ʔ⏑"/>
-      <when state="s16" output="№⏑"/>
-      <when state="s17" output=",⏑"/>
-      <when state="s18" output=".⏑"/>
-      <when state="s19" output="˛⏑"/>
-      <when state="s20" output="ˍ⏑"/>
-      <when state="s21" output=" ̰⏑"/>
-      <when state="s22" output="˚⏑"/>
-      <when state="s23" output="ˆ⏑"/>
-      <when state="s24" output="‸⏑"/>
-      <when state="s25" output=" ̑⏑"/>
-      <when state="s65536" output="⏑"/>
-      <when state="s131072" output="⏑"/>
-      <when state="s196608" output="⏑"/>
-      <when state="s262144" output="⏑"/>
-      <when state="s327680" output="⏑"/>
-      <when state="s393216" output="⏑"/>
-      <when state="s458752" output="⏑"/>
-      <when state="s524288" output="⏑"/>
-      <when state="s589824" output="⏑"/>
-      <when state="s655360" output="⏑"/>
-      <when state="s720896" output="⏑"/>
-      <when state="s786432" output="⏑"/>
-      <when state="s851968" output="⏑"/>
-      <when state="s917504" output="⏑"/>
-      <when state="s983040" output="⏑"/>
-      <when state="s1048576" output="⏑"/>
-      <when state="s1114112" output="⏑"/>
-      <when state="s1179648" output="⏑"/>
-      <when state="s1245184" output="⏑"/>
-      <when state="s1310720" output="⏑"/>
-      <when state="s1376256" output="⏑"/>
-      <when state="s1441792" output="⏑"/>
-      <when state="s1507328" output="⏑"/>
-      <when state="s1572864" output="⏑"/>
-      <when state="s1638400" output="⏑"/>
+    <action id="iast21_3_18">
+      <when state="none" output="ḫ"/>
+      <when state="s1" output="`ḫ"/>
+      <when state="s2" output="ˇḫ"/>
+      <when state="s3" output="¯ḫ"/>
+      <when state="s4" output="¸ḫ"/>
+      <when state="s5" output="ʼḫ"/>
+      <when state="s6" output="˜ḫ"/>
+      <when state="s7" output="ˀḫ"/>
+      <when state="s8" output=" ̏ḫ"/>
+      <when state="s9" output="˝ḫ"/>
+      <when state="s10" output="´ḫ"/>
+      <when state="s11" output="-ḫ"/>
+      <when state="s12" output="˙ḫ"/>
+      <when state="s13" output="¨ḫ"/>
+      <when state="s14" output="˘ḫ"/>
+      <when state="s15" output="ʔḫ"/>
+      <when state="s16" output="№ḫ"/>
+      <when state="s17" output=",ḫ"/>
+      <when state="s18" output=".ḫ"/>
+      <when state="s19" output="˛ḫ"/>
+      <when state="s20" output="ˍḫ"/>
+      <when state="s21" output=" ̰ḫ"/>
+      <when state="s22" output="˚ḫ"/>
+      <when state="s23" output="ˆḫ"/>
+      <when state="s24" output="‸ḫ"/>
+      <when state="s25" output=" ̑ḫ"/>
+      <when state="s65536" output="ḫ"/>
+      <when state="s131072" output="ḫ"/>
+      <when state="s196608" output="ḫ"/>
+      <when state="s262144" output="ḫ"/>
+      <when state="s327680" output="ḫ"/>
+      <when state="s393216" output="ḫ"/>
+      <when state="s458752" output="ḫ"/>
+      <when state="s524288" output="ḫ"/>
+      <when state="s589824" output="ḫ"/>
+      <when state="s655360" output="ḫ"/>
+      <when state="s720896" output="ḫ"/>
+      <when state="s786432" output="ḫ"/>
+      <when state="s851968" output="ḫ"/>
+      <when state="s917504" output="ḫ"/>
+      <when state="s983040" output="ḫ"/>
+      <when state="s1048576" output="ḫ"/>
+      <when state="s1114112" output="ḫ"/>
+      <when state="s1179648" output="ḫ"/>
+      <when state="s1245184" output="ḫ"/>
+      <when state="s1310720" output="ḫ"/>
+      <when state="s1376256" output="ḫ"/>
+      <when state="s1441792" output="ḫ"/>
+      <when state="s1507328" output="ḫ"/>
+      <when state="s1572864" output="ḫ"/>
+      <when state="s1638400" output="ḫ"/>
     </action>
-    <action id="iast20_3_26">
-      <when state="none" output="°"/>
-      <when state="s1" output="`°"/>
-      <when state="s2" output="ˇ°"/>
-      <when state="s3" output="¯°"/>
-      <when state="s4" output="¸°"/>
-      <when state="s5" output="ʼ°"/>
-      <when state="s6" output="˜°"/>
-      <when state="s7" output="ˀ°"/>
-      <when state="s8" output=" ̏°"/>
-      <when state="s9" output="˝°"/>
-      <when state="s10" output="´°"/>
-      <when state="s11" output="-°"/>
-      <when state="s12" output="˙°"/>
-      <when state="s13" output="¨°"/>
-      <when state="s14" output="˘°"/>
-      <when state="s15" output="ʔ°"/>
-      <when state="s16" output="№°"/>
-      <when state="s17" output=",°"/>
-      <when state="s18" output=".°"/>
-      <when state="s19" output="˛°"/>
-      <when state="s20" output="ˍ°"/>
-      <when state="s21" output=" ̰°"/>
-      <when state="s22" output="˚°"/>
-      <when state="s23" output="ˆ°"/>
-      <when state="s24" output="‸°"/>
-      <when state="s25" output=" ̑°"/>
-      <when state="s65536" output="°"/>
-      <when state="s131072" output="°"/>
-      <when state="s196608" output="°"/>
-      <when state="s262144" output="°"/>
-      <when state="s327680" output="°"/>
-      <when state="s393216" output="°"/>
-      <when state="s458752" output="°"/>
-      <when state="s524288" output="°"/>
-      <when state="s589824" output="°"/>
-      <when state="s655360" output="°"/>
-      <when state="s720896" output="°"/>
-      <when state="s786432" output="°"/>
-      <when state="s851968" output="°"/>
-      <when state="s917504" output="°"/>
-      <when state="s983040" output="°"/>
-      <when state="s1048576" output="°"/>
-      <when state="s1114112" output="°"/>
-      <when state="s1179648" output="°"/>
-      <when state="s1245184" output="°"/>
-      <when state="s1310720" output="°"/>
-      <when state="s1376256" output="°"/>
-      <when state="s1441792" output="°"/>
-      <when state="s1507328" output="°"/>
-      <when state="s1572864" output="°"/>
-      <when state="s1638400" output="°"/>
+    <action id="iast21_3_19">
+      <when state="none" output="ẖ"/>
+      <when state="s1" output="`ẖ"/>
+      <when state="s2" output="ˇẖ"/>
+      <when state="s3" output="¯ẖ"/>
+      <when state="s4" output="¸ẖ"/>
+      <when state="s5" output="ʼẖ"/>
+      <when state="s6" output="˜ẖ"/>
+      <when state="s7" output="ˀẖ"/>
+      <when state="s8" output=" ̏ẖ"/>
+      <when state="s9" output="˝ẖ"/>
+      <when state="s10" output="´ẖ"/>
+      <when state="s11" output="-ẖ"/>
+      <when state="s12" output="˙ẖ"/>
+      <when state="s13" output="¨ẖ"/>
+      <when state="s14" output="˘ẖ"/>
+      <when state="s15" output="ʔẖ"/>
+      <when state="s16" output="№ẖ"/>
+      <when state="s17" output=",ẖ"/>
+      <when state="s18" output=".ẖ"/>
+      <when state="s19" output="˛ẖ"/>
+      <when state="s20" output="ˍẖ"/>
+      <when state="s21" output=" ̰ẖ"/>
+      <when state="s22" output="˚ẖ"/>
+      <when state="s23" output="ˆẖ"/>
+      <when state="s24" output="‸ẖ"/>
+      <when state="s25" output=" ̑ẖ"/>
+      <when state="s65536" output="ẖ"/>
+      <when state="s131072" output="ẖ"/>
+      <when state="s196608" output="ẖ"/>
+      <when state="s262144" output="ẖ"/>
+      <when state="s327680" output="ẖ"/>
+      <when state="s393216" output="ẖ"/>
+      <when state="s458752" output="ẖ"/>
+      <when state="s524288" output="ẖ"/>
+      <when state="s589824" output="ẖ"/>
+      <when state="s655360" output="ẖ"/>
+      <when state="s720896" output="ẖ"/>
+      <when state="s786432" output="ẖ"/>
+      <when state="s851968" output="ẖ"/>
+      <when state="s917504" output="ẖ"/>
+      <when state="s983040" output="ẖ"/>
+      <when state="s1048576" output="ẖ"/>
+      <when state="s1114112" output="ẖ"/>
+      <when state="s1179648" output="ẖ"/>
+      <when state="s1245184" output="ẖ"/>
+      <when state="s1310720" output="ẖ"/>
+      <when state="s1376256" output="ẖ"/>
+      <when state="s1441792" output="ẖ"/>
+      <when state="s1507328" output="ẖ"/>
+      <when state="s1572864" output="ẖ"/>
+      <when state="s1638400" output="ẖ"/>
     </action>
-    <action id="iast20_3_29">
-      <when state="none" output="⏓"/>
-      <when state="s1" output="`⏓"/>
-      <when state="s2" output="ˇ⏓"/>
-      <when state="s3" output="¯⏓"/>
-      <when state="s4" output="¸⏓"/>
-      <when state="s5" output="ʼ⏓"/>
-      <when state="s6" output="˜⏓"/>
-      <when state="s7" output="ˀ⏓"/>
-      <when state="s8" output=" ̏⏓"/>
-      <when state="s9" output="˝⏓"/>
-      <when state="s10" output="´⏓"/>
-      <when state="s11" output="-⏓"/>
-      <when state="s12" output="˙⏓"/>
-      <when state="s13" output="¨⏓"/>
-      <when state="s14" output="˘⏓"/>
-      <when state="s15" output="ʔ⏓"/>
-      <when state="s16" output="№⏓"/>
-      <when state="s17" output=",⏓"/>
-      <when state="s18" output=".⏓"/>
-      <when state="s19" output="˛⏓"/>
-      <when state="s20" output="ˍ⏓"/>
-      <when state="s21" output=" ̰⏓"/>
-      <when state="s22" output="˚⏓"/>
-      <when state="s23" output="ˆ⏓"/>
-      <when state="s24" output="‸⏓"/>
-      <when state="s25" output=" ̑⏓"/>
-      <when state="s65536" output="⏓"/>
-      <when state="s131072" output="⏓"/>
-      <when state="s196608" output="⏓"/>
-      <when state="s262144" output="⏓"/>
-      <when state="s327680" output="⏓"/>
-      <when state="s393216" output="⏓"/>
-      <when state="s458752" output="⏓"/>
-      <when state="s524288" output="⏓"/>
-      <when state="s589824" output="⏓"/>
-      <when state="s655360" output="⏓"/>
-      <when state="s720896" output="⏓"/>
-      <when state="s786432" output="⏓"/>
-      <when state="s851968" output="⏓"/>
-      <when state="s917504" output="⏓"/>
-      <when state="s983040" output="⏓"/>
-      <when state="s1048576" output="⏓"/>
-      <when state="s1114112" output="⏓"/>
-      <when state="s1179648" output="⏓"/>
-      <when state="s1245184" output="⏓"/>
-      <when state="s1310720" output="⏓"/>
-      <when state="s1376256" output="⏓"/>
-      <when state="s1441792" output="⏓"/>
-      <when state="s1507328" output="⏓"/>
-      <when state="s1572864" output="⏓"/>
-      <when state="s1638400" output="⏓"/>
-    </action>
-    <action id="iast20_3_32">
-      <when state="none" output="ū"/>
-      <when state="s1" output="ū̀"/>
-      <when state="s2" output="ˇū"/>
-      <when state="s3" output="¯ū"/>
-      <when state="s4" output="¸ū"/>
-      <when state="s5" output="ʼū"/>
-      <when state="s6" output="˜ū"/>
-      <when state="s7" output="ˀū"/>
-      <when state="s8" output=" ̏ū"/>
-      <when state="s9" output="˝ū"/>
-      <when state="s10" output="ū́"/>
-      <when state="s11" output="-ū"/>
-      <when state="s12" output="˙ū"/>
-      <when state="s13" output="¨ū"/>
-      <when state="s14" output="˘ū"/>
-      <when state="s15" output="ʔū"/>
-      <when state="s16" output="№ū"/>
-      <when state="s17" output=",ū"/>
-      <when state="s18" output=".ū"/>
-      <when state="s19" output="˛ū"/>
-      <when state="s20" output="ˍū"/>
-      <when state="s21" output=" ̰ū"/>
-      <when state="s22" output="˚ū"/>
-      <when state="s23" output="ū̂"/>
-      <when state="s24" output="‸ū"/>
-      <when state="s25" output=" ̑ū"/>
-      <when state="s65536" output="ū"/>
-      <when state="s131072" output="ū"/>
-      <when state="s196608" output="ū"/>
-      <when state="s262144" output="ū"/>
-      <when state="s327680" output="ū"/>
-      <when state="s393216" output="ū"/>
-      <when state="s458752" output="ū"/>
-      <when state="s524288" output="ū"/>
-      <when state="s589824" output="ū"/>
-      <when state="s655360" output="ū"/>
-      <when state="s720896" output="ū"/>
-      <when state="s786432" output="ū"/>
-      <when state="s851968" output="ū"/>
-      <when state="s917504" output="ū"/>
-      <when state="s983040" output="ū"/>
-      <when state="s1048576" output="ū"/>
-      <when state="s1114112" output="ū"/>
-      <when state="s1179648" output="ū"/>
-      <when state="s1245184" output="ū"/>
-      <when state="s1310720" output="ū"/>
-      <when state="s1376256" output="ū"/>
-      <when state="s1441792" output="ū"/>
-      <when state="s1507328" output="ū"/>
-      <when state="s1572864" output="ū"/>
-      <when state="s1638400" output="ū"/>
-    </action>
-    <action id="iast20_3_34">
-      <when state="none" output="ī"/>
-      <when state="s1" output="ī̀"/>
-      <when state="s2" output="ˇī"/>
-      <when state="s3" output="¯ī"/>
-      <when state="s4" output="¸ī"/>
-      <when state="s5" output="ʼī"/>
-      <when state="s6" output="˜ī"/>
-      <when state="s7" output="ˀī"/>
-      <when state="s8" output=" ̏ī"/>
-      <when state="s9" output="˝ī"/>
-      <when state="s10" output="ī́"/>
-      <when state="s11" output="-ī"/>
-      <when state="s12" output="˙ī"/>
-      <when state="s13" output="¨ī"/>
-      <when state="s14" output="˘ī"/>
-      <when state="s15" output="ʔī"/>
-      <when state="s16" output="№ī"/>
-      <when state="s17" output=",ī"/>
-      <when state="s18" output=".ī"/>
-      <when state="s19" output="˛ī"/>
-      <when state="s20" output="ˍī"/>
-      <when state="s21" output=" ̰ī"/>
-      <when state="s22" output="˚ī"/>
-      <when state="s23" output="ī̂"/>
-      <when state="s24" output="‸ī"/>
-      <when state="s25" output=" ̑ī"/>
-      <when state="s65536" output="ī"/>
-      <when state="s131072" output="ī"/>
-      <when state="s196608" output="ī"/>
-      <when state="s262144" output="ī"/>
-      <when state="s327680" output="ī"/>
-      <when state="s393216" output="ī"/>
-      <when state="s458752" output="ī"/>
-      <when state="s524288" output="ī"/>
-      <when state="s589824" output="ī"/>
-      <when state="s655360" output="ī"/>
-      <when state="s720896" output="ī"/>
-      <when state="s786432" output="ī"/>
-      <when state="s851968" output="ī"/>
-      <when state="s917504" output="ī"/>
-      <when state="s983040" output="ī"/>
-      <when state="s1048576" output="ī"/>
-      <when state="s1114112" output="ī"/>
-      <when state="s1179648" output="ī"/>
-      <when state="s1245184" output="ī"/>
-      <when state="s1310720" output="ī"/>
-      <when state="s1376256" output="ī"/>
-      <when state="s1441792" output="ī"/>
-      <when state="s1507328" output="ī"/>
-      <when state="s1572864" output="ī"/>
-      <when state="s1638400" output="ī"/>
-    </action>
-    <action id="iast20_3_37">
-      <when state="none" output="ḷ"/>
-      <when state="s1" output="ḷ̀"/>
-      <when state="s2" output="ˇḷ"/>
-      <when state="s3" output="¯ḷ"/>
-      <when state="s4" output="¸ḷ"/>
-      <when state="s5" output="ʼḷ"/>
-      <when state="s6" output="˜ḷ"/>
-      <when state="s7" output="ˀḷ"/>
-      <when state="s8" output=" ̏ḷ"/>
-      <when state="s9" output="˝ḷ"/>
-      <when state="s10" output="ḷ́"/>
-      <when state="s11" output="-ḷ"/>
-      <when state="s12" output="˙ḷ"/>
-      <when state="s13" output="¨ḷ"/>
-      <when state="s14" output="˘ḷ"/>
-      <when state="s15" output="ʔḷ"/>
-      <when state="s16" output="№ḷ"/>
-      <when state="s17" output=",ḷ"/>
-      <when state="s18" output=".ḷ"/>
-      <when state="s19" output="˛ḷ"/>
-      <when state="s20" output="ˍḷ"/>
-      <when state="s21" output=" ̰ḷ"/>
-      <when state="s22" output="˚ḷ"/>
-      <when state="s23" output="ḷ̂"/>
-      <when state="s24" output="‸ḷ"/>
-      <when state="s25" output=" ̑ḷ"/>
-      <when state="s65536" output="ḷ"/>
-      <when state="s131072" output="ḷ"/>
-      <when state="s196608" output="ḷ"/>
-      <when state="s262144" output="ḷ"/>
-      <when state="s327680" output="ḷ"/>
-      <when state="s393216" output="ḷ"/>
-      <when state="s458752" output="ḷ"/>
-      <when state="s524288" output="ḷ"/>
-      <when state="s589824" output="ḷ"/>
-      <when state="s655360" output="ḷ"/>
-      <when state="s720896" output="ḷ"/>
-      <when state="s786432" output="ḷ"/>
-      <when state="s851968" output="ḷ"/>
-      <when state="s917504" output="ḷ"/>
-      <when state="s983040" output="ḷ"/>
-      <when state="s1048576" output="ḷ"/>
-      <when state="s1114112" output="ḷ"/>
-      <when state="s1179648" output="ḷ"/>
-      <when state="s1245184" output="ḷ"/>
-      <when state="s1310720" output="ḷ"/>
-      <when state="s1376256" output="ḷ"/>
-      <when state="s1441792" output="ḷ"/>
-      <when state="s1507328" output="ḷ"/>
-      <when state="s1572864" output="ḷ"/>
-      <when state="s1638400" output="ḷ"/>
-    </action>
-    <action id="iast20_3_46">
-      <when state="none" output="ṃ"/>
-      <when state="s1" output="`ṃ"/>
-      <when state="s2" output="ˇṃ"/>
-      <when state="s3" output="¯ṃ"/>
-      <when state="s4" output="¸ṃ"/>
-      <when state="s5" output="ʼṃ"/>
-      <when state="s6" output="˜ṃ"/>
-      <when state="s7" output="ˀṃ"/>
-      <when state="s8" output=" ̏ṃ"/>
-      <when state="s9" output="˝ṃ"/>
-      <when state="s10" output="´ṃ"/>
-      <when state="s11" output="-ṃ"/>
-      <when state="s12" output="˙ṃ"/>
-      <when state="s13" output="¨ṃ"/>
-      <when state="s14" output="˘ṃ"/>
-      <when state="s15" output="ʔṃ"/>
-      <when state="s16" output="№ṃ"/>
-      <when state="s17" output=",ṃ"/>
-      <when state="s18" output=".ṃ"/>
-      <when state="s19" output="˛ṃ"/>
-      <when state="s20" output="ˍṃ"/>
-      <when state="s21" output=" ̰ṃ"/>
-      <when state="s22" output="˚ṃ"/>
-      <when state="s23" output="ˆṃ"/>
-      <when state="s24" output="‸ṃ"/>
-      <when state="s25" output=" ̑ṃ"/>
-      <when state="s65536" output="ṃ"/>
-      <when state="s131072" output="ṃ"/>
-      <when state="s196608" output="ṃ"/>
-      <when state="s262144" output="ṃ"/>
-      <when state="s327680" output="ṃ"/>
-      <when state="s393216" output="ṃ"/>
-      <when state="s458752" output="ṃ"/>
-      <when state="s524288" output="ṃ"/>
-      <when state="s589824" output="ṃ"/>
-      <when state="s655360" output="ṃ"/>
-      <when state="s720896" output="ṃ"/>
-      <when state="s786432" output="ṃ"/>
-      <when state="s851968" output="ṃ"/>
-      <when state="s917504" output="ṃ"/>
-      <when state="s983040" output="ṃ"/>
-      <when state="s1048576" output="ṃ"/>
-      <when state="s1114112" output="ṃ"/>
-      <when state="s1179648" output="ṃ"/>
-      <when state="s1245184" output="ṃ"/>
-      <when state="s1310720" output="ṃ"/>
-      <when state="s1376256" output="ṃ"/>
-      <when state="s1441792" output="ṃ"/>
-      <when state="s1507328" output="ṃ"/>
-      <when state="s1572864" output="ṃ"/>
-      <when state="s1638400" output="ṃ"/>
-    </action>
-    <action id="iast20_5_0">
-      <when state="none" output="Ā"/>
-      <when state="s1" output="Ā̀"/>
-      <when state="s2" output="ˇĀ"/>
-      <when state="s3" output="¯Ā"/>
-      <when state="s4" output="¸Ā"/>
-      <when state="s5" output="ʼĀ"/>
-      <when state="s6" output="˜Ā"/>
-      <when state="s7" output="ˀĀ"/>
-      <when state="s8" output=" ̏Ā"/>
-      <when state="s9" output="˝Ā"/>
-      <when state="s10" output="Ā́"/>
-      <when state="s11" output="-Ā"/>
-      <when state="s12" output="˙Ā"/>
-      <when state="s13" output="¨Ā"/>
-      <when state="s14" output="˘Ā"/>
-      <when state="s15" output="ʔĀ"/>
-      <when state="s16" output="№Ā"/>
-      <when state="s17" output=",Ā"/>
-      <when state="s18" output=".Ā"/>
-      <when state="s19" output="˛Ā"/>
-      <when state="s20" output="ˍĀ"/>
-      <when state="s21" output=" ̰Ā"/>
-      <when state="s22" output="˚Ā"/>
-      <when state="s23" output="Ā̂"/>
-      <when state="s24" output="‸Ā"/>
-      <when state="s25" output=" ̑Ā"/>
-      <when state="s65536" output="Ā"/>
-      <when state="s131072" output="Ā"/>
-      <when state="s196608" output="Ā"/>
-      <when state="s262144" output="Ā"/>
-      <when state="s327680" output="Ā"/>
-      <when state="s393216" output="Ā"/>
-      <when state="s458752" output="Ā"/>
-      <when state="s524288" output="Ā"/>
-      <when state="s589824" output="Ā"/>
-      <when state="s655360" output="Ā"/>
-      <when state="s720896" output="Ā"/>
-      <when state="s786432" output="Ā"/>
-      <when state="s851968" output="Ā"/>
-      <when state="s917504" output="Ā"/>
-      <when state="s983040" output="Ā"/>
-      <when state="s1048576" output="Ā"/>
-      <when state="s1114112" output="Ā"/>
-      <when state="s1179648" output="Ā"/>
-      <when state="s1245184" output="Ā"/>
-      <when state="s1310720" output="Ā"/>
-      <when state="s1376256" output="Ā"/>
-      <when state="s1441792" output="Ā"/>
-      <when state="s1507328" output="Ā"/>
-      <when state="s1572864" output="Ā"/>
-      <when state="s1638400" output="Ā"/>
-    </action>
-    <action id="iast20_5_3">
-      <when state="none" output="M̐"/>
-      <when state="s1" output="`M̐"/>
-      <when state="s2" output="ˇM̐"/>
-      <when state="s3" output="¯M̐"/>
-      <when state="s4" output="¸M̐"/>
-      <when state="s5" output="ʼM̐"/>
-      <when state="s6" output="˜M̐"/>
-      <when state="s7" output="ˀM̐"/>
-      <when state="s8" output=" ̏M̐"/>
-      <when state="s9" output="˝M̐"/>
-      <when state="s10" output="´M̐"/>
-      <when state="s11" output="-M̐"/>
-      <when state="s12" output="˙M̐"/>
-      <when state="s13" output="¨M̐"/>
-      <when state="s14" output="˘M̐"/>
-      <when state="s15" output="ʔM̐"/>
-      <when state="s16" output="№M̐"/>
-      <when state="s17" output=",M̐"/>
-      <when state="s18" output=".M̐"/>
-      <when state="s19" output="˛M̐"/>
-      <when state="s20" output="ˍM̐"/>
-      <when state="s21" output=" ̰M̐"/>
-      <when state="s22" output="˚M̐"/>
-      <when state="s23" output="ˆM̐"/>
-      <when state="s24" output="‸M̐"/>
-      <when state="s25" output=" ̑M̐"/>
-      <when state="s65536" output="M̐"/>
-      <when state="s131072" output="M̐"/>
-      <when state="s196608" output="M̐"/>
-      <when state="s262144" output="M̐"/>
-      <when state="s327680" output="M̐"/>
-      <when state="s393216" output="M̐"/>
-      <when state="s458752" output="M̐"/>
-      <when state="s524288" output="M̐"/>
-      <when state="s589824" output="M̐"/>
-      <when state="s655360" output="M̐"/>
-      <when state="s720896" output="M̐"/>
-      <when state="s786432" output="M̐"/>
-      <when state="s851968" output="M̐"/>
-      <when state="s917504" output="M̐"/>
-      <when state="s983040" output="M̐"/>
-      <when state="s1048576" output="M̐"/>
-      <when state="s1114112" output="M̐"/>
-      <when state="s1179648" output="M̐"/>
-      <when state="s1245184" output="M̐"/>
-      <when state="s1310720" output="M̐"/>
-      <when state="s1376256" output="M̐"/>
-      <when state="s1441792" output="M̐"/>
-      <when state="s1507328" output="M̐"/>
-      <when state="s1572864" output="M̐"/>
-      <when state="s1638400" output="M̐"/>
-    </action>
-    <action id="iast20_5_4">
-      <when state="none" output="Ḥ"/>
-      <when state="s1" output="`Ḥ"/>
-      <when state="s2" output="ˇḤ"/>
-      <when state="s3" output="¯Ḥ"/>
-      <when state="s4" output="¸Ḥ"/>
-      <when state="s5" output="ʼḤ"/>
-      <when state="s6" output="˜Ḥ"/>
-      <when state="s7" output="ˀḤ"/>
-      <when state="s8" output=" ̏Ḥ"/>
-      <when state="s9" output="˝Ḥ"/>
-      <when state="s10" output="´Ḥ"/>
-      <when state="s11" output="-Ḥ"/>
-      <when state="s12" output="˙Ḥ"/>
-      <when state="s13" output="¨Ḥ"/>
-      <when state="s14" output="˘Ḥ"/>
-      <when state="s15" output="ʔḤ"/>
-      <when state="s16" output="№Ḥ"/>
-      <when state="s17" output=",Ḥ"/>
-      <when state="s18" output=".Ḥ"/>
-      <when state="s19" output="˛Ḥ"/>
-      <when state="s20" output="ˍḤ"/>
-      <when state="s21" output=" ̰Ḥ"/>
-      <when state="s22" output="˚Ḥ"/>
-      <when state="s23" output="ˆḤ"/>
-      <when state="s24" output="‸Ḥ"/>
-      <when state="s25" output=" ̑Ḥ"/>
-      <when state="s65536" output="Ḥ"/>
-      <when state="s131072" output="Ḥ"/>
-      <when state="s196608" output="Ḥ"/>
-      <when state="s262144" output="Ḥ"/>
-      <when state="s327680" output="Ḥ"/>
-      <when state="s393216" output="Ḥ"/>
-      <when state="s458752" output="Ḥ"/>
-      <when state="s524288" output="Ḥ"/>
-      <when state="s589824" output="Ḥ"/>
-      <when state="s655360" output="Ḥ"/>
-      <when state="s720896" output="Ḥ"/>
-      <when state="s786432" output="Ḥ"/>
-      <when state="s851968" output="Ḥ"/>
-      <when state="s917504" output="Ḥ"/>
-      <when state="s983040" output="Ḥ"/>
-      <when state="s1048576" output="Ḥ"/>
-      <when state="s1114112" output="Ḥ"/>
-      <when state="s1179648" output="Ḥ"/>
-      <when state="s1245184" output="Ḥ"/>
-      <when state="s1310720" output="Ḥ"/>
-      <when state="s1376256" output="Ḥ"/>
-      <when state="s1441792" output="Ḥ"/>
-      <when state="s1507328" output="Ḥ"/>
-      <when state="s1572864" output="Ḥ"/>
-      <when state="s1638400" output="Ḥ"/>
-    </action>
-    <action id="iast20_5_12">
-      <when state="none" output="Ḫ"/>
-      <when state="s1" output="`Ḫ"/>
-      <when state="s2" output="ˇḪ"/>
-      <when state="s3" output="¯Ḫ"/>
-      <when state="s4" output="¸Ḫ"/>
-      <when state="s5" output="ʼḪ"/>
-      <when state="s6" output="˜Ḫ"/>
-      <when state="s7" output="ˀḪ"/>
-      <when state="s8" output=" ̏Ḫ"/>
-      <when state="s9" output="˝Ḫ"/>
-      <when state="s10" output="´Ḫ"/>
-      <when state="s11" output="-Ḫ"/>
-      <when state="s12" output="˙Ḫ"/>
-      <when state="s13" output="¨Ḫ"/>
-      <when state="s14" output="˘Ḫ"/>
-      <when state="s15" output="ʔḪ"/>
-      <when state="s16" output="№Ḫ"/>
-      <when state="s17" output=",Ḫ"/>
-      <when state="s18" output=".Ḫ"/>
-      <when state="s19" output="˛Ḫ"/>
-      <when state="s20" output="ˍḪ"/>
-      <when state="s21" output=" ̰Ḫ"/>
-      <when state="s22" output="˚Ḫ"/>
-      <when state="s23" output="ˆḪ"/>
-      <when state="s24" output="‸Ḫ"/>
-      <when state="s25" output=" ̑Ḫ"/>
-      <when state="s65536" output="Ḫ"/>
-      <when state="s131072" output="Ḫ"/>
-      <when state="s196608" output="Ḫ"/>
-      <when state="s262144" output="Ḫ"/>
-      <when state="s327680" output="Ḫ"/>
-      <when state="s393216" output="Ḫ"/>
-      <when state="s458752" output="Ḫ"/>
-      <when state="s524288" output="Ḫ"/>
-      <when state="s589824" output="Ḫ"/>
-      <when state="s655360" output="Ḫ"/>
-      <when state="s720896" output="Ḫ"/>
-      <when state="s786432" output="Ḫ"/>
-      <when state="s851968" output="Ḫ"/>
-      <when state="s917504" output="Ḫ"/>
-      <when state="s983040" output="Ḫ"/>
-      <when state="s1048576" output="Ḫ"/>
-      <when state="s1114112" output="Ḫ"/>
-      <when state="s1179648" output="Ḫ"/>
-      <when state="s1245184" output="Ḫ"/>
-      <when state="s1310720" output="Ḫ"/>
-      <when state="s1376256" output="Ḫ"/>
-      <when state="s1441792" output="Ḫ"/>
-      <when state="s1507328" output="Ḫ"/>
-      <when state="s1572864" output="Ḫ"/>
-      <when state="s1638400" output="Ḫ"/>
-    </action>
-    <action id="iast20_5_13">
-      <when state="none" output="Ṁ"/>
-      <when state="s1" output="`Ṁ"/>
-      <when state="s2" output="ˇṀ"/>
-      <when state="s3" output="¯Ṁ"/>
-      <when state="s4" output="¸Ṁ"/>
-      <when state="s5" output="ʼṀ"/>
-      <when state="s6" output="˜Ṁ"/>
-      <when state="s7" output="ˀṀ"/>
-      <when state="s8" output=" ̏Ṁ"/>
-      <when state="s9" output="˝Ṁ"/>
-      <when state="s10" output="´Ṁ"/>
-      <when state="s11" output="-Ṁ"/>
-      <when state="s12" output="˙Ṁ"/>
-      <when state="s13" output="¨Ṁ"/>
-      <when state="s14" output="˘Ṁ"/>
-      <when state="s15" output="ʔṀ"/>
-      <when state="s16" output="№Ṁ"/>
-      <when state="s17" output=",Ṁ"/>
-      <when state="s18" output=".Ṁ"/>
-      <when state="s19" output="˛Ṁ"/>
-      <when state="s20" output="ˍṀ"/>
-      <when state="s21" output=" ̰Ṁ"/>
-      <when state="s22" output="˚Ṁ"/>
-      <when state="s23" output="ˆṀ"/>
-      <when state="s24" output="‸Ṁ"/>
-      <when state="s25" output=" ̑Ṁ"/>
-      <when state="s65536" output="Ṁ"/>
-      <when state="s131072" output="Ṁ"/>
-      <when state="s196608" output="Ṁ"/>
-      <when state="s262144" output="Ṁ"/>
-      <when state="s327680" output="Ṁ"/>
-      <when state="s393216" output="Ṁ"/>
-      <when state="s458752" output="Ṁ"/>
-      <when state="s524288" output="Ṁ"/>
-      <when state="s589824" output="Ṁ"/>
-      <when state="s655360" output="Ṁ"/>
-      <when state="s720896" output="Ṁ"/>
-      <when state="s786432" output="Ṁ"/>
-      <when state="s851968" output="Ṁ"/>
-      <when state="s917504" output="Ṁ"/>
-      <when state="s983040" output="Ṁ"/>
-      <when state="s1048576" output="Ṁ"/>
-      <when state="s1114112" output="Ṁ"/>
-      <when state="s1179648" output="Ṁ"/>
-      <when state="s1245184" output="Ṁ"/>
-      <when state="s1310720" output="Ṁ"/>
-      <when state="s1376256" output="Ṁ"/>
-      <when state="s1441792" output="Ṁ"/>
-      <when state="s1507328" output="Ṁ"/>
-      <when state="s1572864" output="Ṁ"/>
-      <when state="s1638400" output="Ṁ"/>
-    </action>
-    <action id="iast20_5_15">
-      <when state="none" output="Ṛ"/>
-      <when state="s1" output="Ṛ̀"/>
-      <when state="s2" output="ˇṚ"/>
-      <when state="s3" output="¯Ṛ"/>
-      <when state="s4" output="¸Ṛ"/>
-      <when state="s5" output="ʼṚ"/>
-      <when state="s6" output="˜Ṛ"/>
-      <when state="s7" output="ˀṚ"/>
-      <when state="s8" output=" ̏Ṛ"/>
-      <when state="s9" output="˝Ṛ"/>
-      <when state="s10" output="Ṛ́"/>
-      <when state="s11" output="-Ṛ"/>
-      <when state="s12" output="˙Ṛ"/>
-      <when state="s13" output="¨Ṛ"/>
-      <when state="s14" output="˘Ṛ"/>
-      <when state="s15" output="ʔṚ"/>
-      <when state="s16" output="№Ṛ"/>
-      <when state="s17" output=",Ṛ"/>
-      <when state="s18" output=".Ṛ"/>
-      <when state="s19" output="˛Ṛ"/>
-      <when state="s20" output="ˍṚ"/>
-      <when state="s21" output=" ̰Ṛ"/>
-      <when state="s22" output="˚Ṛ"/>
-      <when state="s23" output="Ṛ̂"/>
-      <when state="s24" output="‸Ṛ"/>
-      <when state="s25" output=" ̑Ṛ"/>
-      <when state="s65536" output="Ṛ"/>
-      <when state="s131072" output="Ṛ"/>
-      <when state="s196608" output="Ṛ"/>
-      <when state="s262144" output="Ṛ"/>
-      <when state="s327680" output="Ṛ"/>
-      <when state="s393216" output="Ṛ"/>
-      <when state="s458752" output="Ṛ"/>
-      <when state="s524288" output="Ṛ"/>
-      <when state="s589824" output="Ṛ"/>
-      <when state="s655360" output="Ṛ"/>
-      <when state="s720896" output="Ṛ"/>
-      <when state="s786432" output="Ṛ"/>
-      <when state="s851968" output="Ṛ"/>
-      <when state="s917504" output="Ṛ"/>
-      <when state="s983040" output="Ṛ"/>
-      <when state="s1048576" output="Ṛ"/>
-      <when state="s1114112" output="Ṛ"/>
-      <when state="s1179648" output="Ṛ"/>
-      <when state="s1245184" output="Ṛ"/>
-      <when state="s1310720" output="Ṛ"/>
-      <when state="s1376256" output="Ṛ"/>
-      <when state="s1441792" output="Ṛ"/>
-      <when state="s1507328" output="Ṛ"/>
-      <when state="s1572864" output="Ṛ"/>
-      <when state="s1638400" output="Ṛ"/>
-    </action>
-    <action id="iast20_5_16">
-      <when state="none" output="R̥"/>
-      <when state="s1" output="R̥̀"/>
-      <when state="s2" output="ˇR̥"/>
-      <when state="s3" output="¯R̥"/>
-      <when state="s4" output="¸R̥"/>
-      <when state="s5" output="ʼR̥"/>
-      <when state="s6" output="˜R̥"/>
-      <when state="s7" output="ˀR̥"/>
-      <when state="s8" output=" ̏R̥"/>
-      <when state="s9" output="˝R̥"/>
-      <when state="s10" output="Ŕ̥"/>
-      <when state="s11" output="-R̥"/>
-      <when state="s12" output="˙R̥"/>
-      <when state="s13" output="¨R̥"/>
-      <when state="s14" output="˘R̥"/>
-      <when state="s15" output="ʔR̥"/>
-      <when state="s16" output="№R̥"/>
-      <when state="s17" output=",R̥"/>
-      <when state="s18" output=".R̥"/>
-      <when state="s19" output="˛R̥"/>
-      <when state="s20" output="ˍR̥"/>
-      <when state="s21" output=" ̰R̥"/>
-      <when state="s22" output="˚R̥"/>
-      <when state="s23" output="R̥̂"/>
-      <when state="s24" output="‸R̥"/>
-      <when state="s25" output=" ̑R̥"/>
-      <when state="s65536" output="R̥"/>
-      <when state="s131072" output="R̥"/>
-      <when state="s196608" output="R̥"/>
-      <when state="s262144" output="R̥"/>
-      <when state="s327680" output="R̥"/>
-      <when state="s393216" output="R̥"/>
-      <when state="s458752" output="R̥"/>
-      <when state="s524288" output="R̥"/>
-      <when state="s589824" output="R̥"/>
-      <when state="s655360" output="R̥"/>
-      <when state="s720896" output="R̥"/>
-      <when state="s786432" output="R̥"/>
-      <when state="s851968" output="R̥"/>
-      <when state="s917504" output="R̥"/>
-      <when state="s983040" output="R̥"/>
-      <when state="s1048576" output="R̥"/>
-      <when state="s1114112" output="R̥"/>
-      <when state="s1179648" output="R̥"/>
-      <when state="s1245184" output="R̥"/>
-      <when state="s1310720" output="R̥"/>
-      <when state="s1376256" output="R̥"/>
-      <when state="s1441792" output="R̥"/>
-      <when state="s1507328" output="R̥"/>
-      <when state="s1572864" output="R̥"/>
-      <when state="s1638400" output="R̥"/>
-    </action>
-    <action id="iast20_5_17">
-      <when state="none" output="Ṭ"/>
-      <when state="s1" output="`Ṭ"/>
-      <when state="s2" output="ˇṬ"/>
-      <when state="s3" output="¯Ṭ"/>
-      <when state="s4" output="¸Ṭ"/>
-      <when state="s5" output="ʼṬ"/>
-      <when state="s6" output="˜Ṭ"/>
-      <when state="s7" output="ˀṬ"/>
-      <when state="s8" output=" ̏Ṭ"/>
-      <when state="s9" output="˝Ṭ"/>
-      <when state="s10" output="´Ṭ"/>
-      <when state="s11" output="-Ṭ"/>
-      <when state="s12" output="˙Ṭ"/>
-      <when state="s13" output="¨Ṭ"/>
-      <when state="s14" output="˘Ṭ"/>
-      <when state="s15" output="ʔṬ"/>
-      <when state="s16" output="№Ṭ"/>
-      <when state="s17" output=",Ṭ"/>
-      <when state="s18" output=".Ṭ"/>
-      <when state="s19" output="˛Ṭ"/>
-      <when state="s20" output="ˍṬ"/>
-      <when state="s21" output=" ̰Ṭ"/>
-      <when state="s22" output="˚Ṭ"/>
-      <when state="s23" output="ˆṬ"/>
-      <when state="s24" output="‸Ṭ"/>
-      <when state="s25" output=" ̑Ṭ"/>
-      <when state="s65536" output="Ṭ"/>
-      <when state="s131072" output="Ṭ"/>
-      <when state="s196608" output="Ṭ"/>
-      <when state="s262144" output="Ṭ"/>
-      <when state="s327680" output="Ṭ"/>
-      <when state="s393216" output="Ṭ"/>
-      <when state="s458752" output="Ṭ"/>
-      <when state="s524288" output="Ṭ"/>
-      <when state="s589824" output="Ṭ"/>
-      <when state="s655360" output="Ṭ"/>
-      <when state="s720896" output="Ṭ"/>
-      <when state="s786432" output="Ṭ"/>
-      <when state="s851968" output="Ṭ"/>
-      <when state="s917504" output="Ṭ"/>
-      <when state="s983040" output="Ṭ"/>
-      <when state="s1048576" output="Ṭ"/>
-      <when state="s1114112" output="Ṭ"/>
-      <when state="s1179648" output="Ṭ"/>
-      <when state="s1245184" output="Ṭ"/>
-      <when state="s1310720" output="Ṭ"/>
-      <when state="s1376256" output="Ṭ"/>
-      <when state="s1441792" output="Ṭ"/>
-      <when state="s1507328" output="Ṭ"/>
-      <when state="s1572864" output="Ṭ"/>
-      <when state="s1638400" output="Ṭ"/>
-    </action>
-    <action id="iast20_5_23">
-      <when state="none" output="°"/>
-      <when state="s1" output="`°"/>
-      <when state="s2" output="ˇ°"/>
-      <when state="s3" output="¯°"/>
-      <when state="s4" output="¸°"/>
-      <when state="s5" output="ʼ°"/>
-      <when state="s6" output="˜°"/>
-      <when state="s7" output="ˀ°"/>
-      <when state="s8" output=" ̏°"/>
-      <when state="s9" output="˝°"/>
-      <when state="s10" output="´°"/>
-      <when state="s11" output="-°"/>
-      <when state="s12" output="˙°"/>
-      <when state="s13" output="¨°"/>
-      <when state="s14" output="˘°"/>
-      <when state="s15" output="ʔ°"/>
-      <when state="s16" output="№°"/>
-      <when state="s17" output=",°"/>
-      <when state="s18" output=".°"/>
-      <when state="s19" output="˛°"/>
-      <when state="s20" output="ˍ°"/>
-      <when state="s21" output=" ̰°"/>
-      <when state="s22" output="˚°"/>
-      <when state="s23" output="ˆ°"/>
-      <when state="s24" output="‸°"/>
-      <when state="s25" output=" ̑°"/>
-      <when state="s65536" output="°"/>
-      <when state="s131072" output="°"/>
-      <when state="s196608" output="°"/>
-      <when state="s262144" output="°"/>
-      <when state="s327680" output="°"/>
-      <when state="s393216" output="°"/>
-      <when state="s458752" output="°"/>
-      <when state="s524288" output="°"/>
-      <when state="s589824" output="°"/>
-      <when state="s655360" output="°"/>
-      <when state="s720896" output="°"/>
-      <when state="s786432" output="°"/>
-      <when state="s851968" output="°"/>
-      <when state="s917504" output="°"/>
-      <when state="s983040" output="°"/>
-      <when state="s1048576" output="°"/>
-      <when state="s1114112" output="°"/>
-      <when state="s1179648" output="°"/>
-      <when state="s1245184" output="°"/>
-      <when state="s1310720" output="°"/>
-      <when state="s1376256" output="°"/>
-      <when state="s1441792" output="°"/>
-      <when state="s1507328" output="°"/>
-      <when state="s1572864" output="°"/>
-      <when state="s1638400" output="°"/>
-    </action>
-    <action id="iast20_5_24">
+    <action id="iast21_3_21">
       <when state="none" output="̄"/>
       <when state="s1" output="`̄"/>
       <when state="s2" output="ˇ̄"/>
@@ -18650,590 +17908,7 @@
       <when state="s1572864" output="̄"/>
       <when state="s1638400" output="̄"/>
     </action>
-    <action id="iast20_5_28">
-      <when state="none" output="◊"/>
-      <when state="s1" output="`◊"/>
-      <when state="s2" output="ˇ◊"/>
-      <when state="s3" output="¯◊"/>
-      <when state="s4" output="¸◊"/>
-      <when state="s5" output="ʼ◊"/>
-      <when state="s6" output="˜◊"/>
-      <when state="s7" output="ˀ◊"/>
-      <when state="s8" output=" ̏◊"/>
-      <when state="s9" output="˝◊"/>
-      <when state="s10" output="´◊"/>
-      <when state="s11" output="-◊"/>
-      <when state="s12" output="˙◊"/>
-      <when state="s13" output="¨◊"/>
-      <when state="s14" output="˘◊"/>
-      <when state="s15" output="ʔ◊"/>
-      <when state="s16" output="№◊"/>
-      <when state="s17" output=",◊"/>
-      <when state="s18" output=".◊"/>
-      <when state="s19" output="˛◊"/>
-      <when state="s20" output="ˍ◊"/>
-      <when state="s21" output=" ̰◊"/>
-      <when state="s22" output="˚◊"/>
-      <when state="s23" output="ˆ◊"/>
-      <when state="s24" output="‸◊"/>
-      <when state="s25" output=" ̑◊"/>
-      <when state="s65536" output="◊"/>
-      <when state="s131072" output="◊"/>
-      <when state="s196608" output="◊"/>
-      <when state="s262144" output="◊"/>
-      <when state="s327680" output="◊"/>
-      <when state="s393216" output="◊"/>
-      <when state="s458752" output="◊"/>
-      <when state="s524288" output="◊"/>
-      <when state="s589824" output="◊"/>
-      <when state="s655360" output="◊"/>
-      <when state="s720896" output="◊"/>
-      <when state="s786432" output="◊"/>
-      <when state="s851968" output="◊"/>
-      <when state="s917504" output="◊"/>
-      <when state="s983040" output="◊"/>
-      <when state="s1048576" output="◊"/>
-      <when state="s1114112" output="◊"/>
-      <when state="s1179648" output="◊"/>
-      <when state="s1245184" output="◊"/>
-      <when state="s1310720" output="◊"/>
-      <when state="s1376256" output="◊"/>
-      <when state="s1441792" output="◊"/>
-      <when state="s1507328" output="◊"/>
-      <when state="s1572864" output="◊"/>
-      <when state="s1638400" output="◊"/>
-    </action>
-    <action id="iast20_5_32">
-      <when state="none" output="Ū"/>
-      <when state="s1" output="Ū̀"/>
-      <when state="s2" output="ˇŪ"/>
-      <when state="s3" output="¯Ū"/>
-      <when state="s4" output="¸Ū"/>
-      <when state="s5" output="ʼŪ"/>
-      <when state="s6" output="˜Ū"/>
-      <when state="s7" output="ˀŪ"/>
-      <when state="s8" output=" ̏Ū"/>
-      <when state="s9" output="˝Ū"/>
-      <when state="s10" output="Ū́"/>
-      <when state="s11" output="-Ū"/>
-      <when state="s12" output="˙Ū"/>
-      <when state="s13" output="¨Ū"/>
-      <when state="s14" output="˘Ū"/>
-      <when state="s15" output="ʔŪ"/>
-      <when state="s16" output="№Ū"/>
-      <when state="s17" output=",Ū"/>
-      <when state="s18" output=".Ū"/>
-      <when state="s19" output="˛Ū"/>
-      <when state="s20" output="ˍŪ"/>
-      <when state="s21" output=" ̰Ū"/>
-      <when state="s22" output="˚Ū"/>
-      <when state="s23" output="Ū̂"/>
-      <when state="s24" output="‸Ū"/>
-      <when state="s25" output=" ̑Ū"/>
-      <when state="s65536" output="Ū"/>
-      <when state="s131072" output="Ū"/>
-      <when state="s196608" output="Ū"/>
-      <when state="s262144" output="Ū"/>
-      <when state="s327680" output="Ū"/>
-      <when state="s393216" output="Ū"/>
-      <when state="s458752" output="Ū"/>
-      <when state="s524288" output="Ū"/>
-      <when state="s589824" output="Ū"/>
-      <when state="s655360" output="Ū"/>
-      <when state="s720896" output="Ū"/>
-      <when state="s786432" output="Ū"/>
-      <when state="s851968" output="Ū"/>
-      <when state="s917504" output="Ū"/>
-      <when state="s983040" output="Ū"/>
-      <when state="s1048576" output="Ū"/>
-      <when state="s1114112" output="Ū"/>
-      <when state="s1179648" output="Ū"/>
-      <when state="s1245184" output="Ū"/>
-      <when state="s1310720" output="Ū"/>
-      <when state="s1376256" output="Ū"/>
-      <when state="s1441792" output="Ū"/>
-      <when state="s1507328" output="Ū"/>
-      <when state="s1572864" output="Ū"/>
-      <when state="s1638400" output="Ū"/>
-    </action>
-    <action id="iast20_5_34">
-      <when state="none" output="Ī"/>
-      <when state="s1" output="Ī̀"/>
-      <when state="s2" output="ˇĪ"/>
-      <when state="s3" output="¯Ī"/>
-      <when state="s4" output="¸Ī"/>
-      <when state="s5" output="ʼĪ"/>
-      <when state="s6" output="˜Ī"/>
-      <when state="s7" output="ˀĪ"/>
-      <when state="s8" output=" ̏Ī"/>
-      <when state="s9" output="˝Ī"/>
-      <when state="s10" output="Ī́"/>
-      <when state="s11" output="-Ī"/>
-      <when state="s12" output="˙Ī"/>
-      <when state="s13" output="¨Ī"/>
-      <when state="s14" output="˘Ī"/>
-      <when state="s15" output="ʔĪ"/>
-      <when state="s16" output="№Ī"/>
-      <when state="s17" output=",Ī"/>
-      <when state="s18" output=".Ī"/>
-      <when state="s19" output="˛Ī"/>
-      <when state="s20" output="ˍĪ"/>
-      <when state="s21" output=" ̰Ī"/>
-      <when state="s22" output="˚Ī"/>
-      <when state="s23" output="Ī̂"/>
-      <when state="s24" output="‸Ī"/>
-      <when state="s25" output=" ̑Ī"/>
-      <when state="s65536" output="Ī"/>
-      <when state="s131072" output="Ī"/>
-      <when state="s196608" output="Ī"/>
-      <when state="s262144" output="Ī"/>
-      <when state="s327680" output="Ī"/>
-      <when state="s393216" output="Ī"/>
-      <when state="s458752" output="Ī"/>
-      <when state="s524288" output="Ī"/>
-      <when state="s589824" output="Ī"/>
-      <when state="s655360" output="Ī"/>
-      <when state="s720896" output="Ī"/>
-      <when state="s786432" output="Ī"/>
-      <when state="s851968" output="Ī"/>
-      <when state="s917504" output="Ī"/>
-      <when state="s983040" output="Ī"/>
-      <when state="s1048576" output="Ī"/>
-      <when state="s1114112" output="Ī"/>
-      <when state="s1179648" output="Ī"/>
-      <when state="s1245184" output="Ī"/>
-      <when state="s1310720" output="Ī"/>
-      <when state="s1376256" output="Ī"/>
-      <when state="s1441792" output="Ī"/>
-      <when state="s1507328" output="Ī"/>
-      <when state="s1572864" output="Ī"/>
-      <when state="s1638400" output="Ī"/>
-    </action>
-    <action id="iast20_5_37">
-      <when state="none" output="Ḷ"/>
-      <when state="s1" output="Ḷ̀"/>
-      <when state="s2" output="ˇḶ"/>
-      <when state="s3" output="¯Ḷ"/>
-      <when state="s4" output="¸Ḷ"/>
-      <when state="s5" output="ʼḶ"/>
-      <when state="s6" output="˜Ḷ"/>
-      <when state="s7" output="ˀḶ"/>
-      <when state="s8" output=" ̏Ḷ"/>
-      <when state="s9" output="˝Ḷ"/>
-      <when state="s10" output="Ḷ́"/>
-      <when state="s11" output="-Ḷ"/>
-      <when state="s12" output="˙Ḷ"/>
-      <when state="s13" output="¨Ḷ"/>
-      <when state="s14" output="˘Ḷ"/>
-      <when state="s15" output="ʔḶ"/>
-      <when state="s16" output="№Ḷ"/>
-      <when state="s17" output=",Ḷ"/>
-      <when state="s18" output=".Ḷ"/>
-      <when state="s19" output="˛Ḷ"/>
-      <when state="s20" output="ˍḶ"/>
-      <when state="s21" output=" ̰Ḷ"/>
-      <when state="s22" output="˚Ḷ"/>
-      <when state="s23" output="Ḷ̂"/>
-      <when state="s24" output="‸Ḷ"/>
-      <when state="s25" output=" ̑Ḷ"/>
-      <when state="s65536" output="Ḷ"/>
-      <when state="s131072" output="Ḷ"/>
-      <when state="s196608" output="Ḷ"/>
-      <when state="s262144" output="Ḷ"/>
-      <when state="s327680" output="Ḷ"/>
-      <when state="s393216" output="Ḷ"/>
-      <when state="s458752" output="Ḷ"/>
-      <when state="s524288" output="Ḷ"/>
-      <when state="s589824" output="Ḷ"/>
-      <when state="s655360" output="Ḷ"/>
-      <when state="s720896" output="Ḷ"/>
-      <when state="s786432" output="Ḷ"/>
-      <when state="s851968" output="Ḷ"/>
-      <when state="s917504" output="Ḷ"/>
-      <when state="s983040" output="Ḷ"/>
-      <when state="s1048576" output="Ḷ"/>
-      <when state="s1114112" output="Ḷ"/>
-      <when state="s1179648" output="Ḷ"/>
-      <when state="s1245184" output="Ḷ"/>
-      <when state="s1310720" output="Ḷ"/>
-      <when state="s1376256" output="Ḷ"/>
-      <when state="s1441792" output="Ḷ"/>
-      <when state="s1507328" output="Ḷ"/>
-      <when state="s1572864" output="Ḷ"/>
-      <when state="s1638400" output="Ḷ"/>
-    </action>
-    <action id="iast20_5_43">
-      <when state="none" output="⟪"/>
-      <when state="s1" output="`⟪"/>
-      <when state="s2" output="ˇ⟪"/>
-      <when state="s3" output="¯⟪"/>
-      <when state="s4" output="¸⟪"/>
-      <when state="s5" output="ʼ⟪"/>
-      <when state="s6" output="˜⟪"/>
-      <when state="s7" output="ˀ⟪"/>
-      <when state="s8" output=" ̏⟪"/>
-      <when state="s9" output="˝⟪"/>
-      <when state="s10" output="´⟪"/>
-      <when state="s11" output="-⟪"/>
-      <when state="s12" output="˙⟪"/>
-      <when state="s13" output="¨⟪"/>
-      <when state="s14" output="˘⟪"/>
-      <when state="s15" output="ʔ⟪"/>
-      <when state="s16" output="№⟪"/>
-      <when state="s17" output=",⟪"/>
-      <when state="s18" output=".⟪"/>
-      <when state="s19" output="˛⟪"/>
-      <when state="s20" output="ˍ⟪"/>
-      <when state="s21" output=" ̰⟪"/>
-      <when state="s22" output="˚⟪"/>
-      <when state="s23" output="ˆ⟪"/>
-      <when state="s24" output="‸⟪"/>
-      <when state="s25" output=" ̑⟪"/>
-      <when state="s65536" output="⟪"/>
-      <when state="s131072" output="⟪"/>
-      <when state="s196608" output="⟪"/>
-      <when state="s262144" output="⟪"/>
-      <when state="s327680" output="⟪"/>
-      <when state="s393216" output="⟪"/>
-      <when state="s458752" output="⟪"/>
-      <when state="s524288" output="⟪"/>
-      <when state="s589824" output="⟪"/>
-      <when state="s655360" output="⟪"/>
-      <when state="s720896" output="⟪"/>
-      <when state="s786432" output="⟪"/>
-      <when state="s851968" output="⟪"/>
-      <when state="s917504" output="⟪"/>
-      <when state="s983040" output="⟪"/>
-      <when state="s1048576" output="⟪"/>
-      <when state="s1114112" output="⟪"/>
-      <when state="s1179648" output="⟪"/>
-      <when state="s1245184" output="⟪"/>
-      <when state="s1310720" output="⟪"/>
-      <when state="s1376256" output="⟪"/>
-      <when state="s1441792" output="⟪"/>
-      <when state="s1507328" output="⟪"/>
-      <when state="s1572864" output="⟪"/>
-      <when state="s1638400" output="⟪"/>
-    </action>
-    <action id="iast20_5_46">
-      <when state="none" output="Ṃ"/>
-      <when state="s1" output="`Ṃ"/>
-      <when state="s2" output="ˇṂ"/>
-      <when state="s3" output="¯Ṃ"/>
-      <when state="s4" output="¸Ṃ"/>
-      <when state="s5" output="ʼṂ"/>
-      <when state="s6" output="˜Ṃ"/>
-      <when state="s7" output="ˀṂ"/>
-      <when state="s8" output=" ̏Ṃ"/>
-      <when state="s9" output="˝Ṃ"/>
-      <when state="s10" output="´Ṃ"/>
-      <when state="s11" output="-Ṃ"/>
-      <when state="s12" output="˙Ṃ"/>
-      <when state="s13" output="¨Ṃ"/>
-      <when state="s14" output="˘Ṃ"/>
-      <when state="s15" output="ʔṂ"/>
-      <when state="s16" output="№Ṃ"/>
-      <when state="s17" output=",Ṃ"/>
-      <when state="s18" output=".Ṃ"/>
-      <when state="s19" output="˛Ṃ"/>
-      <when state="s20" output="ˍṂ"/>
-      <when state="s21" output=" ̰Ṃ"/>
-      <when state="s22" output="˚Ṃ"/>
-      <when state="s23" output="ˆṂ"/>
-      <when state="s24" output="‸Ṃ"/>
-      <when state="s25" output=" ̑Ṃ"/>
-      <when state="s65536" output="Ṃ"/>
-      <when state="s131072" output="Ṃ"/>
-      <when state="s196608" output="Ṃ"/>
-      <when state="s262144" output="Ṃ"/>
-      <when state="s327680" output="Ṃ"/>
-      <when state="s393216" output="Ṃ"/>
-      <when state="s458752" output="Ṃ"/>
-      <when state="s524288" output="Ṃ"/>
-      <when state="s589824" output="Ṃ"/>
-      <when state="s655360" output="Ṃ"/>
-      <when state="s720896" output="Ṃ"/>
-      <when state="s786432" output="Ṃ"/>
-      <when state="s851968" output="Ṃ"/>
-      <when state="s917504" output="Ṃ"/>
-      <when state="s983040" output="Ṃ"/>
-      <when state="s1048576" output="Ṃ"/>
-      <when state="s1114112" output="Ṃ"/>
-      <when state="s1179648" output="Ṃ"/>
-      <when state="s1245184" output="Ṃ"/>
-      <when state="s1310720" output="Ṃ"/>
-      <when state="s1376256" output="Ṃ"/>
-      <when state="s1441792" output="Ṃ"/>
-      <when state="s1507328" output="Ṃ"/>
-      <when state="s1572864" output="Ṃ"/>
-      <when state="s1638400" output="Ṃ"/>
-    </action>
-    <action id="iast20_5_47">
-      <when state="none" output="⟫"/>
-      <when state="s1" output="`⟫"/>
-      <when state="s2" output="ˇ⟫"/>
-      <when state="s3" output="¯⟫"/>
-      <when state="s4" output="¸⟫"/>
-      <when state="s5" output="ʼ⟫"/>
-      <when state="s6" output="˜⟫"/>
-      <when state="s7" output="ˀ⟫"/>
-      <when state="s8" output=" ̏⟫"/>
-      <when state="s9" output="˝⟫"/>
-      <when state="s10" output="´⟫"/>
-      <when state="s11" output="-⟫"/>
-      <when state="s12" output="˙⟫"/>
-      <when state="s13" output="¨⟫"/>
-      <when state="s14" output="˘⟫"/>
-      <when state="s15" output="ʔ⟫"/>
-      <when state="s16" output="№⟫"/>
-      <when state="s17" output=",⟫"/>
-      <when state="s18" output=".⟫"/>
-      <when state="s19" output="˛⟫"/>
-      <when state="s20" output="ˍ⟫"/>
-      <when state="s21" output=" ̰⟫"/>
-      <when state="s22" output="˚⟫"/>
-      <when state="s23" output="ˆ⟫"/>
-      <when state="s24" output="‸⟫"/>
-      <when state="s25" output=" ̑⟫"/>
-      <when state="s65536" output="⟫"/>
-      <when state="s131072" output="⟫"/>
-      <when state="s196608" output="⟫"/>
-      <when state="s262144" output="⟫"/>
-      <when state="s327680" output="⟫"/>
-      <when state="s393216" output="⟫"/>
-      <when state="s458752" output="⟫"/>
-      <when state="s524288" output="⟫"/>
-      <when state="s589824" output="⟫"/>
-      <when state="s655360" output="⟫"/>
-      <when state="s720896" output="⟫"/>
-      <when state="s786432" output="⟫"/>
-      <when state="s851968" output="⟫"/>
-      <when state="s917504" output="⟫"/>
-      <when state="s983040" output="⟫"/>
-      <when state="s1048576" output="⟫"/>
-      <when state="s1114112" output="⟫"/>
-      <when state="s1179648" output="⟫"/>
-      <when state="s1245184" output="⟫"/>
-      <when state="s1310720" output="⟫"/>
-      <when state="s1376256" output="⟫"/>
-      <when state="s1441792" output="⟫"/>
-      <when state="s1507328" output="⟫"/>
-      <when state="s1572864" output="⟫"/>
-      <when state="s1638400" output="⟫"/>
-    </action>
-    <action id="iast20_6_23">
-      <when state="none" output="°"/>
-      <when state="s1" output="`°"/>
-      <when state="s2" output="ˇ°"/>
-      <when state="s3" output="¯°"/>
-      <when state="s4" output="¸°"/>
-      <when state="s5" output="ʼ°"/>
-      <when state="s6" output="˜°"/>
-      <when state="s7" output="ˀ°"/>
-      <when state="s8" output=" ̏°"/>
-      <when state="s9" output="˝°"/>
-      <when state="s10" output="´°"/>
-      <when state="s11" output="-°"/>
-      <when state="s12" output="˙°"/>
-      <when state="s13" output="¨°"/>
-      <when state="s14" output="˘°"/>
-      <when state="s15" output="ʔ°"/>
-      <when state="s16" output="№°"/>
-      <when state="s17" output=",°"/>
-      <when state="s18" output=".°"/>
-      <when state="s19" output="˛°"/>
-      <when state="s20" output="ˍ°"/>
-      <when state="s21" output=" ̰°"/>
-      <when state="s22" output="˚°"/>
-      <when state="s23" output="ˆ°"/>
-      <when state="s24" output="‸°"/>
-      <when state="s25" output=" ̑°"/>
-      <when state="s65536" output="°"/>
-      <when state="s131072" output="°"/>
-      <when state="s196608" output="°"/>
-      <when state="s262144" output="°"/>
-      <when state="s327680" output="°"/>
-      <when state="s393216" output="°"/>
-      <when state="s458752" output="°"/>
-      <when state="s524288" output="°"/>
-      <when state="s589824" output="°"/>
-      <when state="s655360" output="°"/>
-      <when state="s720896" output="°"/>
-      <when state="s786432" output="°"/>
-      <when state="s851968" output="°"/>
-      <when state="s917504" output="°"/>
-      <when state="s983040" output="°"/>
-      <when state="s1048576" output="°"/>
-      <when state="s1114112" output="°"/>
-      <when state="s1179648" output="°"/>
-      <when state="s1245184" output="°"/>
-      <when state="s1310720" output="°"/>
-      <when state="s1376256" output="°"/>
-      <when state="s1441792" output="°"/>
-      <when state="s1507328" output="°"/>
-      <when state="s1572864" output="°"/>
-      <when state="s1638400" output="°"/>
-    </action>
-    <action id="iast20_6_28">
-      <when state="none" output="◊"/>
-      <when state="s1" output="`◊"/>
-      <when state="s2" output="ˇ◊"/>
-      <when state="s3" output="¯◊"/>
-      <when state="s4" output="¸◊"/>
-      <when state="s5" output="ʼ◊"/>
-      <when state="s6" output="˜◊"/>
-      <when state="s7" output="ˀ◊"/>
-      <when state="s8" output=" ̏◊"/>
-      <when state="s9" output="˝◊"/>
-      <when state="s10" output="´◊"/>
-      <when state="s11" output="-◊"/>
-      <when state="s12" output="˙◊"/>
-      <when state="s13" output="¨◊"/>
-      <when state="s14" output="˘◊"/>
-      <when state="s15" output="ʔ◊"/>
-      <when state="s16" output="№◊"/>
-      <when state="s17" output=",◊"/>
-      <when state="s18" output=".◊"/>
-      <when state="s19" output="˛◊"/>
-      <when state="s20" output="ˍ◊"/>
-      <when state="s21" output=" ̰◊"/>
-      <when state="s22" output="˚◊"/>
-      <when state="s23" output="ˆ◊"/>
-      <when state="s24" output="‸◊"/>
-      <when state="s25" output=" ̑◊"/>
-      <when state="s65536" output="◊"/>
-      <when state="s131072" output="◊"/>
-      <when state="s196608" output="◊"/>
-      <when state="s262144" output="◊"/>
-      <when state="s327680" output="◊"/>
-      <when state="s393216" output="◊"/>
-      <when state="s458752" output="◊"/>
-      <when state="s524288" output="◊"/>
-      <when state="s589824" output="◊"/>
-      <when state="s655360" output="◊"/>
-      <when state="s720896" output="◊"/>
-      <when state="s786432" output="◊"/>
-      <when state="s851968" output="◊"/>
-      <when state="s917504" output="◊"/>
-      <when state="s983040" output="◊"/>
-      <when state="s1048576" output="◊"/>
-      <when state="s1114112" output="◊"/>
-      <when state="s1179648" output="◊"/>
-      <when state="s1245184" output="◊"/>
-      <when state="s1310720" output="◊"/>
-      <when state="s1376256" output="◊"/>
-      <when state="s1441792" output="◊"/>
-      <when state="s1507328" output="◊"/>
-      <when state="s1572864" output="◊"/>
-      <when state="s1638400" output="◊"/>
-    </action>
-    <action id="iast20_6_43">
-      <when state="none" output="⟪"/>
-      <when state="s1" output="`⟪"/>
-      <when state="s2" output="ˇ⟪"/>
-      <when state="s3" output="¯⟪"/>
-      <when state="s4" output="¸⟪"/>
-      <when state="s5" output="ʼ⟪"/>
-      <when state="s6" output="˜⟪"/>
-      <when state="s7" output="ˀ⟪"/>
-      <when state="s8" output=" ̏⟪"/>
-      <when state="s9" output="˝⟪"/>
-      <when state="s10" output="´⟪"/>
-      <when state="s11" output="-⟪"/>
-      <when state="s12" output="˙⟪"/>
-      <when state="s13" output="¨⟪"/>
-      <when state="s14" output="˘⟪"/>
-      <when state="s15" output="ʔ⟪"/>
-      <when state="s16" output="№⟪"/>
-      <when state="s17" output=",⟪"/>
-      <when state="s18" output=".⟪"/>
-      <when state="s19" output="˛⟪"/>
-      <when state="s20" output="ˍ⟪"/>
-      <when state="s21" output=" ̰⟪"/>
-      <when state="s22" output="˚⟪"/>
-      <when state="s23" output="ˆ⟪"/>
-      <when state="s24" output="‸⟪"/>
-      <when state="s25" output=" ̑⟪"/>
-      <when state="s65536" output="⟪"/>
-      <when state="s131072" output="⟪"/>
-      <when state="s196608" output="⟪"/>
-      <when state="s262144" output="⟪"/>
-      <when state="s327680" output="⟪"/>
-      <when state="s393216" output="⟪"/>
-      <when state="s458752" output="⟪"/>
-      <when state="s524288" output="⟪"/>
-      <when state="s589824" output="⟪"/>
-      <when state="s655360" output="⟪"/>
-      <when state="s720896" output="⟪"/>
-      <when state="s786432" output="⟪"/>
-      <when state="s851968" output="⟪"/>
-      <when state="s917504" output="⟪"/>
-      <when state="s983040" output="⟪"/>
-      <when state="s1048576" output="⟪"/>
-      <when state="s1114112" output="⟪"/>
-      <when state="s1179648" output="⟪"/>
-      <when state="s1245184" output="⟪"/>
-      <when state="s1310720" output="⟪"/>
-      <when state="s1376256" output="⟪"/>
-      <when state="s1441792" output="⟪"/>
-      <when state="s1507328" output="⟪"/>
-      <when state="s1572864" output="⟪"/>
-      <when state="s1638400" output="⟪"/>
-    </action>
-    <action id="iast20_6_47">
-      <when state="none" output="⟫"/>
-      <when state="s1" output="`⟫"/>
-      <when state="s2" output="ˇ⟫"/>
-      <when state="s3" output="¯⟫"/>
-      <when state="s4" output="¸⟫"/>
-      <when state="s5" output="ʼ⟫"/>
-      <when state="s6" output="˜⟫"/>
-      <when state="s7" output="ˀ⟫"/>
-      <when state="s8" output=" ̏⟫"/>
-      <when state="s9" output="˝⟫"/>
-      <when state="s10" output="´⟫"/>
-      <when state="s11" output="-⟫"/>
-      <when state="s12" output="˙⟫"/>
-      <when state="s13" output="¨⟫"/>
-      <when state="s14" output="˘⟫"/>
-      <when state="s15" output="ʔ⟫"/>
-      <when state="s16" output="№⟫"/>
-      <when state="s17" output=",⟫"/>
-      <when state="s18" output=".⟫"/>
-      <when state="s19" output="˛⟫"/>
-      <when state="s20" output="ˍ⟫"/>
-      <when state="s21" output=" ̰⟫"/>
-      <when state="s22" output="˚⟫"/>
-      <when state="s23" output="ˆ⟫"/>
-      <when state="s24" output="‸⟫"/>
-      <when state="s25" output=" ̑⟫"/>
-      <when state="s65536" output="⟫"/>
-      <when state="s131072" output="⟫"/>
-      <when state="s196608" output="⟫"/>
-      <when state="s262144" output="⟫"/>
-      <when state="s327680" output="⟫"/>
-      <when state="s393216" output="⟫"/>
-      <when state="s458752" output="⟫"/>
-      <when state="s524288" output="⟫"/>
-      <when state="s589824" output="⟫"/>
-      <when state="s655360" output="⟫"/>
-      <when state="s720896" output="⟫"/>
-      <when state="s786432" output="⟫"/>
-      <when state="s851968" output="⟫"/>
-      <when state="s917504" output="⟫"/>
-      <when state="s983040" output="⟫"/>
-      <when state="s1048576" output="⟫"/>
-      <when state="s1114112" output="⟫"/>
-      <when state="s1179648" output="⟫"/>
-      <when state="s1245184" output="⟫"/>
-      <when state="s1310720" output="⟫"/>
-      <when state="s1376256" output="⟫"/>
-      <when state="s1441792" output="⟫"/>
-      <when state="s1507328" output="⟫"/>
-      <when state="s1572864" output="⟫"/>
-      <when state="s1638400" output="⟫"/>
-    </action>
-    <action id="iast20_7_25">
+    <action id="iast21_3_25">
       <when state="none" output="⏑"/>
       <when state="s1" output="`⏑"/>
       <when state="s2" output="ˇ⏑"/>
@@ -19286,7 +17961,7 @@
       <when state="s1572864" output="⏑"/>
       <when state="s1638400" output="⏑"/>
     </action>
-    <action id="iast20_7_26">
+    <action id="iast21_3_26">
       <when state="none" output="°"/>
       <when state="s1" output="`°"/>
       <when state="s2" output="ˇ°"/>
@@ -19339,7 +18014,7 @@
       <when state="s1572864" output="°"/>
       <when state="s1638400" output="°"/>
     </action>
-    <action id="iast20_7_29">
+    <action id="iast21_3_29">
       <when state="none" output="⏓"/>
       <when state="s1" output="`⏓"/>
       <when state="s2" output="ˇ⏓"/>
@@ -19391,6 +18066,2179 @@
       <when state="s1507328" output="⏓"/>
       <when state="s1572864" output="⏓"/>
       <when state="s1638400" output="⏓"/>
+    </action>
+    <action id="iast21_3_32">
+      <when state="none" output="ū"/>
+      <when state="s1" output="ū̀"/>
+      <when state="s2" output="ˇū"/>
+      <when state="s3" output="¯ū"/>
+      <when state="s4" output="¸ū"/>
+      <when state="s5" output="ʼū"/>
+      <when state="s6" output="˜ū"/>
+      <when state="s7" output="ˀū"/>
+      <when state="s8" output=" ̏ū"/>
+      <when state="s9" output="˝ū"/>
+      <when state="s10" output="ū́"/>
+      <when state="s11" output="-ū"/>
+      <when state="s12" output="˙ū"/>
+      <when state="s13" output="¨ū"/>
+      <when state="s14" output="˘ū"/>
+      <when state="s15" output="ʔū"/>
+      <when state="s16" output="№ū"/>
+      <when state="s17" output=",ū"/>
+      <when state="s18" output=".ū"/>
+      <when state="s19" output="˛ū"/>
+      <when state="s20" output="ˍū"/>
+      <when state="s21" output=" ̰ū"/>
+      <when state="s22" output="˚ū"/>
+      <when state="s23" output="ū̂"/>
+      <when state="s24" output="‸ū"/>
+      <when state="s25" output=" ̑ū"/>
+      <when state="s65536" output="ū"/>
+      <when state="s131072" output="ū"/>
+      <when state="s196608" output="ū"/>
+      <when state="s262144" output="ū"/>
+      <when state="s327680" output="ū"/>
+      <when state="s393216" output="ū"/>
+      <when state="s458752" output="ū"/>
+      <when state="s524288" output="ū"/>
+      <when state="s589824" output="ū"/>
+      <when state="s655360" output="ū"/>
+      <when state="s720896" output="ū"/>
+      <when state="s786432" output="ū"/>
+      <when state="s851968" output="ū"/>
+      <when state="s917504" output="ū"/>
+      <when state="s983040" output="ū"/>
+      <when state="s1048576" output="ū"/>
+      <when state="s1114112" output="ū"/>
+      <when state="s1179648" output="ū"/>
+      <when state="s1245184" output="ū"/>
+      <when state="s1310720" output="ū"/>
+      <when state="s1376256" output="ū"/>
+      <when state="s1441792" output="ū"/>
+      <when state="s1507328" output="ū"/>
+      <when state="s1572864" output="ū"/>
+      <when state="s1638400" output="ū"/>
+    </action>
+    <action id="iast21_3_34">
+      <when state="none" output="ī"/>
+      <when state="s1" output="ī̀"/>
+      <when state="s2" output="ˇī"/>
+      <when state="s3" output="¯ī"/>
+      <when state="s4" output="¸ī"/>
+      <when state="s5" output="ʼī"/>
+      <when state="s6" output="˜ī"/>
+      <when state="s7" output="ˀī"/>
+      <when state="s8" output=" ̏ī"/>
+      <when state="s9" output="˝ī"/>
+      <when state="s10" output="ī́"/>
+      <when state="s11" output="-ī"/>
+      <when state="s12" output="˙ī"/>
+      <when state="s13" output="¨ī"/>
+      <when state="s14" output="˘ī"/>
+      <when state="s15" output="ʔī"/>
+      <when state="s16" output="№ī"/>
+      <when state="s17" output=",ī"/>
+      <when state="s18" output=".ī"/>
+      <when state="s19" output="˛ī"/>
+      <when state="s20" output="ˍī"/>
+      <when state="s21" output=" ̰ī"/>
+      <when state="s22" output="˚ī"/>
+      <when state="s23" output="ī̂"/>
+      <when state="s24" output="‸ī"/>
+      <when state="s25" output=" ̑ī"/>
+      <when state="s65536" output="ī"/>
+      <when state="s131072" output="ī"/>
+      <when state="s196608" output="ī"/>
+      <when state="s262144" output="ī"/>
+      <when state="s327680" output="ī"/>
+      <when state="s393216" output="ī"/>
+      <when state="s458752" output="ī"/>
+      <when state="s524288" output="ī"/>
+      <when state="s589824" output="ī"/>
+      <when state="s655360" output="ī"/>
+      <when state="s720896" output="ī"/>
+      <when state="s786432" output="ī"/>
+      <when state="s851968" output="ī"/>
+      <when state="s917504" output="ī"/>
+      <when state="s983040" output="ī"/>
+      <when state="s1048576" output="ī"/>
+      <when state="s1114112" output="ī"/>
+      <when state="s1179648" output="ī"/>
+      <when state="s1245184" output="ī"/>
+      <when state="s1310720" output="ī"/>
+      <when state="s1376256" output="ī"/>
+      <when state="s1441792" output="ī"/>
+      <when state="s1507328" output="ī"/>
+      <when state="s1572864" output="ī"/>
+      <when state="s1638400" output="ī"/>
+    </action>
+    <action id="iast21_3_37">
+      <when state="none" output="ḷ"/>
+      <when state="s1" output="ḷ̀"/>
+      <when state="s2" output="ˇḷ"/>
+      <when state="s3" output="¯ḷ"/>
+      <when state="s4" output="¸ḷ"/>
+      <when state="s5" output="ʼḷ"/>
+      <when state="s6" output="˜ḷ"/>
+      <when state="s7" output="ˀḷ"/>
+      <when state="s8" output=" ̏ḷ"/>
+      <when state="s9" output="˝ḷ"/>
+      <when state="s10" output="ḷ́"/>
+      <when state="s11" output="-ḷ"/>
+      <when state="s12" output="˙ḷ"/>
+      <when state="s13" output="¨ḷ"/>
+      <when state="s14" output="˘ḷ"/>
+      <when state="s15" output="ʔḷ"/>
+      <when state="s16" output="№ḷ"/>
+      <when state="s17" output=",ḷ"/>
+      <when state="s18" output=".ḷ"/>
+      <when state="s19" output="˛ḷ"/>
+      <when state="s20" output="ˍḷ"/>
+      <when state="s21" output=" ̰ḷ"/>
+      <when state="s22" output="˚ḷ"/>
+      <when state="s23" output="ḷ̂"/>
+      <when state="s24" output="‸ḷ"/>
+      <when state="s25" output=" ̑ḷ"/>
+      <when state="s65536" output="ḷ"/>
+      <when state="s131072" output="ḷ"/>
+      <when state="s196608" output="ḷ"/>
+      <when state="s262144" output="ḷ"/>
+      <when state="s327680" output="ḷ"/>
+      <when state="s393216" output="ḷ"/>
+      <when state="s458752" output="ḷ"/>
+      <when state="s524288" output="ḷ"/>
+      <when state="s589824" output="ḷ"/>
+      <when state="s655360" output="ḷ"/>
+      <when state="s720896" output="ḷ"/>
+      <when state="s786432" output="ḷ"/>
+      <when state="s851968" output="ḷ"/>
+      <when state="s917504" output="ḷ"/>
+      <when state="s983040" output="ḷ"/>
+      <when state="s1048576" output="ḷ"/>
+      <when state="s1114112" output="ḷ"/>
+      <when state="s1179648" output="ḷ"/>
+      <when state="s1245184" output="ḷ"/>
+      <when state="s1310720" output="ḷ"/>
+      <when state="s1376256" output="ḷ"/>
+      <when state="s1441792" output="ḷ"/>
+      <when state="s1507328" output="ḷ"/>
+      <when state="s1572864" output="ḷ"/>
+      <when state="s1638400" output="ḷ"/>
+    </action>
+    <action id="iast21_3_43">
+      <when state="none" output="&lt;"/>
+      <when state="s1" output="`&lt;"/>
+      <when state="s2" output="ˇ&lt;"/>
+      <when state="s3" output="¯&lt;"/>
+      <when state="s4" output="¸&lt;"/>
+      <when state="s5" output="ʼ&lt;"/>
+      <when state="s6" output="˜&lt;"/>
+      <when state="s7" output="ˀ&lt;"/>
+      <when state="s8" output=" ̏&lt;"/>
+      <when state="s9" output="˝&lt;"/>
+      <when state="s10" output="´&lt;"/>
+      <when state="s11" output="-&lt;"/>
+      <when state="s12" output="˙&lt;"/>
+      <when state="s13" output="¨&lt;"/>
+      <when state="s14" output="˘&lt;"/>
+      <when state="s15" output="ʔ&lt;"/>
+      <when state="s16" output="№&lt;"/>
+      <when state="s17" output=",&lt;"/>
+      <when state="s18" output=".&lt;"/>
+      <when state="s19" output="˛&lt;"/>
+      <when state="s20" output="ˍ&lt;"/>
+      <when state="s21" output=" ̰&lt;"/>
+      <when state="s22" output="˚&lt;"/>
+      <when state="s23" output="ˆ&lt;"/>
+      <when state="s24" output="‸&lt;"/>
+      <when state="s25" output=" ̑&lt;"/>
+      <when state="s65536" output="&lt;"/>
+      <when state="s131072" output="&lt;"/>
+      <when state="s196608" output="&lt;"/>
+      <when state="s262144" output="&lt;"/>
+      <when state="s327680" output="&lt;"/>
+      <when state="s393216" output="&lt;"/>
+      <when state="s458752" output="&lt;"/>
+      <when state="s524288" output="&lt;"/>
+      <when state="s589824" output="&lt;"/>
+      <when state="s655360" output="&lt;"/>
+      <when state="s720896" output="&lt;"/>
+      <when state="s786432" output="&lt;"/>
+      <when state="s851968" output="&lt;"/>
+      <when state="s917504" output="&lt;"/>
+      <when state="s983040" output="&lt;"/>
+      <when state="s1048576" output="&lt;"/>
+      <when state="s1114112" output="&lt;"/>
+      <when state="s1179648" output="&lt;"/>
+      <when state="s1245184" output="&lt;"/>
+      <when state="s1310720" output="&lt;"/>
+      <when state="s1376256" output="&lt;"/>
+      <when state="s1441792" output="&lt;"/>
+      <when state="s1507328" output="&lt;"/>
+      <when state="s1572864" output="&lt;"/>
+      <when state="s1638400" output="&lt;"/>
+    </action>
+    <action id="iast21_3_46">
+      <when state="none" output="ṃ"/>
+      <when state="s1" output="`ṃ"/>
+      <when state="s2" output="ˇṃ"/>
+      <when state="s3" output="¯ṃ"/>
+      <when state="s4" output="¸ṃ"/>
+      <when state="s5" output="ʼṃ"/>
+      <when state="s6" output="˜ṃ"/>
+      <when state="s7" output="ˀṃ"/>
+      <when state="s8" output=" ̏ṃ"/>
+      <when state="s9" output="˝ṃ"/>
+      <when state="s10" output="´ṃ"/>
+      <when state="s11" output="-ṃ"/>
+      <when state="s12" output="˙ṃ"/>
+      <when state="s13" output="¨ṃ"/>
+      <when state="s14" output="˘ṃ"/>
+      <when state="s15" output="ʔṃ"/>
+      <when state="s16" output="№ṃ"/>
+      <when state="s17" output=",ṃ"/>
+      <when state="s18" output=".ṃ"/>
+      <when state="s19" output="˛ṃ"/>
+      <when state="s20" output="ˍṃ"/>
+      <when state="s21" output=" ̰ṃ"/>
+      <when state="s22" output="˚ṃ"/>
+      <when state="s23" output="ˆṃ"/>
+      <when state="s24" output="‸ṃ"/>
+      <when state="s25" output=" ̑ṃ"/>
+      <when state="s65536" output="ṃ"/>
+      <when state="s131072" output="ṃ"/>
+      <when state="s196608" output="ṃ"/>
+      <when state="s262144" output="ṃ"/>
+      <when state="s327680" output="ṃ"/>
+      <when state="s393216" output="ṃ"/>
+      <when state="s458752" output="ṃ"/>
+      <when state="s524288" output="ṃ"/>
+      <when state="s589824" output="ṃ"/>
+      <when state="s655360" output="ṃ"/>
+      <when state="s720896" output="ṃ"/>
+      <when state="s786432" output="ṃ"/>
+      <when state="s851968" output="ṃ"/>
+      <when state="s917504" output="ṃ"/>
+      <when state="s983040" output="ṃ"/>
+      <when state="s1048576" output="ṃ"/>
+      <when state="s1114112" output="ṃ"/>
+      <when state="s1179648" output="ṃ"/>
+      <when state="s1245184" output="ṃ"/>
+      <when state="s1310720" output="ṃ"/>
+      <when state="s1376256" output="ṃ"/>
+      <when state="s1441792" output="ṃ"/>
+      <when state="s1507328" output="ṃ"/>
+      <when state="s1572864" output="ṃ"/>
+      <when state="s1638400" output="ṃ"/>
+    </action>
+    <action id="iast21_3_47">
+      <when state="none" output="&gt;"/>
+      <when state="s1" output="`&gt;"/>
+      <when state="s2" output="ˇ&gt;"/>
+      <when state="s3" output="¯&gt;"/>
+      <when state="s4" output="¸&gt;"/>
+      <when state="s5" output="ʼ&gt;"/>
+      <when state="s6" output="˜&gt;"/>
+      <when state="s7" output="ˀ&gt;"/>
+      <when state="s8" output=" ̏&gt;"/>
+      <when state="s9" output="˝&gt;"/>
+      <when state="s10" output="´&gt;"/>
+      <when state="s11" output="-&gt;"/>
+      <when state="s12" output="˙&gt;"/>
+      <when state="s13" output="¨&gt;"/>
+      <when state="s14" output="˘&gt;"/>
+      <when state="s15" output="ʔ&gt;"/>
+      <when state="s16" output="№&gt;"/>
+      <when state="s17" output=",&gt;"/>
+      <when state="s18" output=".&gt;"/>
+      <when state="s19" output="˛&gt;"/>
+      <when state="s20" output="ˍ&gt;"/>
+      <when state="s21" output=" ̰&gt;"/>
+      <when state="s22" output="˚&gt;"/>
+      <when state="s23" output="ˆ&gt;"/>
+      <when state="s24" output="‸&gt;"/>
+      <when state="s25" output=" ̑&gt;"/>
+      <when state="s65536" output="&gt;"/>
+      <when state="s131072" output="&gt;"/>
+      <when state="s196608" output="&gt;"/>
+      <when state="s262144" output="&gt;"/>
+      <when state="s327680" output="&gt;"/>
+      <when state="s393216" output="&gt;"/>
+      <when state="s458752" output="&gt;"/>
+      <when state="s524288" output="&gt;"/>
+      <when state="s589824" output="&gt;"/>
+      <when state="s655360" output="&gt;"/>
+      <when state="s720896" output="&gt;"/>
+      <when state="s786432" output="&gt;"/>
+      <when state="s851968" output="&gt;"/>
+      <when state="s917504" output="&gt;"/>
+      <when state="s983040" output="&gt;"/>
+      <when state="s1048576" output="&gt;"/>
+      <when state="s1114112" output="&gt;"/>
+      <when state="s1179648" output="&gt;"/>
+      <when state="s1245184" output="&gt;"/>
+      <when state="s1310720" output="&gt;"/>
+      <when state="s1376256" output="&gt;"/>
+      <when state="s1441792" output="&gt;"/>
+      <when state="s1507328" output="&gt;"/>
+      <when state="s1572864" output="&gt;"/>
+      <when state="s1638400" output="&gt;"/>
+    </action>
+    <action id="iast21_5_0">
+      <when state="none" output="Ā"/>
+      <when state="s1" output="Ā̀"/>
+      <when state="s2" output="ˇĀ"/>
+      <when state="s3" output="¯Ā"/>
+      <when state="s4" output="¸Ā"/>
+      <when state="s5" output="ʼĀ"/>
+      <when state="s6" output="˜Ā"/>
+      <when state="s7" output="ˀĀ"/>
+      <when state="s8" output=" ̏Ā"/>
+      <when state="s9" output="˝Ā"/>
+      <when state="s10" output="Ā́"/>
+      <when state="s11" output="-Ā"/>
+      <when state="s12" output="˙Ā"/>
+      <when state="s13" output="¨Ā"/>
+      <when state="s14" output="˘Ā"/>
+      <when state="s15" output="ʔĀ"/>
+      <when state="s16" output="№Ā"/>
+      <when state="s17" output=",Ā"/>
+      <when state="s18" output=".Ā"/>
+      <when state="s19" output="˛Ā"/>
+      <when state="s20" output="ˍĀ"/>
+      <when state="s21" output=" ̰Ā"/>
+      <when state="s22" output="˚Ā"/>
+      <when state="s23" output="Ā̂"/>
+      <when state="s24" output="‸Ā"/>
+      <when state="s25" output=" ̑Ā"/>
+      <when state="s65536" output="Ā"/>
+      <when state="s131072" output="Ā"/>
+      <when state="s196608" output="Ā"/>
+      <when state="s262144" output="Ā"/>
+      <when state="s327680" output="Ā"/>
+      <when state="s393216" output="Ā"/>
+      <when state="s458752" output="Ā"/>
+      <when state="s524288" output="Ā"/>
+      <when state="s589824" output="Ā"/>
+      <when state="s655360" output="Ā"/>
+      <when state="s720896" output="Ā"/>
+      <when state="s786432" output="Ā"/>
+      <when state="s851968" output="Ā"/>
+      <when state="s917504" output="Ā"/>
+      <when state="s983040" output="Ā"/>
+      <when state="s1048576" output="Ā"/>
+      <when state="s1114112" output="Ā"/>
+      <when state="s1179648" output="Ā"/>
+      <when state="s1245184" output="Ā"/>
+      <when state="s1310720" output="Ā"/>
+      <when state="s1376256" output="Ā"/>
+      <when state="s1441792" output="Ā"/>
+      <when state="s1507328" output="Ā"/>
+      <when state="s1572864" output="Ā"/>
+      <when state="s1638400" output="Ā"/>
+    </action>
+    <action id="iast21_5_3">
+      <when state="none" output="M̐"/>
+      <when state="s1" output="`M̐"/>
+      <when state="s2" output="ˇM̐"/>
+      <when state="s3" output="¯M̐"/>
+      <when state="s4" output="¸M̐"/>
+      <when state="s5" output="ʼM̐"/>
+      <when state="s6" output="˜M̐"/>
+      <when state="s7" output="ˀM̐"/>
+      <when state="s8" output=" ̏M̐"/>
+      <when state="s9" output="˝M̐"/>
+      <when state="s10" output="´M̐"/>
+      <when state="s11" output="-M̐"/>
+      <when state="s12" output="˙M̐"/>
+      <when state="s13" output="¨M̐"/>
+      <when state="s14" output="˘M̐"/>
+      <when state="s15" output="ʔM̐"/>
+      <when state="s16" output="№M̐"/>
+      <when state="s17" output=",M̐"/>
+      <when state="s18" output=".M̐"/>
+      <when state="s19" output="˛M̐"/>
+      <when state="s20" output="ˍM̐"/>
+      <when state="s21" output=" ̰M̐"/>
+      <when state="s22" output="˚M̐"/>
+      <when state="s23" output="ˆM̐"/>
+      <when state="s24" output="‸M̐"/>
+      <when state="s25" output=" ̑M̐"/>
+      <when state="s65536" output="M̐"/>
+      <when state="s131072" output="M̐"/>
+      <when state="s196608" output="M̐"/>
+      <when state="s262144" output="M̐"/>
+      <when state="s327680" output="M̐"/>
+      <when state="s393216" output="M̐"/>
+      <when state="s458752" output="M̐"/>
+      <when state="s524288" output="M̐"/>
+      <when state="s589824" output="M̐"/>
+      <when state="s655360" output="M̐"/>
+      <when state="s720896" output="M̐"/>
+      <when state="s786432" output="M̐"/>
+      <when state="s851968" output="M̐"/>
+      <when state="s917504" output="M̐"/>
+      <when state="s983040" output="M̐"/>
+      <when state="s1048576" output="M̐"/>
+      <when state="s1114112" output="M̐"/>
+      <when state="s1179648" output="M̐"/>
+      <when state="s1245184" output="M̐"/>
+      <when state="s1310720" output="M̐"/>
+      <when state="s1376256" output="M̐"/>
+      <when state="s1441792" output="M̐"/>
+      <when state="s1507328" output="M̐"/>
+      <when state="s1572864" output="M̐"/>
+      <when state="s1638400" output="M̐"/>
+    </action>
+    <action id="iast21_5_4">
+      <when state="none" output="Ḥ"/>
+      <when state="s1" output="`Ḥ"/>
+      <when state="s2" output="ˇḤ"/>
+      <when state="s3" output="¯Ḥ"/>
+      <when state="s4" output="¸Ḥ"/>
+      <when state="s5" output="ʼḤ"/>
+      <when state="s6" output="˜Ḥ"/>
+      <when state="s7" output="ˀḤ"/>
+      <when state="s8" output=" ̏Ḥ"/>
+      <when state="s9" output="˝Ḥ"/>
+      <when state="s10" output="´Ḥ"/>
+      <when state="s11" output="-Ḥ"/>
+      <when state="s12" output="˙Ḥ"/>
+      <when state="s13" output="¨Ḥ"/>
+      <when state="s14" output="˘Ḥ"/>
+      <when state="s15" output="ʔḤ"/>
+      <when state="s16" output="№Ḥ"/>
+      <when state="s17" output=",Ḥ"/>
+      <when state="s18" output=".Ḥ"/>
+      <when state="s19" output="˛Ḥ"/>
+      <when state="s20" output="ˍḤ"/>
+      <when state="s21" output=" ̰Ḥ"/>
+      <when state="s22" output="˚Ḥ"/>
+      <when state="s23" output="ˆḤ"/>
+      <when state="s24" output="‸Ḥ"/>
+      <when state="s25" output=" ̑Ḥ"/>
+      <when state="s65536" output="Ḥ"/>
+      <when state="s131072" output="Ḥ"/>
+      <when state="s196608" output="Ḥ"/>
+      <when state="s262144" output="Ḥ"/>
+      <when state="s327680" output="Ḥ"/>
+      <when state="s393216" output="Ḥ"/>
+      <when state="s458752" output="Ḥ"/>
+      <when state="s524288" output="Ḥ"/>
+      <when state="s589824" output="Ḥ"/>
+      <when state="s655360" output="Ḥ"/>
+      <when state="s720896" output="Ḥ"/>
+      <when state="s786432" output="Ḥ"/>
+      <when state="s851968" output="Ḥ"/>
+      <when state="s917504" output="Ḥ"/>
+      <when state="s983040" output="Ḥ"/>
+      <when state="s1048576" output="Ḥ"/>
+      <when state="s1114112" output="Ḥ"/>
+      <when state="s1179648" output="Ḥ"/>
+      <when state="s1245184" output="Ḥ"/>
+      <when state="s1310720" output="Ḥ"/>
+      <when state="s1376256" output="Ḥ"/>
+      <when state="s1441792" output="Ḥ"/>
+      <when state="s1507328" output="Ḥ"/>
+      <when state="s1572864" output="Ḥ"/>
+      <when state="s1638400" output="Ḥ"/>
+    </action>
+    <action id="iast21_5_12">
+      <when state="none" output="¨"/>
+      <when state="s1" output="`¨"/>
+      <when state="s2" output="ˇ¨"/>
+      <when state="s3" output="¯¨"/>
+      <when state="s4" output="¸¨"/>
+      <when state="s5" output="ʼ¨"/>
+      <when state="s6" output="˜¨"/>
+      <when state="s7" output="ˀ¨"/>
+      <when state="s8" output=" ̏¨"/>
+      <when state="s9" output="˝¨"/>
+      <when state="s10" output="´¨"/>
+      <when state="s11" output="-¨"/>
+      <when state="s12" output="˙¨"/>
+      <when state="s13" output="¨¨"/>
+      <when state="s14" output="˘¨"/>
+      <when state="s15" output="ʔ¨"/>
+      <when state="s16" output="№¨"/>
+      <when state="s17" output=",¨"/>
+      <when state="s18" output=".¨"/>
+      <when state="s19" output="˛¨"/>
+      <when state="s20" output="ˍ¨"/>
+      <when state="s21" output=" ̰¨"/>
+      <when state="s22" output="˚¨"/>
+      <when state="s23" output="ˆ¨"/>
+      <when state="s24" output="‸¨"/>
+      <when state="s25" output=" ̑¨"/>
+      <when state="s65536" output="¨"/>
+      <when state="s131072" output="¨"/>
+      <when state="s196608" output="¨"/>
+      <when state="s262144" output="¨"/>
+      <when state="s327680" output="¨"/>
+      <when state="s393216" output="¨"/>
+      <when state="s458752" output="¨"/>
+      <when state="s524288" output="¨"/>
+      <when state="s589824" output="¨"/>
+      <when state="s655360" output="¨"/>
+      <when state="s720896" output="¨"/>
+      <when state="s786432" output="¨"/>
+      <when state="s851968" output="¨"/>
+      <when state="s917504" output="¨"/>
+      <when state="s983040" output="¨"/>
+      <when state="s1048576" output="¨"/>
+      <when state="s1114112" output="¨"/>
+      <when state="s1179648" output="¨"/>
+      <when state="s1245184" output="¨"/>
+      <when state="s1310720" output="¨"/>
+      <when state="s1376256" output="¨"/>
+      <when state="s1441792" output="¨"/>
+      <when state="s1507328" output="¨"/>
+      <when state="s1572864" output="¨"/>
+      <when state="s1638400" output="¨"/>
+    </action>
+    <action id="iast21_5_13">
+      <when state="none" output="Ṁ"/>
+      <when state="s1" output="`Ṁ"/>
+      <when state="s2" output="ˇṀ"/>
+      <when state="s3" output="¯Ṁ"/>
+      <when state="s4" output="¸Ṁ"/>
+      <when state="s5" output="ʼṀ"/>
+      <when state="s6" output="˜Ṁ"/>
+      <when state="s7" output="ˀṀ"/>
+      <when state="s8" output=" ̏Ṁ"/>
+      <when state="s9" output="˝Ṁ"/>
+      <when state="s10" output="´Ṁ"/>
+      <when state="s11" output="-Ṁ"/>
+      <when state="s12" output="˙Ṁ"/>
+      <when state="s13" output="¨Ṁ"/>
+      <when state="s14" output="˘Ṁ"/>
+      <when state="s15" output="ʔṀ"/>
+      <when state="s16" output="№Ṁ"/>
+      <when state="s17" output=",Ṁ"/>
+      <when state="s18" output=".Ṁ"/>
+      <when state="s19" output="˛Ṁ"/>
+      <when state="s20" output="ˍṀ"/>
+      <when state="s21" output=" ̰Ṁ"/>
+      <when state="s22" output="˚Ṁ"/>
+      <when state="s23" output="ˆṀ"/>
+      <when state="s24" output="‸Ṁ"/>
+      <when state="s25" output=" ̑Ṁ"/>
+      <when state="s65536" output="Ṁ"/>
+      <when state="s131072" output="Ṁ"/>
+      <when state="s196608" output="Ṁ"/>
+      <when state="s262144" output="Ṁ"/>
+      <when state="s327680" output="Ṁ"/>
+      <when state="s393216" output="Ṁ"/>
+      <when state="s458752" output="Ṁ"/>
+      <when state="s524288" output="Ṁ"/>
+      <when state="s589824" output="Ṁ"/>
+      <when state="s655360" output="Ṁ"/>
+      <when state="s720896" output="Ṁ"/>
+      <when state="s786432" output="Ṁ"/>
+      <when state="s851968" output="Ṁ"/>
+      <when state="s917504" output="Ṁ"/>
+      <when state="s983040" output="Ṁ"/>
+      <when state="s1048576" output="Ṁ"/>
+      <when state="s1114112" output="Ṁ"/>
+      <when state="s1179648" output="Ṁ"/>
+      <when state="s1245184" output="Ṁ"/>
+      <when state="s1310720" output="Ṁ"/>
+      <when state="s1376256" output="Ṁ"/>
+      <when state="s1441792" output="Ṁ"/>
+      <when state="s1507328" output="Ṁ"/>
+      <when state="s1572864" output="Ṁ"/>
+      <when state="s1638400" output="Ṁ"/>
+    </action>
+    <action id="iast21_5_15">
+      <when state="none" output="Ṛ"/>
+      <when state="s1" output="Ṛ̀"/>
+      <when state="s2" output="ˇṚ"/>
+      <when state="s3" output="¯Ṛ"/>
+      <when state="s4" output="¸Ṛ"/>
+      <when state="s5" output="ʼṚ"/>
+      <when state="s6" output="˜Ṛ"/>
+      <when state="s7" output="ˀṚ"/>
+      <when state="s8" output=" ̏Ṛ"/>
+      <when state="s9" output="˝Ṛ"/>
+      <when state="s10" output="Ṛ́"/>
+      <when state="s11" output="-Ṛ"/>
+      <when state="s12" output="˙Ṛ"/>
+      <when state="s13" output="¨Ṛ"/>
+      <when state="s14" output="˘Ṛ"/>
+      <when state="s15" output="ʔṚ"/>
+      <when state="s16" output="№Ṛ"/>
+      <when state="s17" output=",Ṛ"/>
+      <when state="s18" output=".Ṛ"/>
+      <when state="s19" output="˛Ṛ"/>
+      <when state="s20" output="ˍṚ"/>
+      <when state="s21" output=" ̰Ṛ"/>
+      <when state="s22" output="˚Ṛ"/>
+      <when state="s23" output="Ṛ̂"/>
+      <when state="s24" output="‸Ṛ"/>
+      <when state="s25" output=" ̑Ṛ"/>
+      <when state="s65536" output="Ṛ"/>
+      <when state="s131072" output="Ṛ"/>
+      <when state="s196608" output="Ṛ"/>
+      <when state="s262144" output="Ṛ"/>
+      <when state="s327680" output="Ṛ"/>
+      <when state="s393216" output="Ṛ"/>
+      <when state="s458752" output="Ṛ"/>
+      <when state="s524288" output="Ṛ"/>
+      <when state="s589824" output="Ṛ"/>
+      <when state="s655360" output="Ṛ"/>
+      <when state="s720896" output="Ṛ"/>
+      <when state="s786432" output="Ṛ"/>
+      <when state="s851968" output="Ṛ"/>
+      <when state="s917504" output="Ṛ"/>
+      <when state="s983040" output="Ṛ"/>
+      <when state="s1048576" output="Ṛ"/>
+      <when state="s1114112" output="Ṛ"/>
+      <when state="s1179648" output="Ṛ"/>
+      <when state="s1245184" output="Ṛ"/>
+      <when state="s1310720" output="Ṛ"/>
+      <when state="s1376256" output="Ṛ"/>
+      <when state="s1441792" output="Ṛ"/>
+      <when state="s1507328" output="Ṛ"/>
+      <when state="s1572864" output="Ṛ"/>
+      <when state="s1638400" output="Ṛ"/>
+    </action>
+    <action id="iast21_5_16">
+      <when state="none" output="R̥"/>
+      <when state="s1" output="R̥̀"/>
+      <when state="s2" output="ˇR̥"/>
+      <when state="s3" output="¯R̥"/>
+      <when state="s4" output="¸R̥"/>
+      <when state="s5" output="ʼR̥"/>
+      <when state="s6" output="˜R̥"/>
+      <when state="s7" output="ˀR̥"/>
+      <when state="s8" output=" ̏R̥"/>
+      <when state="s9" output="˝R̥"/>
+      <when state="s10" output="Ŕ̥"/>
+      <when state="s11" output="-R̥"/>
+      <when state="s12" output="˙R̥"/>
+      <when state="s13" output="¨R̥"/>
+      <when state="s14" output="˘R̥"/>
+      <when state="s15" output="ʔR̥"/>
+      <when state="s16" output="№R̥"/>
+      <when state="s17" output=",R̥"/>
+      <when state="s18" output=".R̥"/>
+      <when state="s19" output="˛R̥"/>
+      <when state="s20" output="ˍR̥"/>
+      <when state="s21" output=" ̰R̥"/>
+      <when state="s22" output="˚R̥"/>
+      <when state="s23" output="R̥̂"/>
+      <when state="s24" output="‸R̥"/>
+      <when state="s25" output=" ̑R̥"/>
+      <when state="s65536" output="R̥"/>
+      <when state="s131072" output="R̥"/>
+      <when state="s196608" output="R̥"/>
+      <when state="s262144" output="R̥"/>
+      <when state="s327680" output="R̥"/>
+      <when state="s393216" output="R̥"/>
+      <when state="s458752" output="R̥"/>
+      <when state="s524288" output="R̥"/>
+      <when state="s589824" output="R̥"/>
+      <when state="s655360" output="R̥"/>
+      <when state="s720896" output="R̥"/>
+      <when state="s786432" output="R̥"/>
+      <when state="s851968" output="R̥"/>
+      <when state="s917504" output="R̥"/>
+      <when state="s983040" output="R̥"/>
+      <when state="s1048576" output="R̥"/>
+      <when state="s1114112" output="R̥"/>
+      <when state="s1179648" output="R̥"/>
+      <when state="s1245184" output="R̥"/>
+      <when state="s1310720" output="R̥"/>
+      <when state="s1376256" output="R̥"/>
+      <when state="s1441792" output="R̥"/>
+      <when state="s1507328" output="R̥"/>
+      <when state="s1572864" output="R̥"/>
+      <when state="s1638400" output="R̥"/>
+    </action>
+    <action id="iast21_5_17">
+      <when state="none" output="Ṭ"/>
+      <when state="s1" output="`Ṭ"/>
+      <when state="s2" output="ˇṬ"/>
+      <when state="s3" output="¯Ṭ"/>
+      <when state="s4" output="¸Ṭ"/>
+      <when state="s5" output="ʼṬ"/>
+      <when state="s6" output="˜Ṭ"/>
+      <when state="s7" output="ˀṬ"/>
+      <when state="s8" output=" ̏Ṭ"/>
+      <when state="s9" output="˝Ṭ"/>
+      <when state="s10" output="´Ṭ"/>
+      <when state="s11" output="-Ṭ"/>
+      <when state="s12" output="˙Ṭ"/>
+      <when state="s13" output="¨Ṭ"/>
+      <when state="s14" output="˘Ṭ"/>
+      <when state="s15" output="ʔṬ"/>
+      <when state="s16" output="№Ṭ"/>
+      <when state="s17" output=",Ṭ"/>
+      <when state="s18" output=".Ṭ"/>
+      <when state="s19" output="˛Ṭ"/>
+      <when state="s20" output="ˍṬ"/>
+      <when state="s21" output=" ̰Ṭ"/>
+      <when state="s22" output="˚Ṭ"/>
+      <when state="s23" output="ˆṬ"/>
+      <when state="s24" output="‸Ṭ"/>
+      <when state="s25" output=" ̑Ṭ"/>
+      <when state="s65536" output="Ṭ"/>
+      <when state="s131072" output="Ṭ"/>
+      <when state="s196608" output="Ṭ"/>
+      <when state="s262144" output="Ṭ"/>
+      <when state="s327680" output="Ṭ"/>
+      <when state="s393216" output="Ṭ"/>
+      <when state="s458752" output="Ṭ"/>
+      <when state="s524288" output="Ṭ"/>
+      <when state="s589824" output="Ṭ"/>
+      <when state="s655360" output="Ṭ"/>
+      <when state="s720896" output="Ṭ"/>
+      <when state="s786432" output="Ṭ"/>
+      <when state="s851968" output="Ṭ"/>
+      <when state="s917504" output="Ṭ"/>
+      <when state="s983040" output="Ṭ"/>
+      <when state="s1048576" output="Ṭ"/>
+      <when state="s1114112" output="Ṭ"/>
+      <when state="s1179648" output="Ṭ"/>
+      <when state="s1245184" output="Ṭ"/>
+      <when state="s1310720" output="Ṭ"/>
+      <when state="s1376256" output="Ṭ"/>
+      <when state="s1441792" output="Ṭ"/>
+      <when state="s1507328" output="Ṭ"/>
+      <when state="s1572864" output="Ṭ"/>
+      <when state="s1638400" output="Ṭ"/>
+    </action>
+    <action id="iast21_5_18">
+      <when state="none" output="Ḫ"/>
+      <when state="s1" output="`Ḫ"/>
+      <when state="s2" output="ˇḪ"/>
+      <when state="s3" output="¯Ḫ"/>
+      <when state="s4" output="¸Ḫ"/>
+      <when state="s5" output="ʼḪ"/>
+      <when state="s6" output="˜Ḫ"/>
+      <when state="s7" output="ˀḪ"/>
+      <when state="s8" output=" ̏Ḫ"/>
+      <when state="s9" output="˝Ḫ"/>
+      <when state="s10" output="´Ḫ"/>
+      <when state="s11" output="-Ḫ"/>
+      <when state="s12" output="˙Ḫ"/>
+      <when state="s13" output="¨Ḫ"/>
+      <when state="s14" output="˘Ḫ"/>
+      <when state="s15" output="ʔḪ"/>
+      <when state="s16" output="№Ḫ"/>
+      <when state="s17" output=",Ḫ"/>
+      <when state="s18" output=".Ḫ"/>
+      <when state="s19" output="˛Ḫ"/>
+      <when state="s20" output="ˍḪ"/>
+      <when state="s21" output=" ̰Ḫ"/>
+      <when state="s22" output="˚Ḫ"/>
+      <when state="s23" output="ˆḪ"/>
+      <when state="s24" output="‸Ḫ"/>
+      <when state="s25" output=" ̑Ḫ"/>
+      <when state="s65536" output="Ḫ"/>
+      <when state="s131072" output="Ḫ"/>
+      <when state="s196608" output="Ḫ"/>
+      <when state="s262144" output="Ḫ"/>
+      <when state="s327680" output="Ḫ"/>
+      <when state="s393216" output="Ḫ"/>
+      <when state="s458752" output="Ḫ"/>
+      <when state="s524288" output="Ḫ"/>
+      <when state="s589824" output="Ḫ"/>
+      <when state="s655360" output="Ḫ"/>
+      <when state="s720896" output="Ḫ"/>
+      <when state="s786432" output="Ḫ"/>
+      <when state="s851968" output="Ḫ"/>
+      <when state="s917504" output="Ḫ"/>
+      <when state="s983040" output="Ḫ"/>
+      <when state="s1048576" output="Ḫ"/>
+      <when state="s1114112" output="Ḫ"/>
+      <when state="s1179648" output="Ḫ"/>
+      <when state="s1245184" output="Ḫ"/>
+      <when state="s1310720" output="Ḫ"/>
+      <when state="s1376256" output="Ḫ"/>
+      <when state="s1441792" output="Ḫ"/>
+      <when state="s1507328" output="Ḫ"/>
+      <when state="s1572864" output="Ḫ"/>
+      <when state="s1638400" output="Ḫ"/>
+    </action>
+    <action id="iast21_5_19">
+      <when state="none" output="H̱"/>
+      <when state="s1" output="`H̱"/>
+      <when state="s2" output="ˇH̱"/>
+      <when state="s3" output="¯H̱"/>
+      <when state="s4" output="¸H̱"/>
+      <when state="s5" output="ʼH̱"/>
+      <when state="s6" output="˜H̱"/>
+      <when state="s7" output="ˀH̱"/>
+      <when state="s8" output=" ̏H̱"/>
+      <when state="s9" output="˝H̱"/>
+      <when state="s10" output="´H̱"/>
+      <when state="s11" output="-H̱"/>
+      <when state="s12" output="˙H̱"/>
+      <when state="s13" output="¨H̱"/>
+      <when state="s14" output="˘H̱"/>
+      <when state="s15" output="ʔH̱"/>
+      <when state="s16" output="№H̱"/>
+      <when state="s17" output=",H̱"/>
+      <when state="s18" output=".H̱"/>
+      <when state="s19" output="˛H̱"/>
+      <when state="s20" output="ˍH̱"/>
+      <when state="s21" output=" ̰H̱"/>
+      <when state="s22" output="˚H̱"/>
+      <when state="s23" output="ˆH̱"/>
+      <when state="s24" output="‸H̱"/>
+      <when state="s25" output=" ̑H̱"/>
+      <when state="s65536" output="H̱"/>
+      <when state="s131072" output="H̱"/>
+      <when state="s196608" output="H̱"/>
+      <when state="s262144" output="H̱"/>
+      <when state="s327680" output="H̱"/>
+      <when state="s393216" output="H̱"/>
+      <when state="s458752" output="H̱"/>
+      <when state="s524288" output="H̱"/>
+      <when state="s589824" output="H̱"/>
+      <when state="s655360" output="H̱"/>
+      <when state="s720896" output="H̱"/>
+      <when state="s786432" output="H̱"/>
+      <when state="s851968" output="H̱"/>
+      <when state="s917504" output="H̱"/>
+      <when state="s983040" output="H̱"/>
+      <when state="s1048576" output="H̱"/>
+      <when state="s1114112" output="H̱"/>
+      <when state="s1179648" output="H̱"/>
+      <when state="s1245184" output="H̱"/>
+      <when state="s1310720" output="H̱"/>
+      <when state="s1376256" output="H̱"/>
+      <when state="s1441792" output="H̱"/>
+      <when state="s1507328" output="H̱"/>
+      <when state="s1572864" output="H̱"/>
+      <when state="s1638400" output="H̱"/>
+    </action>
+    <action id="iast21_5_23">
+      <when state="none" output="°"/>
+      <when state="s1" output="`°"/>
+      <when state="s2" output="ˇ°"/>
+      <when state="s3" output="¯°"/>
+      <when state="s4" output="¸°"/>
+      <when state="s5" output="ʼ°"/>
+      <when state="s6" output="˜°"/>
+      <when state="s7" output="ˀ°"/>
+      <when state="s8" output=" ̏°"/>
+      <when state="s9" output="˝°"/>
+      <when state="s10" output="´°"/>
+      <when state="s11" output="-°"/>
+      <when state="s12" output="˙°"/>
+      <when state="s13" output="¨°"/>
+      <when state="s14" output="˘°"/>
+      <when state="s15" output="ʔ°"/>
+      <when state="s16" output="№°"/>
+      <when state="s17" output=",°"/>
+      <when state="s18" output=".°"/>
+      <when state="s19" output="˛°"/>
+      <when state="s20" output="ˍ°"/>
+      <when state="s21" output=" ̰°"/>
+      <when state="s22" output="˚°"/>
+      <when state="s23" output="ˆ°"/>
+      <when state="s24" output="‸°"/>
+      <when state="s25" output=" ̑°"/>
+      <when state="s65536" output="°"/>
+      <when state="s131072" output="°"/>
+      <when state="s196608" output="°"/>
+      <when state="s262144" output="°"/>
+      <when state="s327680" output="°"/>
+      <when state="s393216" output="°"/>
+      <when state="s458752" output="°"/>
+      <when state="s524288" output="°"/>
+      <when state="s589824" output="°"/>
+      <when state="s655360" output="°"/>
+      <when state="s720896" output="°"/>
+      <when state="s786432" output="°"/>
+      <when state="s851968" output="°"/>
+      <when state="s917504" output="°"/>
+      <when state="s983040" output="°"/>
+      <when state="s1048576" output="°"/>
+      <when state="s1114112" output="°"/>
+      <when state="s1179648" output="°"/>
+      <when state="s1245184" output="°"/>
+      <when state="s1310720" output="°"/>
+      <when state="s1376256" output="°"/>
+      <when state="s1441792" output="°"/>
+      <when state="s1507328" output="°"/>
+      <when state="s1572864" output="°"/>
+      <when state="s1638400" output="°"/>
+    </action>
+    <action id="iast21_5_24">
+      <when state="none" output="̄"/>
+      <when state="s1" output="`̄"/>
+      <when state="s2" output="ˇ̄"/>
+      <when state="s3" output="¯̄"/>
+      <when state="s4" output="¸̄"/>
+      <when state="s5" output="ʼ̄"/>
+      <when state="s6" output="˜̄"/>
+      <when state="s7" output="ˀ̄"/>
+      <when state="s8" output=" ̏̄"/>
+      <when state="s9" output="˝̄"/>
+      <when state="s10" output="´̄"/>
+      <when state="s11" output="-̄"/>
+      <when state="s12" output="˙̄"/>
+      <when state="s13" output="¨̄"/>
+      <when state="s14" output="˘̄"/>
+      <when state="s15" output="ʔ̄"/>
+      <when state="s16" output="№̄"/>
+      <when state="s17" output=",̄"/>
+      <when state="s18" output=".̄"/>
+      <when state="s19" output="˛̄"/>
+      <when state="s20" output="ˍ̄"/>
+      <when state="s21" output=" ̰̄"/>
+      <when state="s22" output="˚̄"/>
+      <when state="s23" output="ˆ̄"/>
+      <when state="s24" output="‸̄"/>
+      <when state="s25" output=" ̑̄"/>
+      <when state="s65536" output="̄"/>
+      <when state="s131072" output="̄"/>
+      <when state="s196608" output="̄"/>
+      <when state="s262144" output="̄"/>
+      <when state="s327680" output="̄"/>
+      <when state="s393216" output="̄"/>
+      <when state="s458752" output="̄"/>
+      <when state="s524288" output="̄"/>
+      <when state="s589824" output="̄"/>
+      <when state="s655360" output="̄"/>
+      <when state="s720896" output="̄"/>
+      <when state="s786432" output="̄"/>
+      <when state="s851968" output="̄"/>
+      <when state="s917504" output="̄"/>
+      <when state="s983040" output="̄"/>
+      <when state="s1048576" output="̄"/>
+      <when state="s1114112" output="̄"/>
+      <when state="s1179648" output="̄"/>
+      <when state="s1245184" output="̄"/>
+      <when state="s1310720" output="̄"/>
+      <when state="s1376256" output="̄"/>
+      <when state="s1441792" output="̄"/>
+      <when state="s1507328" output="̄"/>
+      <when state="s1572864" output="̄"/>
+      <when state="s1638400" output="̄"/>
+    </action>
+    <action id="iast21_5_28">
+      <when state="none" output="◊"/>
+      <when state="s1" output="`◊"/>
+      <when state="s2" output="ˇ◊"/>
+      <when state="s3" output="¯◊"/>
+      <when state="s4" output="¸◊"/>
+      <when state="s5" output="ʼ◊"/>
+      <when state="s6" output="˜◊"/>
+      <when state="s7" output="ˀ◊"/>
+      <when state="s8" output=" ̏◊"/>
+      <when state="s9" output="˝◊"/>
+      <when state="s10" output="´◊"/>
+      <when state="s11" output="-◊"/>
+      <when state="s12" output="˙◊"/>
+      <when state="s13" output="¨◊"/>
+      <when state="s14" output="˘◊"/>
+      <when state="s15" output="ʔ◊"/>
+      <when state="s16" output="№◊"/>
+      <when state="s17" output=",◊"/>
+      <when state="s18" output=".◊"/>
+      <when state="s19" output="˛◊"/>
+      <when state="s20" output="ˍ◊"/>
+      <when state="s21" output=" ̰◊"/>
+      <when state="s22" output="˚◊"/>
+      <when state="s23" output="ˆ◊"/>
+      <when state="s24" output="‸◊"/>
+      <when state="s25" output=" ̑◊"/>
+      <when state="s65536" output="◊"/>
+      <when state="s131072" output="◊"/>
+      <when state="s196608" output="◊"/>
+      <when state="s262144" output="◊"/>
+      <when state="s327680" output="◊"/>
+      <when state="s393216" output="◊"/>
+      <when state="s458752" output="◊"/>
+      <when state="s524288" output="◊"/>
+      <when state="s589824" output="◊"/>
+      <when state="s655360" output="◊"/>
+      <when state="s720896" output="◊"/>
+      <when state="s786432" output="◊"/>
+      <when state="s851968" output="◊"/>
+      <when state="s917504" output="◊"/>
+      <when state="s983040" output="◊"/>
+      <when state="s1048576" output="◊"/>
+      <when state="s1114112" output="◊"/>
+      <when state="s1179648" output="◊"/>
+      <when state="s1245184" output="◊"/>
+      <when state="s1310720" output="◊"/>
+      <when state="s1376256" output="◊"/>
+      <when state="s1441792" output="◊"/>
+      <when state="s1507328" output="◊"/>
+      <when state="s1572864" output="◊"/>
+      <when state="s1638400" output="◊"/>
+    </action>
+    <action id="iast21_5_32">
+      <when state="none" output="Ū"/>
+      <when state="s1" output="Ū̀"/>
+      <when state="s2" output="ˇŪ"/>
+      <when state="s3" output="¯Ū"/>
+      <when state="s4" output="¸Ū"/>
+      <when state="s5" output="ʼŪ"/>
+      <when state="s6" output="˜Ū"/>
+      <when state="s7" output="ˀŪ"/>
+      <when state="s8" output=" ̏Ū"/>
+      <when state="s9" output="˝Ū"/>
+      <when state="s10" output="Ū́"/>
+      <when state="s11" output="-Ū"/>
+      <when state="s12" output="˙Ū"/>
+      <when state="s13" output="¨Ū"/>
+      <when state="s14" output="˘Ū"/>
+      <when state="s15" output="ʔŪ"/>
+      <when state="s16" output="№Ū"/>
+      <when state="s17" output=",Ū"/>
+      <when state="s18" output=".Ū"/>
+      <when state="s19" output="˛Ū"/>
+      <when state="s20" output="ˍŪ"/>
+      <when state="s21" output=" ̰Ū"/>
+      <when state="s22" output="˚Ū"/>
+      <when state="s23" output="Ū̂"/>
+      <when state="s24" output="‸Ū"/>
+      <when state="s25" output=" ̑Ū"/>
+      <when state="s65536" output="Ū"/>
+      <when state="s131072" output="Ū"/>
+      <when state="s196608" output="Ū"/>
+      <when state="s262144" output="Ū"/>
+      <when state="s327680" output="Ū"/>
+      <when state="s393216" output="Ū"/>
+      <when state="s458752" output="Ū"/>
+      <when state="s524288" output="Ū"/>
+      <when state="s589824" output="Ū"/>
+      <when state="s655360" output="Ū"/>
+      <when state="s720896" output="Ū"/>
+      <when state="s786432" output="Ū"/>
+      <when state="s851968" output="Ū"/>
+      <when state="s917504" output="Ū"/>
+      <when state="s983040" output="Ū"/>
+      <when state="s1048576" output="Ū"/>
+      <when state="s1114112" output="Ū"/>
+      <when state="s1179648" output="Ū"/>
+      <when state="s1245184" output="Ū"/>
+      <when state="s1310720" output="Ū"/>
+      <when state="s1376256" output="Ū"/>
+      <when state="s1441792" output="Ū"/>
+      <when state="s1507328" output="Ū"/>
+      <when state="s1572864" output="Ū"/>
+      <when state="s1638400" output="Ū"/>
+    </action>
+    <action id="iast21_5_34">
+      <when state="none" output="Ī"/>
+      <when state="s1" output="Ī̀"/>
+      <when state="s2" output="ˇĪ"/>
+      <when state="s3" output="¯Ī"/>
+      <when state="s4" output="¸Ī"/>
+      <when state="s5" output="ʼĪ"/>
+      <when state="s6" output="˜Ī"/>
+      <when state="s7" output="ˀĪ"/>
+      <when state="s8" output=" ̏Ī"/>
+      <when state="s9" output="˝Ī"/>
+      <when state="s10" output="Ī́"/>
+      <when state="s11" output="-Ī"/>
+      <when state="s12" output="˙Ī"/>
+      <when state="s13" output="¨Ī"/>
+      <when state="s14" output="˘Ī"/>
+      <when state="s15" output="ʔĪ"/>
+      <when state="s16" output="№Ī"/>
+      <when state="s17" output=",Ī"/>
+      <when state="s18" output=".Ī"/>
+      <when state="s19" output="˛Ī"/>
+      <when state="s20" output="ˍĪ"/>
+      <when state="s21" output=" ̰Ī"/>
+      <when state="s22" output="˚Ī"/>
+      <when state="s23" output="Ī̂"/>
+      <when state="s24" output="‸Ī"/>
+      <when state="s25" output=" ̑Ī"/>
+      <when state="s65536" output="Ī"/>
+      <when state="s131072" output="Ī"/>
+      <when state="s196608" output="Ī"/>
+      <when state="s262144" output="Ī"/>
+      <when state="s327680" output="Ī"/>
+      <when state="s393216" output="Ī"/>
+      <when state="s458752" output="Ī"/>
+      <when state="s524288" output="Ī"/>
+      <when state="s589824" output="Ī"/>
+      <when state="s655360" output="Ī"/>
+      <when state="s720896" output="Ī"/>
+      <when state="s786432" output="Ī"/>
+      <when state="s851968" output="Ī"/>
+      <when state="s917504" output="Ī"/>
+      <when state="s983040" output="Ī"/>
+      <when state="s1048576" output="Ī"/>
+      <when state="s1114112" output="Ī"/>
+      <when state="s1179648" output="Ī"/>
+      <when state="s1245184" output="Ī"/>
+      <when state="s1310720" output="Ī"/>
+      <when state="s1376256" output="Ī"/>
+      <when state="s1441792" output="Ī"/>
+      <when state="s1507328" output="Ī"/>
+      <when state="s1572864" output="Ī"/>
+      <when state="s1638400" output="Ī"/>
+    </action>
+    <action id="iast21_5_37">
+      <when state="none" output="Ḷ"/>
+      <when state="s1" output="Ḷ̀"/>
+      <when state="s2" output="ˇḶ"/>
+      <when state="s3" output="¯Ḷ"/>
+      <when state="s4" output="¸Ḷ"/>
+      <when state="s5" output="ʼḶ"/>
+      <when state="s6" output="˜Ḷ"/>
+      <when state="s7" output="ˀḶ"/>
+      <when state="s8" output=" ̏Ḷ"/>
+      <when state="s9" output="˝Ḷ"/>
+      <when state="s10" output="Ḷ́"/>
+      <when state="s11" output="-Ḷ"/>
+      <when state="s12" output="˙Ḷ"/>
+      <when state="s13" output="¨Ḷ"/>
+      <when state="s14" output="˘Ḷ"/>
+      <when state="s15" output="ʔḶ"/>
+      <when state="s16" output="№Ḷ"/>
+      <when state="s17" output=",Ḷ"/>
+      <when state="s18" output=".Ḷ"/>
+      <when state="s19" output="˛Ḷ"/>
+      <when state="s20" output="ˍḶ"/>
+      <when state="s21" output=" ̰Ḷ"/>
+      <when state="s22" output="˚Ḷ"/>
+      <when state="s23" output="Ḷ̂"/>
+      <when state="s24" output="‸Ḷ"/>
+      <when state="s25" output=" ̑Ḷ"/>
+      <when state="s65536" output="Ḷ"/>
+      <when state="s131072" output="Ḷ"/>
+      <when state="s196608" output="Ḷ"/>
+      <when state="s262144" output="Ḷ"/>
+      <when state="s327680" output="Ḷ"/>
+      <when state="s393216" output="Ḷ"/>
+      <when state="s458752" output="Ḷ"/>
+      <when state="s524288" output="Ḷ"/>
+      <when state="s589824" output="Ḷ"/>
+      <when state="s655360" output="Ḷ"/>
+      <when state="s720896" output="Ḷ"/>
+      <when state="s786432" output="Ḷ"/>
+      <when state="s851968" output="Ḷ"/>
+      <when state="s917504" output="Ḷ"/>
+      <when state="s983040" output="Ḷ"/>
+      <when state="s1048576" output="Ḷ"/>
+      <when state="s1114112" output="Ḷ"/>
+      <when state="s1179648" output="Ḷ"/>
+      <when state="s1245184" output="Ḷ"/>
+      <when state="s1310720" output="Ḷ"/>
+      <when state="s1376256" output="Ḷ"/>
+      <when state="s1441792" output="Ḷ"/>
+      <when state="s1507328" output="Ḷ"/>
+      <when state="s1572864" output="Ḷ"/>
+      <when state="s1638400" output="Ḷ"/>
+    </action>
+    <action id="iast21_5_43">
+      <when state="none" output="⟪"/>
+      <when state="s1" output="`⟪"/>
+      <when state="s2" output="ˇ⟪"/>
+      <when state="s3" output="¯⟪"/>
+      <when state="s4" output="¸⟪"/>
+      <when state="s5" output="ʼ⟪"/>
+      <when state="s6" output="˜⟪"/>
+      <when state="s7" output="ˀ⟪"/>
+      <when state="s8" output=" ̏⟪"/>
+      <when state="s9" output="˝⟪"/>
+      <when state="s10" output="´⟪"/>
+      <when state="s11" output="-⟪"/>
+      <when state="s12" output="˙⟪"/>
+      <when state="s13" output="¨⟪"/>
+      <when state="s14" output="˘⟪"/>
+      <when state="s15" output="ʔ⟪"/>
+      <when state="s16" output="№⟪"/>
+      <when state="s17" output=",⟪"/>
+      <when state="s18" output=".⟪"/>
+      <when state="s19" output="˛⟪"/>
+      <when state="s20" output="ˍ⟪"/>
+      <when state="s21" output=" ̰⟪"/>
+      <when state="s22" output="˚⟪"/>
+      <when state="s23" output="ˆ⟪"/>
+      <when state="s24" output="‸⟪"/>
+      <when state="s25" output=" ̑⟪"/>
+      <when state="s65536" output="⟪"/>
+      <when state="s131072" output="⟪"/>
+      <when state="s196608" output="⟪"/>
+      <when state="s262144" output="⟪"/>
+      <when state="s327680" output="⟪"/>
+      <when state="s393216" output="⟪"/>
+      <when state="s458752" output="⟪"/>
+      <when state="s524288" output="⟪"/>
+      <when state="s589824" output="⟪"/>
+      <when state="s655360" output="⟪"/>
+      <when state="s720896" output="⟪"/>
+      <when state="s786432" output="⟪"/>
+      <when state="s851968" output="⟪"/>
+      <when state="s917504" output="⟪"/>
+      <when state="s983040" output="⟪"/>
+      <when state="s1048576" output="⟪"/>
+      <when state="s1114112" output="⟪"/>
+      <when state="s1179648" output="⟪"/>
+      <when state="s1245184" output="⟪"/>
+      <when state="s1310720" output="⟪"/>
+      <when state="s1376256" output="⟪"/>
+      <when state="s1441792" output="⟪"/>
+      <when state="s1507328" output="⟪"/>
+      <when state="s1572864" output="⟪"/>
+      <when state="s1638400" output="⟪"/>
+    </action>
+    <action id="iast21_5_46">
+      <when state="none" output="Ṃ"/>
+      <when state="s1" output="`Ṃ"/>
+      <when state="s2" output="ˇṂ"/>
+      <when state="s3" output="¯Ṃ"/>
+      <when state="s4" output="¸Ṃ"/>
+      <when state="s5" output="ʼṂ"/>
+      <when state="s6" output="˜Ṃ"/>
+      <when state="s7" output="ˀṂ"/>
+      <when state="s8" output=" ̏Ṃ"/>
+      <when state="s9" output="˝Ṃ"/>
+      <when state="s10" output="´Ṃ"/>
+      <when state="s11" output="-Ṃ"/>
+      <when state="s12" output="˙Ṃ"/>
+      <when state="s13" output="¨Ṃ"/>
+      <when state="s14" output="˘Ṃ"/>
+      <when state="s15" output="ʔṂ"/>
+      <when state="s16" output="№Ṃ"/>
+      <when state="s17" output=",Ṃ"/>
+      <when state="s18" output=".Ṃ"/>
+      <when state="s19" output="˛Ṃ"/>
+      <when state="s20" output="ˍṂ"/>
+      <when state="s21" output=" ̰Ṃ"/>
+      <when state="s22" output="˚Ṃ"/>
+      <when state="s23" output="ˆṂ"/>
+      <when state="s24" output="‸Ṃ"/>
+      <when state="s25" output=" ̑Ṃ"/>
+      <when state="s65536" output="Ṃ"/>
+      <when state="s131072" output="Ṃ"/>
+      <when state="s196608" output="Ṃ"/>
+      <when state="s262144" output="Ṃ"/>
+      <when state="s327680" output="Ṃ"/>
+      <when state="s393216" output="Ṃ"/>
+      <when state="s458752" output="Ṃ"/>
+      <when state="s524288" output="Ṃ"/>
+      <when state="s589824" output="Ṃ"/>
+      <when state="s655360" output="Ṃ"/>
+      <when state="s720896" output="Ṃ"/>
+      <when state="s786432" output="Ṃ"/>
+      <when state="s851968" output="Ṃ"/>
+      <when state="s917504" output="Ṃ"/>
+      <when state="s983040" output="Ṃ"/>
+      <when state="s1048576" output="Ṃ"/>
+      <when state="s1114112" output="Ṃ"/>
+      <when state="s1179648" output="Ṃ"/>
+      <when state="s1245184" output="Ṃ"/>
+      <when state="s1310720" output="Ṃ"/>
+      <when state="s1376256" output="Ṃ"/>
+      <when state="s1441792" output="Ṃ"/>
+      <when state="s1507328" output="Ṃ"/>
+      <when state="s1572864" output="Ṃ"/>
+      <when state="s1638400" output="Ṃ"/>
+    </action>
+    <action id="iast21_5_47">
+      <when state="none" output="⟫"/>
+      <when state="s1" output="`⟫"/>
+      <when state="s2" output="ˇ⟫"/>
+      <when state="s3" output="¯⟫"/>
+      <when state="s4" output="¸⟫"/>
+      <when state="s5" output="ʼ⟫"/>
+      <when state="s6" output="˜⟫"/>
+      <when state="s7" output="ˀ⟫"/>
+      <when state="s8" output=" ̏⟫"/>
+      <when state="s9" output="˝⟫"/>
+      <when state="s10" output="´⟫"/>
+      <when state="s11" output="-⟫"/>
+      <when state="s12" output="˙⟫"/>
+      <when state="s13" output="¨⟫"/>
+      <when state="s14" output="˘⟫"/>
+      <when state="s15" output="ʔ⟫"/>
+      <when state="s16" output="№⟫"/>
+      <when state="s17" output=",⟫"/>
+      <when state="s18" output=".⟫"/>
+      <when state="s19" output="˛⟫"/>
+      <when state="s20" output="ˍ⟫"/>
+      <when state="s21" output=" ̰⟫"/>
+      <when state="s22" output="˚⟫"/>
+      <when state="s23" output="ˆ⟫"/>
+      <when state="s24" output="‸⟫"/>
+      <when state="s25" output=" ̑⟫"/>
+      <when state="s65536" output="⟫"/>
+      <when state="s131072" output="⟫"/>
+      <when state="s196608" output="⟫"/>
+      <when state="s262144" output="⟫"/>
+      <when state="s327680" output="⟫"/>
+      <when state="s393216" output="⟫"/>
+      <when state="s458752" output="⟫"/>
+      <when state="s524288" output="⟫"/>
+      <when state="s589824" output="⟫"/>
+      <when state="s655360" output="⟫"/>
+      <when state="s720896" output="⟫"/>
+      <when state="s786432" output="⟫"/>
+      <when state="s851968" output="⟫"/>
+      <when state="s917504" output="⟫"/>
+      <when state="s983040" output="⟫"/>
+      <when state="s1048576" output="⟫"/>
+      <when state="s1114112" output="⟫"/>
+      <when state="s1179648" output="⟫"/>
+      <when state="s1245184" output="⟫"/>
+      <when state="s1310720" output="⟫"/>
+      <when state="s1376256" output="⟫"/>
+      <when state="s1441792" output="⟫"/>
+      <when state="s1507328" output="⟫"/>
+      <when state="s1572864" output="⟫"/>
+      <when state="s1638400" output="⟫"/>
+    </action>
+    <action id="iast21_6_12">
+      <when state="none" output="¨"/>
+      <when state="s1" output="`¨"/>
+      <when state="s2" output="ˇ¨"/>
+      <when state="s3" output="¯¨"/>
+      <when state="s4" output="¸¨"/>
+      <when state="s5" output="ʼ¨"/>
+      <when state="s6" output="˜¨"/>
+      <when state="s7" output="ˀ¨"/>
+      <when state="s8" output=" ̏¨"/>
+      <when state="s9" output="˝¨"/>
+      <when state="s10" output="´¨"/>
+      <when state="s11" output="-¨"/>
+      <when state="s12" output="˙¨"/>
+      <when state="s13" output="¨¨"/>
+      <when state="s14" output="˘¨"/>
+      <when state="s15" output="ʔ¨"/>
+      <when state="s16" output="№¨"/>
+      <when state="s17" output=",¨"/>
+      <when state="s18" output=".¨"/>
+      <when state="s19" output="˛¨"/>
+      <when state="s20" output="ˍ¨"/>
+      <when state="s21" output=" ̰¨"/>
+      <when state="s22" output="˚¨"/>
+      <when state="s23" output="ˆ¨"/>
+      <when state="s24" output="‸¨"/>
+      <when state="s25" output=" ̑¨"/>
+      <when state="s65536" output="¨"/>
+      <when state="s131072" output="¨"/>
+      <when state="s196608" output="¨"/>
+      <when state="s262144" output="¨"/>
+      <when state="s327680" output="¨"/>
+      <when state="s393216" output="¨"/>
+      <when state="s458752" output="¨"/>
+      <when state="s524288" output="¨"/>
+      <when state="s589824" output="¨"/>
+      <when state="s655360" output="¨"/>
+      <when state="s720896" output="¨"/>
+      <when state="s786432" output="¨"/>
+      <when state="s851968" output="¨"/>
+      <when state="s917504" output="¨"/>
+      <when state="s983040" output="¨"/>
+      <when state="s1048576" output="¨"/>
+      <when state="s1114112" output="¨"/>
+      <when state="s1179648" output="¨"/>
+      <when state="s1245184" output="¨"/>
+      <when state="s1310720" output="¨"/>
+      <when state="s1376256" output="¨"/>
+      <when state="s1441792" output="¨"/>
+      <when state="s1507328" output="¨"/>
+      <when state="s1572864" output="¨"/>
+      <when state="s1638400" output="¨"/>
+    </action>
+    <action id="iast21_6_18">
+      <when state="none" output="Ḫ"/>
+      <when state="s1" output="`Ḫ"/>
+      <when state="s2" output="ˇḪ"/>
+      <when state="s3" output="¯Ḫ"/>
+      <when state="s4" output="¸Ḫ"/>
+      <when state="s5" output="ʼḪ"/>
+      <when state="s6" output="˜Ḫ"/>
+      <when state="s7" output="ˀḪ"/>
+      <when state="s8" output=" ̏Ḫ"/>
+      <when state="s9" output="˝Ḫ"/>
+      <when state="s10" output="´Ḫ"/>
+      <when state="s11" output="-Ḫ"/>
+      <when state="s12" output="˙Ḫ"/>
+      <when state="s13" output="¨Ḫ"/>
+      <when state="s14" output="˘Ḫ"/>
+      <when state="s15" output="ʔḪ"/>
+      <when state="s16" output="№Ḫ"/>
+      <when state="s17" output=",Ḫ"/>
+      <when state="s18" output=".Ḫ"/>
+      <when state="s19" output="˛Ḫ"/>
+      <when state="s20" output="ˍḪ"/>
+      <when state="s21" output=" ̰Ḫ"/>
+      <when state="s22" output="˚Ḫ"/>
+      <when state="s23" output="ˆḪ"/>
+      <when state="s24" output="‸Ḫ"/>
+      <when state="s25" output=" ̑Ḫ"/>
+      <when state="s65536" output="Ḫ"/>
+      <when state="s131072" output="Ḫ"/>
+      <when state="s196608" output="Ḫ"/>
+      <when state="s262144" output="Ḫ"/>
+      <when state="s327680" output="Ḫ"/>
+      <when state="s393216" output="Ḫ"/>
+      <when state="s458752" output="Ḫ"/>
+      <when state="s524288" output="Ḫ"/>
+      <when state="s589824" output="Ḫ"/>
+      <when state="s655360" output="Ḫ"/>
+      <when state="s720896" output="Ḫ"/>
+      <when state="s786432" output="Ḫ"/>
+      <when state="s851968" output="Ḫ"/>
+      <when state="s917504" output="Ḫ"/>
+      <when state="s983040" output="Ḫ"/>
+      <when state="s1048576" output="Ḫ"/>
+      <when state="s1114112" output="Ḫ"/>
+      <when state="s1179648" output="Ḫ"/>
+      <when state="s1245184" output="Ḫ"/>
+      <when state="s1310720" output="Ḫ"/>
+      <when state="s1376256" output="Ḫ"/>
+      <when state="s1441792" output="Ḫ"/>
+      <when state="s1507328" output="Ḫ"/>
+      <when state="s1572864" output="Ḫ"/>
+      <when state="s1638400" output="Ḫ"/>
+    </action>
+    <action id="iast21_6_19">
+      <when state="none" output="H̱"/>
+      <when state="s1" output="`H̱"/>
+      <when state="s2" output="ˇH̱"/>
+      <when state="s3" output="¯H̱"/>
+      <when state="s4" output="¸H̱"/>
+      <when state="s5" output="ʼH̱"/>
+      <when state="s6" output="˜H̱"/>
+      <when state="s7" output="ˀH̱"/>
+      <when state="s8" output=" ̏H̱"/>
+      <when state="s9" output="˝H̱"/>
+      <when state="s10" output="´H̱"/>
+      <when state="s11" output="-H̱"/>
+      <when state="s12" output="˙H̱"/>
+      <when state="s13" output="¨H̱"/>
+      <when state="s14" output="˘H̱"/>
+      <when state="s15" output="ʔH̱"/>
+      <when state="s16" output="№H̱"/>
+      <when state="s17" output=",H̱"/>
+      <when state="s18" output=".H̱"/>
+      <when state="s19" output="˛H̱"/>
+      <when state="s20" output="ˍH̱"/>
+      <when state="s21" output=" ̰H̱"/>
+      <when state="s22" output="˚H̱"/>
+      <when state="s23" output="ˆH̱"/>
+      <when state="s24" output="‸H̱"/>
+      <when state="s25" output=" ̑H̱"/>
+      <when state="s65536" output="H̱"/>
+      <when state="s131072" output="H̱"/>
+      <when state="s196608" output="H̱"/>
+      <when state="s262144" output="H̱"/>
+      <when state="s327680" output="H̱"/>
+      <when state="s393216" output="H̱"/>
+      <when state="s458752" output="H̱"/>
+      <when state="s524288" output="H̱"/>
+      <when state="s589824" output="H̱"/>
+      <when state="s655360" output="H̱"/>
+      <when state="s720896" output="H̱"/>
+      <when state="s786432" output="H̱"/>
+      <when state="s851968" output="H̱"/>
+      <when state="s917504" output="H̱"/>
+      <when state="s983040" output="H̱"/>
+      <when state="s1048576" output="H̱"/>
+      <when state="s1114112" output="H̱"/>
+      <when state="s1179648" output="H̱"/>
+      <when state="s1245184" output="H̱"/>
+      <when state="s1310720" output="H̱"/>
+      <when state="s1376256" output="H̱"/>
+      <when state="s1441792" output="H̱"/>
+      <when state="s1507328" output="H̱"/>
+      <when state="s1572864" output="H̱"/>
+      <when state="s1638400" output="H̱"/>
+    </action>
+    <action id="iast21_6_23">
+      <when state="none" output="°"/>
+      <when state="s1" output="`°"/>
+      <when state="s2" output="ˇ°"/>
+      <when state="s3" output="¯°"/>
+      <when state="s4" output="¸°"/>
+      <when state="s5" output="ʼ°"/>
+      <when state="s6" output="˜°"/>
+      <when state="s7" output="ˀ°"/>
+      <when state="s8" output=" ̏°"/>
+      <when state="s9" output="˝°"/>
+      <when state="s10" output="´°"/>
+      <when state="s11" output="-°"/>
+      <when state="s12" output="˙°"/>
+      <when state="s13" output="¨°"/>
+      <when state="s14" output="˘°"/>
+      <when state="s15" output="ʔ°"/>
+      <when state="s16" output="№°"/>
+      <when state="s17" output=",°"/>
+      <when state="s18" output=".°"/>
+      <when state="s19" output="˛°"/>
+      <when state="s20" output="ˍ°"/>
+      <when state="s21" output=" ̰°"/>
+      <when state="s22" output="˚°"/>
+      <when state="s23" output="ˆ°"/>
+      <when state="s24" output="‸°"/>
+      <when state="s25" output=" ̑°"/>
+      <when state="s65536" output="°"/>
+      <when state="s131072" output="°"/>
+      <when state="s196608" output="°"/>
+      <when state="s262144" output="°"/>
+      <when state="s327680" output="°"/>
+      <when state="s393216" output="°"/>
+      <when state="s458752" output="°"/>
+      <when state="s524288" output="°"/>
+      <when state="s589824" output="°"/>
+      <when state="s655360" output="°"/>
+      <when state="s720896" output="°"/>
+      <when state="s786432" output="°"/>
+      <when state="s851968" output="°"/>
+      <when state="s917504" output="°"/>
+      <when state="s983040" output="°"/>
+      <when state="s1048576" output="°"/>
+      <when state="s1114112" output="°"/>
+      <when state="s1179648" output="°"/>
+      <when state="s1245184" output="°"/>
+      <when state="s1310720" output="°"/>
+      <when state="s1376256" output="°"/>
+      <when state="s1441792" output="°"/>
+      <when state="s1507328" output="°"/>
+      <when state="s1572864" output="°"/>
+      <when state="s1638400" output="°"/>
+    </action>
+    <action id="iast21_6_28">
+      <when state="none" output="◊"/>
+      <when state="s1" output="`◊"/>
+      <when state="s2" output="ˇ◊"/>
+      <when state="s3" output="¯◊"/>
+      <when state="s4" output="¸◊"/>
+      <when state="s5" output="ʼ◊"/>
+      <when state="s6" output="˜◊"/>
+      <when state="s7" output="ˀ◊"/>
+      <when state="s8" output=" ̏◊"/>
+      <when state="s9" output="˝◊"/>
+      <when state="s10" output="´◊"/>
+      <when state="s11" output="-◊"/>
+      <when state="s12" output="˙◊"/>
+      <when state="s13" output="¨◊"/>
+      <when state="s14" output="˘◊"/>
+      <when state="s15" output="ʔ◊"/>
+      <when state="s16" output="№◊"/>
+      <when state="s17" output=",◊"/>
+      <when state="s18" output=".◊"/>
+      <when state="s19" output="˛◊"/>
+      <when state="s20" output="ˍ◊"/>
+      <when state="s21" output=" ̰◊"/>
+      <when state="s22" output="˚◊"/>
+      <when state="s23" output="ˆ◊"/>
+      <when state="s24" output="‸◊"/>
+      <when state="s25" output=" ̑◊"/>
+      <when state="s65536" output="◊"/>
+      <when state="s131072" output="◊"/>
+      <when state="s196608" output="◊"/>
+      <when state="s262144" output="◊"/>
+      <when state="s327680" output="◊"/>
+      <when state="s393216" output="◊"/>
+      <when state="s458752" output="◊"/>
+      <when state="s524288" output="◊"/>
+      <when state="s589824" output="◊"/>
+      <when state="s655360" output="◊"/>
+      <when state="s720896" output="◊"/>
+      <when state="s786432" output="◊"/>
+      <when state="s851968" output="◊"/>
+      <when state="s917504" output="◊"/>
+      <when state="s983040" output="◊"/>
+      <when state="s1048576" output="◊"/>
+      <when state="s1114112" output="◊"/>
+      <when state="s1179648" output="◊"/>
+      <when state="s1245184" output="◊"/>
+      <when state="s1310720" output="◊"/>
+      <when state="s1376256" output="◊"/>
+      <when state="s1441792" output="◊"/>
+      <when state="s1507328" output="◊"/>
+      <when state="s1572864" output="◊"/>
+      <when state="s1638400" output="◊"/>
+    </action>
+    <action id="iast21_6_43">
+      <when state="none" output="⟪"/>
+      <when state="s1" output="`⟪"/>
+      <when state="s2" output="ˇ⟪"/>
+      <when state="s3" output="¯⟪"/>
+      <when state="s4" output="¸⟪"/>
+      <when state="s5" output="ʼ⟪"/>
+      <when state="s6" output="˜⟪"/>
+      <when state="s7" output="ˀ⟪"/>
+      <when state="s8" output=" ̏⟪"/>
+      <when state="s9" output="˝⟪"/>
+      <when state="s10" output="´⟪"/>
+      <when state="s11" output="-⟪"/>
+      <when state="s12" output="˙⟪"/>
+      <when state="s13" output="¨⟪"/>
+      <when state="s14" output="˘⟪"/>
+      <when state="s15" output="ʔ⟪"/>
+      <when state="s16" output="№⟪"/>
+      <when state="s17" output=",⟪"/>
+      <when state="s18" output=".⟪"/>
+      <when state="s19" output="˛⟪"/>
+      <when state="s20" output="ˍ⟪"/>
+      <when state="s21" output=" ̰⟪"/>
+      <when state="s22" output="˚⟪"/>
+      <when state="s23" output="ˆ⟪"/>
+      <when state="s24" output="‸⟪"/>
+      <when state="s25" output=" ̑⟪"/>
+      <when state="s65536" output="⟪"/>
+      <when state="s131072" output="⟪"/>
+      <when state="s196608" output="⟪"/>
+      <when state="s262144" output="⟪"/>
+      <when state="s327680" output="⟪"/>
+      <when state="s393216" output="⟪"/>
+      <when state="s458752" output="⟪"/>
+      <when state="s524288" output="⟪"/>
+      <when state="s589824" output="⟪"/>
+      <when state="s655360" output="⟪"/>
+      <when state="s720896" output="⟪"/>
+      <when state="s786432" output="⟪"/>
+      <when state="s851968" output="⟪"/>
+      <when state="s917504" output="⟪"/>
+      <when state="s983040" output="⟪"/>
+      <when state="s1048576" output="⟪"/>
+      <when state="s1114112" output="⟪"/>
+      <when state="s1179648" output="⟪"/>
+      <when state="s1245184" output="⟪"/>
+      <when state="s1310720" output="⟪"/>
+      <when state="s1376256" output="⟪"/>
+      <when state="s1441792" output="⟪"/>
+      <when state="s1507328" output="⟪"/>
+      <when state="s1572864" output="⟪"/>
+      <when state="s1638400" output="⟪"/>
+    </action>
+    <action id="iast21_6_47">
+      <when state="none" output="⟫"/>
+      <when state="s1" output="`⟫"/>
+      <when state="s2" output="ˇ⟫"/>
+      <when state="s3" output="¯⟫"/>
+      <when state="s4" output="¸⟫"/>
+      <when state="s5" output="ʼ⟫"/>
+      <when state="s6" output="˜⟫"/>
+      <when state="s7" output="ˀ⟫"/>
+      <when state="s8" output=" ̏⟫"/>
+      <when state="s9" output="˝⟫"/>
+      <when state="s10" output="´⟫"/>
+      <when state="s11" output="-⟫"/>
+      <when state="s12" output="˙⟫"/>
+      <when state="s13" output="¨⟫"/>
+      <when state="s14" output="˘⟫"/>
+      <when state="s15" output="ʔ⟫"/>
+      <when state="s16" output="№⟫"/>
+      <when state="s17" output=",⟫"/>
+      <when state="s18" output=".⟫"/>
+      <when state="s19" output="˛⟫"/>
+      <when state="s20" output="ˍ⟫"/>
+      <when state="s21" output=" ̰⟫"/>
+      <when state="s22" output="˚⟫"/>
+      <when state="s23" output="ˆ⟫"/>
+      <when state="s24" output="‸⟫"/>
+      <when state="s25" output=" ̑⟫"/>
+      <when state="s65536" output="⟫"/>
+      <when state="s131072" output="⟫"/>
+      <when state="s196608" output="⟫"/>
+      <when state="s262144" output="⟫"/>
+      <when state="s327680" output="⟫"/>
+      <when state="s393216" output="⟫"/>
+      <when state="s458752" output="⟫"/>
+      <when state="s524288" output="⟫"/>
+      <when state="s589824" output="⟫"/>
+      <when state="s655360" output="⟫"/>
+      <when state="s720896" output="⟫"/>
+      <when state="s786432" output="⟫"/>
+      <when state="s851968" output="⟫"/>
+      <when state="s917504" output="⟫"/>
+      <when state="s983040" output="⟫"/>
+      <when state="s1048576" output="⟫"/>
+      <when state="s1114112" output="⟫"/>
+      <when state="s1179648" output="⟫"/>
+      <when state="s1245184" output="⟫"/>
+      <when state="s1310720" output="⟫"/>
+      <when state="s1376256" output="⟫"/>
+      <when state="s1441792" output="⟫"/>
+      <when state="s1507328" output="⟫"/>
+      <when state="s1572864" output="⟫"/>
+      <when state="s1638400" output="⟫"/>
+    </action>
+    <action id="iast21_7_12">
+      <when state="none" output="̈"/>
+      <when state="s1" output="`̈"/>
+      <when state="s2" output="ˇ̈"/>
+      <when state="s3" output="¯̈"/>
+      <when state="s4" output="¸̈"/>
+      <when state="s5" output="ʼ̈"/>
+      <when state="s6" output="˜̈"/>
+      <when state="s7" output="ˀ̈"/>
+      <when state="s8" output=" ̏̈"/>
+      <when state="s9" output="˝̈"/>
+      <when state="s10" output="´̈"/>
+      <when state="s11" output="-̈"/>
+      <when state="s12" output="˙̈"/>
+      <when state="s13" output="¨̈"/>
+      <when state="s14" output="˘̈"/>
+      <when state="s15" output="ʔ̈"/>
+      <when state="s16" output="№̈"/>
+      <when state="s17" output=",̈"/>
+      <when state="s18" output=".̈"/>
+      <when state="s19" output="˛̈"/>
+      <when state="s20" output="ˍ̈"/>
+      <when state="s21" output=" ̰̈"/>
+      <when state="s22" output="˚̈"/>
+      <when state="s23" output="ˆ̈"/>
+      <when state="s24" output="‸̈"/>
+      <when state="s25" output=" ̑̈"/>
+      <when state="s65536" output="̈"/>
+      <when state="s131072" output="̈"/>
+      <when state="s196608" output="̈"/>
+      <when state="s262144" output="̈"/>
+      <when state="s327680" output="̈"/>
+      <when state="s393216" output="̈"/>
+      <when state="s458752" output="̈"/>
+      <when state="s524288" output="̈"/>
+      <when state="s589824" output="̈"/>
+      <when state="s655360" output="̈"/>
+      <when state="s720896" output="̈"/>
+      <when state="s786432" output="̈"/>
+      <when state="s851968" output="̈"/>
+      <when state="s917504" output="̈"/>
+      <when state="s983040" output="̈"/>
+      <when state="s1048576" output="̈"/>
+      <when state="s1114112" output="̈"/>
+      <when state="s1179648" output="̈"/>
+      <when state="s1245184" output="̈"/>
+      <when state="s1310720" output="̈"/>
+      <when state="s1376256" output="̈"/>
+      <when state="s1441792" output="̈"/>
+      <when state="s1507328" output="̈"/>
+      <when state="s1572864" output="̈"/>
+      <when state="s1638400" output="̈"/>
+    </action>
+    <action id="iast21_7_18">
+      <when state="none" output="ḫ"/>
+      <when state="s1" output="`ḫ"/>
+      <when state="s2" output="ˇḫ"/>
+      <when state="s3" output="¯ḫ"/>
+      <when state="s4" output="¸ḫ"/>
+      <when state="s5" output="ʼḫ"/>
+      <when state="s6" output="˜ḫ"/>
+      <when state="s7" output="ˀḫ"/>
+      <when state="s8" output=" ̏ḫ"/>
+      <when state="s9" output="˝ḫ"/>
+      <when state="s10" output="´ḫ"/>
+      <when state="s11" output="-ḫ"/>
+      <when state="s12" output="˙ḫ"/>
+      <when state="s13" output="¨ḫ"/>
+      <when state="s14" output="˘ḫ"/>
+      <when state="s15" output="ʔḫ"/>
+      <when state="s16" output="№ḫ"/>
+      <when state="s17" output=",ḫ"/>
+      <when state="s18" output=".ḫ"/>
+      <when state="s19" output="˛ḫ"/>
+      <when state="s20" output="ˍḫ"/>
+      <when state="s21" output=" ̰ḫ"/>
+      <when state="s22" output="˚ḫ"/>
+      <when state="s23" output="ˆḫ"/>
+      <when state="s24" output="‸ḫ"/>
+      <when state="s25" output=" ̑ḫ"/>
+      <when state="s65536" output="ḫ"/>
+      <when state="s131072" output="ḫ"/>
+      <when state="s196608" output="ḫ"/>
+      <when state="s262144" output="ḫ"/>
+      <when state="s327680" output="ḫ"/>
+      <when state="s393216" output="ḫ"/>
+      <when state="s458752" output="ḫ"/>
+      <when state="s524288" output="ḫ"/>
+      <when state="s589824" output="ḫ"/>
+      <when state="s655360" output="ḫ"/>
+      <when state="s720896" output="ḫ"/>
+      <when state="s786432" output="ḫ"/>
+      <when state="s851968" output="ḫ"/>
+      <when state="s917504" output="ḫ"/>
+      <when state="s983040" output="ḫ"/>
+      <when state="s1048576" output="ḫ"/>
+      <when state="s1114112" output="ḫ"/>
+      <when state="s1179648" output="ḫ"/>
+      <when state="s1245184" output="ḫ"/>
+      <when state="s1310720" output="ḫ"/>
+      <when state="s1376256" output="ḫ"/>
+      <when state="s1441792" output="ḫ"/>
+      <when state="s1507328" output="ḫ"/>
+      <when state="s1572864" output="ḫ"/>
+      <when state="s1638400" output="ḫ"/>
+    </action>
+    <action id="iast21_7_19">
+      <when state="none" output="ẖ"/>
+      <when state="s1" output="`ẖ"/>
+      <when state="s2" output="ˇẖ"/>
+      <when state="s3" output="¯ẖ"/>
+      <when state="s4" output="¸ẖ"/>
+      <when state="s5" output="ʼẖ"/>
+      <when state="s6" output="˜ẖ"/>
+      <when state="s7" output="ˀẖ"/>
+      <when state="s8" output=" ̏ẖ"/>
+      <when state="s9" output="˝ẖ"/>
+      <when state="s10" output="´ẖ"/>
+      <when state="s11" output="-ẖ"/>
+      <when state="s12" output="˙ẖ"/>
+      <when state="s13" output="¨ẖ"/>
+      <when state="s14" output="˘ẖ"/>
+      <when state="s15" output="ʔẖ"/>
+      <when state="s16" output="№ẖ"/>
+      <when state="s17" output=",ẖ"/>
+      <when state="s18" output=".ẖ"/>
+      <when state="s19" output="˛ẖ"/>
+      <when state="s20" output="ˍẖ"/>
+      <when state="s21" output=" ̰ẖ"/>
+      <when state="s22" output="˚ẖ"/>
+      <when state="s23" output="ˆẖ"/>
+      <when state="s24" output="‸ẖ"/>
+      <when state="s25" output=" ̑ẖ"/>
+      <when state="s65536" output="ẖ"/>
+      <when state="s131072" output="ẖ"/>
+      <when state="s196608" output="ẖ"/>
+      <when state="s262144" output="ẖ"/>
+      <when state="s327680" output="ẖ"/>
+      <when state="s393216" output="ẖ"/>
+      <when state="s458752" output="ẖ"/>
+      <when state="s524288" output="ẖ"/>
+      <when state="s589824" output="ẖ"/>
+      <when state="s655360" output="ẖ"/>
+      <when state="s720896" output="ẖ"/>
+      <when state="s786432" output="ẖ"/>
+      <when state="s851968" output="ẖ"/>
+      <when state="s917504" output="ẖ"/>
+      <when state="s983040" output="ẖ"/>
+      <when state="s1048576" output="ẖ"/>
+      <when state="s1114112" output="ẖ"/>
+      <when state="s1179648" output="ẖ"/>
+      <when state="s1245184" output="ẖ"/>
+      <when state="s1310720" output="ẖ"/>
+      <when state="s1376256" output="ẖ"/>
+      <when state="s1441792" output="ẖ"/>
+      <when state="s1507328" output="ẖ"/>
+      <when state="s1572864" output="ẖ"/>
+      <when state="s1638400" output="ẖ"/>
+    </action>
+    <action id="iast21_7_21">
+      <when state="none" output="̄"/>
+      <when state="s1" output="`̄"/>
+      <when state="s2" output="ˇ̄"/>
+      <when state="s3" output="¯̄"/>
+      <when state="s4" output="¸̄"/>
+      <when state="s5" output="ʼ̄"/>
+      <when state="s6" output="˜̄"/>
+      <when state="s7" output="ˀ̄"/>
+      <when state="s8" output=" ̏̄"/>
+      <when state="s9" output="˝̄"/>
+      <when state="s10" output="´̄"/>
+      <when state="s11" output="-̄"/>
+      <when state="s12" output="˙̄"/>
+      <when state="s13" output="¨̄"/>
+      <when state="s14" output="˘̄"/>
+      <when state="s15" output="ʔ̄"/>
+      <when state="s16" output="№̄"/>
+      <when state="s17" output=",̄"/>
+      <when state="s18" output=".̄"/>
+      <when state="s19" output="˛̄"/>
+      <when state="s20" output="ˍ̄"/>
+      <when state="s21" output=" ̰̄"/>
+      <when state="s22" output="˚̄"/>
+      <when state="s23" output="ˆ̄"/>
+      <when state="s24" output="‸̄"/>
+      <when state="s25" output=" ̑̄"/>
+      <when state="s65536" output="̄"/>
+      <when state="s131072" output="̄"/>
+      <when state="s196608" output="̄"/>
+      <when state="s262144" output="̄"/>
+      <when state="s327680" output="̄"/>
+      <when state="s393216" output="̄"/>
+      <when state="s458752" output="̄"/>
+      <when state="s524288" output="̄"/>
+      <when state="s589824" output="̄"/>
+      <when state="s655360" output="̄"/>
+      <when state="s720896" output="̄"/>
+      <when state="s786432" output="̄"/>
+      <when state="s851968" output="̄"/>
+      <when state="s917504" output="̄"/>
+      <when state="s983040" output="̄"/>
+      <when state="s1048576" output="̄"/>
+      <when state="s1114112" output="̄"/>
+      <when state="s1179648" output="̄"/>
+      <when state="s1245184" output="̄"/>
+      <when state="s1310720" output="̄"/>
+      <when state="s1376256" output="̄"/>
+      <when state="s1441792" output="̄"/>
+      <when state="s1507328" output="̄"/>
+      <when state="s1572864" output="̄"/>
+      <when state="s1638400" output="̄"/>
+    </action>
+    <action id="iast21_7_25">
+      <when state="none" output="⏑"/>
+      <when state="s1" output="`⏑"/>
+      <when state="s2" output="ˇ⏑"/>
+      <when state="s3" output="¯⏑"/>
+      <when state="s4" output="¸⏑"/>
+      <when state="s5" output="ʼ⏑"/>
+      <when state="s6" output="˜⏑"/>
+      <when state="s7" output="ˀ⏑"/>
+      <when state="s8" output=" ̏⏑"/>
+      <when state="s9" output="˝⏑"/>
+      <when state="s10" output="´⏑"/>
+      <when state="s11" output="-⏑"/>
+      <when state="s12" output="˙⏑"/>
+      <when state="s13" output="¨⏑"/>
+      <when state="s14" output="˘⏑"/>
+      <when state="s15" output="ʔ⏑"/>
+      <when state="s16" output="№⏑"/>
+      <when state="s17" output=",⏑"/>
+      <when state="s18" output=".⏑"/>
+      <when state="s19" output="˛⏑"/>
+      <when state="s20" output="ˍ⏑"/>
+      <when state="s21" output=" ̰⏑"/>
+      <when state="s22" output="˚⏑"/>
+      <when state="s23" output="ˆ⏑"/>
+      <when state="s24" output="‸⏑"/>
+      <when state="s25" output=" ̑⏑"/>
+      <when state="s65536" output="⏑"/>
+      <when state="s131072" output="⏑"/>
+      <when state="s196608" output="⏑"/>
+      <when state="s262144" output="⏑"/>
+      <when state="s327680" output="⏑"/>
+      <when state="s393216" output="⏑"/>
+      <when state="s458752" output="⏑"/>
+      <when state="s524288" output="⏑"/>
+      <when state="s589824" output="⏑"/>
+      <when state="s655360" output="⏑"/>
+      <when state="s720896" output="⏑"/>
+      <when state="s786432" output="⏑"/>
+      <when state="s851968" output="⏑"/>
+      <when state="s917504" output="⏑"/>
+      <when state="s983040" output="⏑"/>
+      <when state="s1048576" output="⏑"/>
+      <when state="s1114112" output="⏑"/>
+      <when state="s1179648" output="⏑"/>
+      <when state="s1245184" output="⏑"/>
+      <when state="s1310720" output="⏑"/>
+      <when state="s1376256" output="⏑"/>
+      <when state="s1441792" output="⏑"/>
+      <when state="s1507328" output="⏑"/>
+      <when state="s1572864" output="⏑"/>
+      <when state="s1638400" output="⏑"/>
+    </action>
+    <action id="iast21_7_26">
+      <when state="none" output="°"/>
+      <when state="s1" output="`°"/>
+      <when state="s2" output="ˇ°"/>
+      <when state="s3" output="¯°"/>
+      <when state="s4" output="¸°"/>
+      <when state="s5" output="ʼ°"/>
+      <when state="s6" output="˜°"/>
+      <when state="s7" output="ˀ°"/>
+      <when state="s8" output=" ̏°"/>
+      <when state="s9" output="˝°"/>
+      <when state="s10" output="´°"/>
+      <when state="s11" output="-°"/>
+      <when state="s12" output="˙°"/>
+      <when state="s13" output="¨°"/>
+      <when state="s14" output="˘°"/>
+      <when state="s15" output="ʔ°"/>
+      <when state="s16" output="№°"/>
+      <when state="s17" output=",°"/>
+      <when state="s18" output=".°"/>
+      <when state="s19" output="˛°"/>
+      <when state="s20" output="ˍ°"/>
+      <when state="s21" output=" ̰°"/>
+      <when state="s22" output="˚°"/>
+      <when state="s23" output="ˆ°"/>
+      <when state="s24" output="‸°"/>
+      <when state="s25" output=" ̑°"/>
+      <when state="s65536" output="°"/>
+      <when state="s131072" output="°"/>
+      <when state="s196608" output="°"/>
+      <when state="s262144" output="°"/>
+      <when state="s327680" output="°"/>
+      <when state="s393216" output="°"/>
+      <when state="s458752" output="°"/>
+      <when state="s524288" output="°"/>
+      <when state="s589824" output="°"/>
+      <when state="s655360" output="°"/>
+      <when state="s720896" output="°"/>
+      <when state="s786432" output="°"/>
+      <when state="s851968" output="°"/>
+      <when state="s917504" output="°"/>
+      <when state="s983040" output="°"/>
+      <when state="s1048576" output="°"/>
+      <when state="s1114112" output="°"/>
+      <when state="s1179648" output="°"/>
+      <when state="s1245184" output="°"/>
+      <when state="s1310720" output="°"/>
+      <when state="s1376256" output="°"/>
+      <when state="s1441792" output="°"/>
+      <when state="s1507328" output="°"/>
+      <when state="s1572864" output="°"/>
+      <when state="s1638400" output="°"/>
+    </action>
+    <action id="iast21_7_29">
+      <when state="none" output="⏓"/>
+      <when state="s1" output="`⏓"/>
+      <when state="s2" output="ˇ⏓"/>
+      <when state="s3" output="¯⏓"/>
+      <when state="s4" output="¸⏓"/>
+      <when state="s5" output="ʼ⏓"/>
+      <when state="s6" output="˜⏓"/>
+      <when state="s7" output="ˀ⏓"/>
+      <when state="s8" output=" ̏⏓"/>
+      <when state="s9" output="˝⏓"/>
+      <when state="s10" output="´⏓"/>
+      <when state="s11" output="-⏓"/>
+      <when state="s12" output="˙⏓"/>
+      <when state="s13" output="¨⏓"/>
+      <when state="s14" output="˘⏓"/>
+      <when state="s15" output="ʔ⏓"/>
+      <when state="s16" output="№⏓"/>
+      <when state="s17" output=",⏓"/>
+      <when state="s18" output=".⏓"/>
+      <when state="s19" output="˛⏓"/>
+      <when state="s20" output="ˍ⏓"/>
+      <when state="s21" output=" ̰⏓"/>
+      <when state="s22" output="˚⏓"/>
+      <when state="s23" output="ˆ⏓"/>
+      <when state="s24" output="‸⏓"/>
+      <when state="s25" output=" ̑⏓"/>
+      <when state="s65536" output="⏓"/>
+      <when state="s131072" output="⏓"/>
+      <when state="s196608" output="⏓"/>
+      <when state="s262144" output="⏓"/>
+      <when state="s327680" output="⏓"/>
+      <when state="s393216" output="⏓"/>
+      <when state="s458752" output="⏓"/>
+      <when state="s524288" output="⏓"/>
+      <when state="s589824" output="⏓"/>
+      <when state="s655360" output="⏓"/>
+      <when state="s720896" output="⏓"/>
+      <when state="s786432" output="⏓"/>
+      <when state="s851968" output="⏓"/>
+      <when state="s917504" output="⏓"/>
+      <when state="s983040" output="⏓"/>
+      <when state="s1048576" output="⏓"/>
+      <when state="s1114112" output="⏓"/>
+      <when state="s1179648" output="⏓"/>
+      <when state="s1245184" output="⏓"/>
+      <when state="s1310720" output="⏓"/>
+      <when state="s1376256" output="⏓"/>
+      <when state="s1441792" output="⏓"/>
+      <when state="s1507328" output="⏓"/>
+      <when state="s1572864" output="⏓"/>
+      <when state="s1638400" output="⏓"/>
+    </action>
+    <action id="iast21_7_43">
+      <when state="none" output="&lt;"/>
+      <when state="s1" output="`&lt;"/>
+      <when state="s2" output="ˇ&lt;"/>
+      <when state="s3" output="¯&lt;"/>
+      <when state="s4" output="¸&lt;"/>
+      <when state="s5" output="ʼ&lt;"/>
+      <when state="s6" output="˜&lt;"/>
+      <when state="s7" output="ˀ&lt;"/>
+      <when state="s8" output=" ̏&lt;"/>
+      <when state="s9" output="˝&lt;"/>
+      <when state="s10" output="´&lt;"/>
+      <when state="s11" output="-&lt;"/>
+      <when state="s12" output="˙&lt;"/>
+      <when state="s13" output="¨&lt;"/>
+      <when state="s14" output="˘&lt;"/>
+      <when state="s15" output="ʔ&lt;"/>
+      <when state="s16" output="№&lt;"/>
+      <when state="s17" output=",&lt;"/>
+      <when state="s18" output=".&lt;"/>
+      <when state="s19" output="˛&lt;"/>
+      <when state="s20" output="ˍ&lt;"/>
+      <when state="s21" output=" ̰&lt;"/>
+      <when state="s22" output="˚&lt;"/>
+      <when state="s23" output="ˆ&lt;"/>
+      <when state="s24" output="‸&lt;"/>
+      <when state="s25" output=" ̑&lt;"/>
+      <when state="s65536" output="&lt;"/>
+      <when state="s131072" output="&lt;"/>
+      <when state="s196608" output="&lt;"/>
+      <when state="s262144" output="&lt;"/>
+      <when state="s327680" output="&lt;"/>
+      <when state="s393216" output="&lt;"/>
+      <when state="s458752" output="&lt;"/>
+      <when state="s524288" output="&lt;"/>
+      <when state="s589824" output="&lt;"/>
+      <when state="s655360" output="&lt;"/>
+      <when state="s720896" output="&lt;"/>
+      <when state="s786432" output="&lt;"/>
+      <when state="s851968" output="&lt;"/>
+      <when state="s917504" output="&lt;"/>
+      <when state="s983040" output="&lt;"/>
+      <when state="s1048576" output="&lt;"/>
+      <when state="s1114112" output="&lt;"/>
+      <when state="s1179648" output="&lt;"/>
+      <when state="s1245184" output="&lt;"/>
+      <when state="s1310720" output="&lt;"/>
+      <when state="s1376256" output="&lt;"/>
+      <when state="s1441792" output="&lt;"/>
+      <when state="s1507328" output="&lt;"/>
+      <when state="s1572864" output="&lt;"/>
+      <when state="s1638400" output="&lt;"/>
+    </action>
+    <action id="iast21_7_47">
+      <when state="none" output="&gt;"/>
+      <when state="s1" output="`&gt;"/>
+      <when state="s2" output="ˇ&gt;"/>
+      <when state="s3" output="¯&gt;"/>
+      <when state="s4" output="¸&gt;"/>
+      <when state="s5" output="ʼ&gt;"/>
+      <when state="s6" output="˜&gt;"/>
+      <when state="s7" output="ˀ&gt;"/>
+      <when state="s8" output=" ̏&gt;"/>
+      <when state="s9" output="˝&gt;"/>
+      <when state="s10" output="´&gt;"/>
+      <when state="s11" output="-&gt;"/>
+      <when state="s12" output="˙&gt;"/>
+      <when state="s13" output="¨&gt;"/>
+      <when state="s14" output="˘&gt;"/>
+      <when state="s15" output="ʔ&gt;"/>
+      <when state="s16" output="№&gt;"/>
+      <when state="s17" output=",&gt;"/>
+      <when state="s18" output=".&gt;"/>
+      <when state="s19" output="˛&gt;"/>
+      <when state="s20" output="ˍ&gt;"/>
+      <when state="s21" output=" ̰&gt;"/>
+      <when state="s22" output="˚&gt;"/>
+      <when state="s23" output="ˆ&gt;"/>
+      <when state="s24" output="‸&gt;"/>
+      <when state="s25" output=" ̑&gt;"/>
+      <when state="s65536" output="&gt;"/>
+      <when state="s131072" output="&gt;"/>
+      <when state="s196608" output="&gt;"/>
+      <when state="s262144" output="&gt;"/>
+      <when state="s327680" output="&gt;"/>
+      <when state="s393216" output="&gt;"/>
+      <when state="s458752" output="&gt;"/>
+      <when state="s524288" output="&gt;"/>
+      <when state="s589824" output="&gt;"/>
+      <when state="s655360" output="&gt;"/>
+      <when state="s720896" output="&gt;"/>
+      <when state="s786432" output="&gt;"/>
+      <when state="s851968" output="&gt;"/>
+      <when state="s917504" output="&gt;"/>
+      <when state="s983040" output="&gt;"/>
+      <when state="s1048576" output="&gt;"/>
+      <when state="s1114112" output="&gt;"/>
+      <when state="s1179648" output="&gt;"/>
+      <when state="s1245184" output="&gt;"/>
+      <when state="s1310720" output="&gt;"/>
+      <when state="s1376256" output="&gt;"/>
+      <when state="s1441792" output="&gt;"/>
+      <when state="s1507328" output="&gt;"/>
+      <when state="s1572864" output="&gt;"/>
+      <when state="s1638400" output="&gt;"/>
     </action>
   </actions>
   <terminators>

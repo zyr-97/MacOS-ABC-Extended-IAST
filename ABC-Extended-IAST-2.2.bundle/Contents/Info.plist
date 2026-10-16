@@ -5,21 +5,21 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleIdentifier</key>
-	<string>local.iast.keyboardlayout.abcextended21</string>
+	<string>local.iast.keyboardlayout.abcextended22</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>ABC Extended - IAST 2.1</string>
+	<string>ABC Extended - IAST 2.2</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.1</string>
+	<string>2.2</string>
 	<key>CFBundleVersion</key>
-	<string>2.1</string>
-	<key>KLInfo_ABC Extended - IAST 2.1</key>
+	<string>2.2</string>
+	<key>KLInfo_ABC Extended - IAST 2.2</key>
 	<dict>
 		<key>TISInputSourceID</key>
-		<string>local.iast.keylayout.abcextended21</string>
+		<string>local.iast.keylayout.abcextended22</string>
 		<key>TISIntendedLanguage</key>
 		<string>en</string>
 	</dict>

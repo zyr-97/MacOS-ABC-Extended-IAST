@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build and semantically verify the IAST 2.1 delta. Python 3.8+, stdlib only.
+"""Build and semantically verify the IAST 2.2 layout. Python 3.8+, stdlib only.
 
 Run from any directory: python3 tools/build_and_verify.py
 XML 1.1 control references are masked only in the in-memory inspection copy.
@@ -17,18 +17,24 @@ from xml.sax.saxutils import quoteattr
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCE = ROOT / 'source' / 'ABC Extended - IAST.original.keylayout'
-LAYOUT_NAME = 'ABC Extended - IAST 2.1'
-BUNDLE = ROOT / 'ABC-Extended-IAST-2.1.bundle'
+VERSION = '2.2'
+LAYOUT_NAME = 'ABC Extended - IAST ' + VERSION
+BUNDLE = ROOT / ('ABC-Extended-IAST-%s.bundle' % VERSION)
+PREVIOUS = ROOT / 'source' / 'ABC Extended - IAST 2.1.keylayout'
 OUTPUT = BUNDLE / 'Contents' / 'Resources' / (LAYOUT_NAME + '.keylayout')
-BUNDLE_ID = 'local.iast.keyboardlayout.abcextended21'
-INPUT_ID = 'local.iast.keylayout.abcextended21'
+BUNDLE_ID = 'local.iast.keyboardlayout.abcextended22'
+INPUT_ID = 'local.iast.keylayout.abcextended22'
+LAYOUT_ID = '-28682'  # Unique per version so releases can be installed side by side.
 
 # macOS physical key codes. Letters follow the original US/ABC QWERTY map.
 DIRECT = {4: 'ḥ', 46: 'ṃ', 13: 'ṁ', 17: 'ṭ', 16: 'r\u0325', 3: 'm\u0310'}
 VOWELS = {0: 'ā', 34: 'ī', 32: 'ū', 15: 'ṛ', 37: 'ḷ', 16: 'r\u0325'}
 ACCENTS = {'s10': '\u0301', 's1': '\u0300', 's23': '\u0302'}
 MACRON_CODE = 24  # Option+Shift+=, not the minus key.
-OPTION_SYMBOLS = {25: '\u23d1', 29: '\u23d3', 26: '\u00b0'}
+OPTION_SYMBOLS = {25: '\u23d1', 29: '\u23d3', 26: '\u00b0', 43: '<', 47: '>'}
+# Keys changed since the previous release (PREVIOUS): {map index: {code: output}}.
+# Option and Caps Lock+Option: comma/period give < > (Shift+comma/period stay ⟨ ⟩).
+DELTA = {3: {43: '<', 47: '>'}, 7: {43: '<', 47: '>'}}
 EXTRA_SYMBOLS = {43: '\u27ea', 47: '\u27eb', 28: '\u25ca', 23: '\u00b0'}
 
 
@@ -133,9 +139,9 @@ def build(original):
         return match.group(1) + body + match.group(3)
     result = re.sub(r'(<keyMapSet id="maps[01]">)(.*?)(</keyMapSet>)', change_set, original, flags=re.S)
     result = result.replace('id="-28673" name="ABC Extended - IAST"',
-                            'id="-28681" name="ABC Extended - IAST 2.1"', 1)
+                            'id="%s" name="%s"' % (LAYOUT_ID, LAYOUT_NAME), 1)
     result = re.sub(r'<!-- Derived from.*?-->',
-                    '<!-- IAST 2.1: combining macron and diaeresis, direct h variants on 1 and 2, with preserved 2.0 IAST and symbols. '
+                    '<!-- IAST 2.2: Option+comma/period give < >; keeps 2.1 combining macron and diaeresis, h variants, IAST and symbols. '
                     'Derived from the supplied ABC Extended - IAST layout. See README and tools/build_and_verify.py. -->',
                     result, count=1, flags=re.S)
     result = result.replace('  </actions>', '\n'.join(added) + '\n  </actions>', 1)
@@ -152,7 +158,7 @@ def verify(original, revised):
     assert ET.tostring(old.find('layouts')) == ET.tostring(new.find('layouts'))
     assert all(na[aid] == rules for aid, rules in oa.items())
     assert new.get('id') != old.get('id')
-    assert new.get('name') == 'ABC Extended - IAST 2.1'
+    assert new.get('name') == LAYOUT_NAME
     states = list(next(iter(oa.values())))
     assert len(na) == len(set(na))
     for ms in nk.values():
@@ -255,7 +261,10 @@ def verify(original, revised):
         ('\u27e8\u27e9', [('shift caps', 43), ('shift caps', 47)]),
         ('\u27e8abc\u27e9', [('shift', 43), ('', 0), ('', 11), ('', 8), ('shift', 47)]),
         (',.', [('', 43), ('', 47)]),
-        ('\u2264\u2265', [('option', 43), ('option', 47)]),
+        ('<>', [('option', 43), ('option', 47)]),
+        ('<>', [('caps option', 43), ('caps rightOption', 47)]),
+        ('<a>', [('option', 43), ('', 0), ('option', 47)]),
+        ('\u00b4<', [('option', 14), ('option', 43)]),
         ('\u00b4\u27e8', [('option', 14), ('shift', 43)]),
         ('ḥ', [('option', 4)]), ('Ḥ', [('shift option', 4)]),
         ('ṃ', [('option', 46)]), ('Ṃ', [('shift option', 46)]),
@@ -337,46 +346,37 @@ def verify(original, revised):
             'XML_inspection': 'Parsed a control-reference-masked in-memory copy; original XML 1.1 references preserved. No Apple DTD validation claimed.'}
 
 
-def verify_delta_20(revised):
-    """Independently restrict the 2.0 -> 2.1 changes to the agreed keys."""
-    previous = (ROOT / 'source' / 'ABC Extended - IAST 2.0.keylayout').read_text(encoding='utf-8')
-    old, new = parse_layout(previous), parse_layout(revised)
+def verify_delta(revised):
+    """Independently restrict the changes since the previous release to DELTA."""
+    old, new = parse_layout(PREVIOUS.read_text(encoding='utf-8')), parse_layout(revised)
     oa, ot, om, ok = tables(old)
     na, nt, nm, nk = tables(new)
     assert om == nm and ot == nt
     assert new.get('id') != old.get('id')
-    lower = {18: '\u1e2b', 19: '\u1e96', 21: '\u0304', 12: '\u0308'}
-    upper = {18: '\u1e2a', 19: 'H\u0331', 12: '\u00a8'}
     comparisons = changes = 0
     states = list(next(iter(oa.values())))
     for ms in ok:
         for index in ok[ms]:
             for code, key in ok[ms][index].items():
-                desired = None
-                if index in (3, 7) and code in lower:
-                    desired = lower[code]
-                if index in (5, 6) and code in upper:
-                    desired = upper[code]
+                desired = DELTA.get(index, {}).get(code)
                 for state in states:
                     before = resolve(oa, ot, key, state)
                     after = resolve(na, nt, nk[ms][index][code], state)
                     expected = before if desired is None else (ot.get(state, '') + desired, 'none')
-                    assert after == expected, ('unexpected delta from 2.0', ms, index, code, state)
+                    assert after == expected, ('unexpected delta', ms, index, code, state)
                     comparisons += 1
                     changes += before != after
-    return {'status': 'PASS', 'transition_comparisons': comparisons,
-            'changed_transitions': changes,
-            'allowed_changes': ['Option 1 / Shift Option 1: U+1E2B / U+1E2A',
-                                'Option 2 / Shift Option 2: U+1E96 / H + U+0331',
-                                'Option 4: U+0304; Option Q: U+0308; Shift Option Q: U+00A8',
-                                'All these new mappings work with Caps Lock either on or off']}
+    return {'status': 'PASS', 'previous': PREVIOUS.name,
+            'transition_comparisons': comparisons, 'changed_transitions': changes,
+            'allowed_changes': ['Option , / Option . : U+003C < / U+003E > (was U+2264 / U+2265)',
+                                'Same with Caps Lock on; Shift , / Shift . remain U+27E8 / U+27E9']}
 
 
 def main():
     original = SOURCE.read_text(encoding='utf-8')
     revised = build(original)
     report = verify(original, revised)
-    report['delta_from_2_0'] = verify_delta_20(revised)
+    report['delta_from_previous'] = verify_delta(revised)
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(revised, encoding='utf-8')
     info = {
@@ -385,8 +385,8 @@ def main():
         'CFBundleInfoDictionaryVersion': '6.0',
         'CFBundleName': LAYOUT_NAME,
         'CFBundlePackageType': 'BNDL',
-        'CFBundleShortVersionString': '2.1',
-        'CFBundleVersion': '2.1',
+        'CFBundleShortVersionString': VERSION,
+        'CFBundleVersion': VERSION,
         'KLInfo_' + LAYOUT_NAME: {
             'TISInputSourceID': INPUT_ID,
             'TISIntendedLanguage': 'en',

@@ -1,23 +1,22 @@
 {
   "status": "PASS",
   "transition_comparisons": 3342336,
-  "intentional_changed_transitions": 38610,
-  "sequence_tests": 390,
+  "intentional_changed_transitions": 39834,
+  "sequence_tests": 396,
   "hardware_map_sets": 2,
   "modifier_combinations_per_set": 256,
   "states": 51,
   "maximum_utf16_output_units": 4,
   "macOS_runtime_test": "NOT PERFORMED: Linux build environment",
   "XML_inspection": "Parsed a control-reference-masked in-memory copy; original XML 1.1 references preserved. No Apple DTD validation claimed.",
-  "delta_from_2_0": {
+  "delta_from_previous": {
     "status": "PASS",
+    "previous": "ABC Extended - IAST 2.1.keylayout",
     "transition_comparisons": 117504,
-    "changed_transitions": 1428,
+    "changed_transitions": 408,
     "allowed_changes": [
-      "Option 1 / Shift Option 1: U+1E2B / U+1E2A",
-      "Option 2 / Shift Option 2: U+1E96 / H + U+0331",
-      "Option 4: U+0304; Option Q: U+0308; Shift Option Q: U+00A8",
-      "All these new mappings work with Caps Lock either on or off"
+      "Option , / Option . : U+003C < / U+003E > (was U+2264 / U+2265)",
+      "Same with Caps Lock on; Shift , / Shift . remain U+27E8 / U+27E9"
     ]
   },
   "bundle_structure": "PASS: plist round-trip, layout name and KLInfo key match",
@@ -25,5 +24,5 @@
   "press_and_hold_runtime_test": "NOT PERFORMED: macOS user test required",
   "word_language_and_font_runtime_test": "NOT PERFORMED: metadata is a hint, not a Word formatting lock",
   "source_sha256": "ca8856ba62e8a075d9ebb4e5294123f5ae1230241552e3cb2b270a39697cece2",
-  "output_sha256": "6b5bde3b47fbaf2a9d010adb3af768317816b658d0ca1895f5156ad03280050d"
+  "output_sha256": "d58f81440c6322af5e9174257da353bdff43a7c906f496b45f837e69f18ff4af"
 }

@@ -1,4 +1,4 @@
-ABC Extended - IAST 2.1：輸出對照
+ABC Extended - IAST 2.2：輸出對照
 本檔由 tools/generate_reference.py 從布局檔生成。
 
 ⌥ = Option，⇧ = Shift，均同時按住；左右兩側皆可。
@@ -58,8 +58,8 @@ V         v     V     死鍵：caron       追加◌̌
 B         b     B     死鍵：breve       追加◌̆
 N         n     N     ṇ                 Ṇ
 M         m     M     ṃ                 Ṃ
-逗號      ,     ⟨     ≤                 ⟪
-句號      .     ⟩     ≥                 ⟫
+逗號      ,     ⟨     <                 ⟪
+句號      .     ⟩     >                 ⟫
 斜線      /     ?     ÷                 ¿
 空白鍵    空格  空格  不換行空格        不換行空格
 
@@ -146,10 +146,8 @@ M̐     ⌥⇧F         U+004D U+0310  LATIN CAPITAL LETTER M + COMBINING CANDRA
 Ṇ     ⌥⇧N         U+1E46         LATIN CAPITAL LETTER N WITH DOT BELOW
 ṃ     ⌥M          U+1E43         LATIN SMALL LETTER M WITH DOT BELOW
 Ṃ     ⌥⇧M         U+1E42         LATIN CAPITAL LETTER M WITH DOT BELOW
-≤     ⌥逗號       U+2264         LESS-THAN OR EQUAL TO
 ⟪     ⌥⇧逗號      U+27EA         MATHEMATICAL LEFT DOUBLE ANGLE BRACKET
 ⟨     ⇧逗號       U+27E8         MATHEMATICAL LEFT ANGLE BRACKET
-≥     ⌥句號       U+2265         GREATER-THAN OR EQUAL TO
 ⟫     ⌥⇧句號      U+27EB         MATHEMATICAL RIGHT DOUBLE ANGLE BRACKET
 ⟩     ⇧句號       U+27E9         MATHEMATICAL RIGHT ANGLE BRACKET
 ÷     ⌥斜線       U+00F7         DIVISION SIGN
@@ -167,14 +165,17 @@ H̱、m̐、M̐、r̥、R̥ 由「字母＋組合符號」兩個碼位組成，�
   等號、W、R、T、Y、U、I、O、A、S、D、F、G、H、J、L、單引號、Z、N、M
 • 其餘鍵（包括 1、2、4、Q、所有格律與校勘符號）Caps Lock 開或關都一樣。
 • 含 Command 或 Control 的組合保持 ABC Extended 原樣，不影響系統快捷鍵。
-• ⇧逗號、⇧句號 已改為 ⟨ ⟩，本布局中無法輸入 < 和 >；需要時請切回 ABC 或 ABC Extended。
+• ⇧逗號／⇧句號 輸出 ⟨ ⟩；需要 < > 時按 ⌥逗號／⌥句號（2.2 起，原來的 ≤ ≥ 已移除）。
 
 
-四、2.1 相對 2.0 的變更
+四、版本變更
 
+2.2 相對 2.1：
+⌥逗號／⌥句號：≤／≥ → < ／ >（Caps Lock 開啟時相同）
+
+2.1 相對 2.0：
 ⌥1／⌥⇧1：¡／⁄ → ḫ／Ḫ（ḫ 由 Q 移來）
 ⌥2／⌥⇧2：™／€ → ẖ／H̱
 ⌥4：¢ → 追加長音符 U+0304（⌥⇧4 的 › 保留）
 ⌥Q：ḫ → 追加兩點 U+0308
 ⌥⇧Q：Ḫ → 獨立兩點 ¨ U+00A8
-其餘 IAST、重音、格律與校勘符號全部沿用 2.0。

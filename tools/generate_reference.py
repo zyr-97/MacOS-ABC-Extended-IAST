@@ -122,53 +122,62 @@ LETTERS = [('ā', 'A'), ('ī', 'I'), ('ū', 'U'), ('ṛ', 'R'), ('r̥', 'Y'), ('
 for lower, key in LETTERS:
     assert type_keys('⌥' + key) == lower, key
 
-LONG = check([('ā', '⌥A', '直接'), ('ī', '⌥I', '直接'), ('ū', '⌥U', '直接'),
-              ('ē', 'e ⌥4', '追加'), ('ō', 'o ⌥4', '追加'), ('ṝ', '⌥R ⌥4', '追加'),
-              ('ḹ', '⌥L ⌥4', '追加'), ('r̥̄', '⌥Y ⌥4', '追加'), ('Ē', '⇧E ⌥4', '追加'),
-              ('ā', 'a ⌥⇧=', '舊入口')])
-SHORT = check([('ă', '⌥B a', '前置'), ('ĭ', '⌥B i', '前置'), ('ŭ', '⌥B u', '前置'),
-               ('ĕ', 'e ⌥⇧B', '追加'), ('ŏ', 'o ⌥⇧B', '追加')])
-METRE = check([('⏑', '⌥9', 'laghu 短音節'), ('–', '⌥-', 'guru 長音節（en dash）'),
-               ('⏓', '⌥0', 'anceps 可長可短')])
-CRITICAL = check([('⟨', '⇧,', '單角括號（左）'), ('⟩', '⇧.', '單角括號（右）'),
-                  ('⟪', '⌥⇧,', '雙角括號（左）'), ('⟫', '⌥⇧.', '雙角括號（右）'),
-                  ('°', '⌥7', '省略符，如 °kṣaiḥ、sva°（亦可 ⌥⇧5）'), ('§', '⌥5', '節號'),
-                  ('•', '⌥8', '圓點'), ('◊', '⌥⇧8', '菱形'), ('·', '⌥⇧9', '中點'),
-                  ('…', '⌥;', '刪節號'), ('—', '⌥⇧-', 'em dash'), ('‡', '⌥⇧7', '雙劍號'),
-                  ('¨', '⌥⇧Q', '獨立兩點（不附著）')])
-PUNCT = check([('“', '⌥[', ''), ('”', '⌥⇧[', ''), ('‘', '⌥]', ''), ('’', '⌥⇧]', ''),
-               ('«', '⌥\\', ''), ('»', '⌥⇧\\', ''), ('‹', '⌥⇧3', ''), ('›', '⌥⇧4', ''),
-               ('≤', '⌥,', ''), ('≥', '⌥.', ''), ('≠', '⌥=', ''), ('÷', '⌥/', '')])
-# (name, prefix dead key or None, append key, examples)
-MARKS = [('acute 尖音符', '⌥E', '⌥⇧E', [('á', '⌥E a'), ('ā́', '⌥A ⌥⇧E')]),
-         ('grave 抑音符', '⌥`', '⌥⇧`', [('à', '⌥` a'), ('ā̀', '⌥A ⌥⇧`')]),
-         ('circumflex 揚抑符', '⌥6', '⌥⇧6', [('â', '⌥6 a'), ('ā̂', '⌥A ⌥⇧6')]),
-         ('macron 長音符', None, '⌥4（或 ⌥⇧=）', [('ē', 'e ⌥4'), ('ṝ', '⌥R ⌥4')]),
-         ('diaeresis 兩點', None, '⌥Q', [('ä', 'a ⌥Q'), ('ü', 'u ⌥Q')]),
-         ('breve 短音符', '⌥B', '⌥⇧B', [('ă', '⌥B a'), ('ŏ', 'o ⌥⇧B')]),
-         ('caron 抑揚符', '⌥V', '⌥⇧V', [('č', '⌥V c'), ('ǎ', 'a ⌥⇧V')]),
-         ('cedilla 下加符', '⌥C', '⌥⇧C', [('ç', '⌥C c')]),
-         ('ring 上圓圈', '⌥K', '⌥⇧K', [('å', '⌥K a')]),
-         ('dot below 下點', '⌥X', '⌥⇧X', [('ṇ', '⌥X n'), ('ẹ', 'e ⌥⇧X')]),
-         ('comma below 下逗號', '⌥P', '⌥⇧P', [('ș', '⌥P s')])]
-for _, prefix, append, examples in MARKS:
+# Rows: (output, keys, 中文說明, English note). check() types every row through the layout.
+LONG = check([('ā', '⌥A', '直接', 'direct'), ('ī', '⌥I', '直接', 'direct'), ('ū', '⌥U', '直接', 'direct'),
+              ('ē', 'e ⌥4', '追加', 'append'), ('ō', 'o ⌥4', '追加', 'append'),
+              ('ṝ', '⌥R ⌥4', '追加', 'append'), ('ḹ', '⌥L ⌥4', '追加', 'append'),
+              ('r̥̄', '⌥Y ⌥4', '追加', 'append'), ('Ē', '⇧E ⌥4', '追加', 'append'),
+              ('ā', 'a ⌥⇧=', '舊入口', 'legacy key')])
+SHORT = check([('ă', '⌥B a', '前置', 'dead key'), ('ĭ', '⌥B i', '前置', 'dead key'),
+               ('ŭ', '⌥B u', '前置', 'dead key'), ('ĕ', 'e ⌥⇧B', '追加', 'append'),
+               ('ŏ', 'o ⌥⇧B', '追加', 'append')])
+METRE = check([('⏑', '⌥9', 'laghu 短音節', 'laghu, light syllable'),
+               ('–', '⌥-', 'guru 長音節（en dash）', 'guru, heavy syllable (en dash)'),
+               ('⏓', '⌥0', 'anceps 可長可短', 'anceps')])
+CRITICAL = check([('⟨', '⇧,', '單角括號（左）', 'angle bracket, left'),
+                  ('⟩', '⇧.', '單角括號（右）', 'angle bracket, right'),
+                  ('⟪', '⌥⇧,', '雙角括號（左）', 'double angle bracket, left'),
+                  ('⟫', '⌥⇧.', '雙角括號（右）', 'double angle bracket, right'),
+                  ('°', '⌥7', '省略符，如 °kṣaiḥ、sva°（亦可 ⌥⇧5）', 'abbreviation sign, e.g. °kṣaiḥ, sva° (also ⌥⇧5)'),
+                  ('§', '⌥5', '節號', 'section sign'), ('•', '⌥8', '圓點', 'bullet'),
+                  ('◊', '⌥⇧8', '菱形', 'lozenge'), ('·', '⌥⇧9', '中點', 'middle dot'),
+                  ('…', '⌥;', '刪節號', 'ellipsis'), ('—', '⌥⇧-', 'em dash', 'em dash'),
+                  ('‡', '⌥⇧7', '雙劍號', 'double dagger'),
+                  ('¨', '⌥⇧Q', '獨立兩點（不附著）', 'spacing diaeresis (does not attach)')])
+PUNCT = check([('<', '⌥,', '', ''), ('>', '⌥.', '', ''),
+               ('“', '⌥[', '', ''), ('”', '⌥⇧[', '', ''), ('‘', '⌥]', '', ''), ('’', '⌥⇧]', '', ''),
+               ('«', '⌥\\', '', ''), ('»', '⌥⇧\\', '', ''), ('‹', '⌥⇧3', '', ''), ('›', '⌥⇧4', '', ''),
+               ('≠', '⌥=', '', ''), ('÷', '⌥/', '', '')])
+# (中文名, English name, prefix dead key or None, append key, note, examples)
+MARKS = [('尖音符', 'acute', '⌥E', '⌥⇧E', '', [('á', '⌥E a'), ('ā́', '⌥A ⌥⇧E')]),
+         ('抑音符', 'grave', '⌥`', '⌥⇧`', '', [('à', '⌥` a'), ('ā̀', '⌥A ⌥⇧`')]),
+         ('揚抑符', 'circumflex', '⌥6', '⌥⇧6', '', [('â', '⌥6 a'), ('ā̂', '⌥A ⌥⇧6')]),
+         ('長音符', 'macron', None, '⌥4', '⌥⇧=', [('ē', 'e ⌥4'), ('ṝ', '⌥R ⌥4')]),
+         ('兩點', 'diaeresis', None, '⌥Q', '', [('ä', 'a ⌥Q'), ('ü', 'u ⌥Q')]),
+         ('短音符', 'breve', '⌥B', '⌥⇧B', '', [('ă', '⌥B a'), ('ŏ', 'o ⌥⇧B')]),
+         ('抑揚符', 'caron', '⌥V', '⌥⇧V', '', [('č', '⌥V c'), ('ǎ', 'a ⌥⇧V')]),
+         ('下加符', 'cedilla', '⌥C', '⌥⇧C', '', [('ç', '⌥C c')]),
+         ('上圓圈', 'ring above', '⌥K', '⌥⇧K', '', [('å', '⌥K a')]),
+         ('下點', 'dot below', '⌥X', '⌥⇧X', '', [('ṇ', '⌥X n'), ('ẹ', 'e ⌥⇧X')]),
+         ('下逗號', 'comma below', '⌥P', '⌥⇧P', '', [('ș', '⌥P s')])]
+for _, _, prefix, append, alt, examples in MARKS:
     check(examples)
     if prefix:
         assert press(*parse(prefix))[1] != 'none', prefix
-    assert all(unicodedata.combining(c) for c in type_keys(append.split('（')[0]))
+    for key in filter(None, [append, alt]):
+        assert all(unicodedata.combining(c) for c in type_keys(key)), key
 STACKED = check([('r̥̄́', '⌥Y ⌥4 ⌥⇧E'), ('ā́', '⌥E ⌥A'), ('Ā́', '⌥⇧A ⌥⇧E')])
 
 
 def mark_rows():
     rows = []
-    for name, prefix, append, examples in MARKS:
+    for zh, en, prefix, append, alt, examples in MARKS:
         ex = '；'.join(label(k) + ' = ' + t for t, k in examples)
-        key, _, note = append.partition('（')
-        rows.append([name, label(prefix) if prefix else '—', label(key) + ('（' + note if note else ''), ex])
+        key = label(append) + ('（或 ' + label(alt) + '）' if alt else '')
+        rows.append([en + ' ' + zh, label(prefix) if prefix else '—', key, ex])
     return rows
 
 
-VERSION = LAYOUT_NAME.rsplit(' ', 1)[1]
 LEGEND = '''⌥ = Option，⇧ = Shift，均同時按住；左右兩側皆可。
 → 表示放開後再按下一組。小寫字母（如 a）表示直接按該鍵。
 鍵位以 ABC Extended／美式 QWERTY 為準；數字指上排數字鍵。
@@ -191,21 +200,21 @@ quick = f'''{LAYOUT_NAME}：符號速查
 二、長短音
 
 元音長音（直接輸入，或先打字母再追加 ⌥4）：
-{table(['輸出', '按鍵', '方式'], [[t, label(k), m] for t, k, m in LONG])}
+{table(['輸出', '按鍵', '方式'], [[t, label(k), m] for t, k, m, _ in LONG])}
 
 元音短音（breve）：
-{table(['輸出', '按鍵', '方式'], [[t, label(k), m] for t, k, m in SHORT])}
+{table(['輸出', '按鍵', '方式'], [[t, label(k), m] for t, k, m, _ in SHORT])}
 
 格律符號：
-{table(['符號', '按鍵', '說明'], [[t, label(k), m] for t, k, m in METRE])}
+{table(['符號', '按鍵', '說明'], [[t, label(k), m] for t, k, m, _ in METRE])}
 
 
 三、校勘符號
 
-{table(['符號', '按鍵', '說明'], [[t, label(k), m] for t, k, m in CRITICAL])}
+{table(['符號', '按鍵', '說明'], [[t, label(k), m] for t, k, m, _ in CRITICAL])}
 
 其他標點：
-{table(['符號', '按鍵'], [[t, label(k)] for t, k, _ in PUNCT])}
+{table(['符號', '按鍵'], [[t, label(k)] for t, k, _, _ in PUNCT])}
 
 
 四、組合鍵輸入
@@ -263,20 +272,147 @@ H̱、m̐、M̐、r̥、R̥ 由「字母＋組合符號」兩個碼位組成，�
   {'、'.join(CAPS_CHANGED)}
 • 其餘鍵（包括 1、2、4、Q、所有格律與校勘符號）Caps Lock 開或關都一樣。
 • 含 Command 或 Control 的組合保持 ABC Extended 原樣，不影響系統快捷鍵。
-• ⇧逗號、⇧句號 已改為 ⟨ ⟩，本布局中無法輸入 < 和 >；需要時請切回 ABC 或 ABC Extended。
+• ⇧逗號／⇧句號 輸出 ⟨ ⟩；需要 < > 時按 ⌥逗號／⌥句號（2.2 起，原來的 ≤ ≥ 已移除）。
 
 
-四、{VERSION} 相對 2.0 的變更
+四、版本變更
 
+2.2 相對 2.1：
+⌥逗號／⌥句號：≤／≥ → < ／ >（Caps Lock 開啟時相同）
+
+2.1 相對 2.0：
 ⌥1／⌥⇧1：¡／⁄ → ḫ／Ḫ（ḫ 由 Q 移來）
 ⌥2／⌥⇧2：™／€ → ẖ／H̱
 ⌥4：¢ → 追加長音符 U+0304（⌥⇧4 的 › 保留）
 ⌥Q：ḫ → 追加兩點 U+0308
 ⌥⇧Q：Ḫ → 獨立兩點 ¨ U+00A8
-其餘 IAST、重音、格律與校勘符號全部沿用 2.0。
 '''
+
+# ---------------------------------------------------------------- README tables
+
+
+def md_key(token):
+    return '`` ' + token + ' ``' if '`' in token else '`' + token + '`'
+
+
+def md_keys(keys):
+    return ' → '.join(md_key(t) for t in keys.split())
+
+
+def md_table(header, rows):
+    return '\n'.join(['| ' + ' | '.join(header) + ' |', '|' + '---|' * len(header)] +
+                     ['| ' + ' | '.join(r) + ' |' for r in rows])
+
+
+def readme_block(zh):
+    T = (lambda z, e: z) if zh else (lambda z, e: e)
+    def notes(rows, with_code=False):
+        return [[t, md_keys(k), (z if zh else e)] + ([codepoints(t)] if with_code else []) for t, k, z, e in rows]
+    marks = []
+    for z, e, prefix, append, alt, examples in MARKS:
+        name = (z + '（' + e + '）') if zh else e
+        key = md_keys(append) + ((' 或 ' if zh else ' or ') + md_keys(alt) if alt else '')
+        marks.append([name, md_keys(prefix) if prefix else '—', key,
+                      '<br>'.join(md_keys(k) + ' = ' + t for t, k in examples)])
+    return '\n'.join([
+        T('### IAST 符號', '### IAST letters'), '',
+        T('按住 `⌥` 輸入小寫，`⌥ ⇧` 輸入大寫。', 'Hold `⌥` for lowercase, `⌥ ⇧` for uppercase.'), '',
+        md_table(T(['小寫', '按鍵', '大寫', '按鍵', 'Unicode'], ['Lower', 'Keys', 'Upper', 'Keys', 'Unicode']),
+                 [[l, md_key('⌥' + k), type_keys('⌥⇧' + k), md_key('⌥⇧' + k),
+                   codepoints(l) + ' / ' + codepoints(type_keys('⌥⇧' + k))] for l, k in LETTERS]), '',
+        T('### 長短音', '### Vowel length and metre'), '',
+        T('**長音**：ā ī ū 可直接輸入；其他字母先打字母，再按 `⌥4` 追加長音符。',
+          '**Long vowels**: ā ī ū have their own keys; for any other letter, type it first, then `⌥4` to add a macron.'), '',
+        md_table(T(['輸出', '按鍵', '方式'], ['Output', 'Keys', 'Method']), notes(LONG)), '',
+        T('**短音**（breve）：', '**Short vowels** (breve):'), '',
+        md_table(T(['輸出', '按鍵', '方式'], ['Output', 'Keys', 'Method']), notes(SHORT)), '',
+        T('**格律符號**：', '**Metrical signs**:'), '',
+        md_table(T(['符號', '按鍵', '說明', 'Unicode'], ['Sign', 'Keys', 'Meaning', 'Unicode']), notes(METRE, True)), '',
+        T('### 校勘符號', '### Text-critical signs'), '',
+        md_table(T(['符號', '按鍵', '說明', 'Unicode'], ['Sign', 'Keys', 'Use', 'Unicode']), notes(CRITICAL, True)), '',
+        T('<details>\n<summary>其他標點</summary>\n', '<details>\n<summary>Other punctuation</summary>\n'),
+        md_table(T(['符號', '按鍵', 'Unicode'], ['Sign', 'Keys', 'Unicode']),
+                 [[t.replace('<', '&lt;').replace('>', '&gt;'), md_keys(k), codepoints(t)] for t, k, _, _ in PUNCT]),
+        '\n</details>', '',
+        T('### 組合鍵輸入', '### Combining input'), '',
+        T('**前置**（死鍵）：先按組合鍵，再打字母。**追加**：先打字母，再按組合鍵，中間不按空格。',
+          '**Dead key**: press it first, then the letter. **Append**: type the letter first, then the key, with no space in between.'), '',
+        md_table(T(['附加符號', '前置', '追加', '例子'], ['Mark', 'Dead key', 'Append', 'Examples']), marks), '',
+        T('可以疊加：', 'Marks stack:') + ' ' + ('；' if zh else '; ').join(md_keys(k) + ' = ' + t for t, k in STACKED),
+    ])
+
+
+def fill(path, block):
+    text = path.read_text(encoding='utf-8')
+    begin, end = '<!-- BEGIN GENERATED KEYMAP -->', '<!-- END GENERATED KEYMAP -->'
+    head, rest = text.split(begin)
+    _, tail = rest.split(end)
+    path.write_text(head + begin + '\n' + block + '\n' + end + tail, encoding='utf-8')
+
+
+# ---------------------------------------------------------------- keyboard SVGs
+
+SVG_ROWS = [[('`', 1)] + [(k, 1) for k in '1234567890-='] + [('⌫', 1.5)],
+            [('⇥', 1.5)] + [(k, 1) for k in 'QWERTYUIOP[]'] + [('\\', 1)],
+            [('⇪', 1.75)] + [(k, 1) for k in "ASDFGHJKL;'"] + [('↩', 1.75)],
+            [('⇧', 2.25)] + [(k, 1) for k in 'ZXCVBNM,./'] + [('⇧', 2.25)]]
+SVG_COLORS = {'letter': '#f3dcb0', 'mark': '#cfe0f5', 'sign': '#e3e9d8', 'plain': '#f7f7f5'}
+
+
+def svg_key(mods, key):
+    text, state = press(mods, CODES[key])
+    if state != 'none' and not text:
+        return terminators[state], 'mark', True
+    if text and all(unicodedata.combining(c) for c in text):
+        return '◌' + text, 'mark', False
+    if any(unicodedata.category(c).startswith('L') for c in text):
+        return text, 'letter', False
+    return text, 'sign', False
+
+
+def keyboard_svg(mods, title):
+    unit, gap, pad = 54, 4, 12
+    width = int(15 * unit + 2 * pad)
+    height = int(4 * unit + 2 * pad + 58)
+    esc = lambda t: t.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" '
+           'font-family="-apple-system, Helvetica Neue, Arial, sans-serif">',
+           f'<rect width="{width}" height="{height}" rx="14" fill="#ffffff"/>',
+           f'<text x="{pad + 4}" y="{pad + 18}" font-size="17" font-weight="600" fill="#222">{esc(title)}</text>']
+    y = pad + 30
+    for row in SVG_ROWS:
+        x = pad
+        for key, size in row:
+            w, h = size * unit - gap, unit - gap
+            if key in CODES:
+                text, kind, dead = svg_key(mods, key)
+                dash = ' stroke-dasharray="4 3"' if dead else ''
+                out.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="7" fill="{SVG_COLORS[kind]}" stroke="#9a9a96"{dash}/>')
+                out.append(f'<text x="{x + 6}" y="{y + 14}" font-size="11" fill="#777">{esc(key)}</text>')
+                out.append(f'<text x="{x + w / 2}" y="{y + h / 2 + 12}" font-size="22" text-anchor="middle" fill="#111">{esc(text)}</text>')
+            else:
+                out.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="7" fill="#e6e6e3" stroke="#b5b5b0"/>')
+                out.append(f'<text x="{x + w / 2}" y="{y + h / 2 + 6}" font-size="15" text-anchor="middle" fill="#999">{esc(key)}</text>')
+            x += size * unit
+        y += unit
+    legend = [('letter', 'IAST / letters'), ('mark', 'combining (dashed = dead key)'), ('sign', 'symbols')]
+    x = pad + 4
+    for kind, name in legend:
+        out.append(f'<rect x="{x}" y="{y + 10}" width="16" height="16" rx="3" fill="{SVG_COLORS[kind]}" stroke="#9a9a96"/>')
+        out.append(f'<text x="{x + 22}" y="{y + 23}" font-size="13" fill="#444">{esc(name)}</text>')
+        x += 26 + 8 * len(name) + 24
+    out.append('</svg>')
+    return '\n'.join(out) + '\n'
+
+
+ASSETS = ROOT / 'assets'
+ASSETS.mkdir(exist_ok=True)
+(ASSETS / 'keyboard-option.svg').write_text(keyboard_svg('option', '⌥ Option'), encoding='utf-8')
+(ASSETS / 'keyboard-option-shift.svg').write_text(keyboard_svg('shift option', '⌥ Option + ⇧ Shift'), encoding='utf-8')
 
 DOCS.mkdir(exist_ok=True)
 (DOCS / '符號速查.txt').write_text(quick, encoding='utf-8')
 (DOCS / '輸出對照.txt').write_text(full, encoding='utf-8')
-print('Generated docs/符號速查.txt and docs/輸出對照.txt from', OUTPUT.name)
+fill(ROOT / 'README.md', readme_block(zh=False))
+fill(ROOT / 'README.zh-Hant.md', readme_block(zh=True))
+print('Generated docs/符號速查.txt, docs/輸出對照.txt and README keymaps from', OUTPUT.name)
